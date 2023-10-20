@@ -1,0 +1,8 @@
+{
+    "emmet.includeLanguages": {
+        "emmet.showSuggestionsAsSnippets": "true",
+        "emmet.showExpandedAbbreviation": "always",
+        "javascript": "javascriptreact",
+        "erb": "html"
+    }
+}
