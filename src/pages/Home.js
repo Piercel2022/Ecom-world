@@ -15,7 +15,7 @@ const Home = () => {
             className='img-fluid rounded' alt="main-banner" />
             <div className="main-banner-content position-absolute">
               <h4>SUPERCHARGED FOR PROS.</h4>
-              <h5>iPad S13+ </h5>
+              <h5>iPad S13+ Pro.</h5>
               <p>From $9.999 or $41.62/mo</p>
               <Link>Buy Now</Link>
             </div>
