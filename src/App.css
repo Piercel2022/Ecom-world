@@ -43,6 +43,17 @@ a{
 .gap-30{
   gap: 30px;
 }
+.button{
+  background-color: var(--color-232f3e);
+  color: white;
+  font-size: 14px;
+  padding: 13px 33px;
+  border-radius: 15px;
+}
+.button:hover{
+  background-color: var(--color-febd69);
+  color: #131921;
+}
 .header-upper .input-group-text{
   background-color: var(--color-febd69);
 }
