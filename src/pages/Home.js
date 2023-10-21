@@ -73,6 +73,50 @@ const Home = () => {
 
     </section>
     <section className="home-wrapper-2 py-5">
+    <div className="container-xxl">
+     <div className="row">
+      <div className="col-12">
+        <div className="services d-flex align-items-center justify-content-between">
+          <div className='d-flex align-items-center gap-10'>
+            <img src="/images/service.png" alt="services" />
+            <div>
+              <h6>Free Shipping</h6>
+              <p className='mb-0'>From all orders over $5</p>
+            </div>
+          </div>
+          <div className='d-flex align-items-center gap-10'>
+          <img src="images/service-02.png" alt="services" />
+          <div>
+          <h6>Daily Surprise Offers</h6>
+          <p className='mb-0'>Save upto 25% Off</p>
+          </div>
+          </div>
+          <div className='d-flex align-items-center gap-10'>
+          <img src="images/service-03.png" alt="services" />
+          <div>
+          <h6>Support 24/7</h6>
+          <p className='mb-0'>Shop with an expert</p>
+          </div>
+          </div>
+          <div className='d-flex align-items-center gap-10'>
+          <img src="images/service-04.png" alt="services" />
+          <div>
+          <h6>Affordable Prices</h6>
+          <p className='mb-0'>Get Factory default prices</p>
+          </div>
+          </div>
+          <div className='d-flex align-items-center gap-10'>
+          <img src="images/service-05.png" alt="services" />
+          <div>
+          <h6>Secure Payments</h6>
+          <p className='mb-0'>100% protected payments</p>
+          </div>
+          </div>
+
+        </div>
+      </div>
+     </div>
+    </div>
 
     </section>
     <Footer />
