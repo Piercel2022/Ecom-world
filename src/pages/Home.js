@@ -77,35 +77,35 @@ const Home = () => {
      <div className="row">
       <div className="col-12">
         <div className="services d-flex align-items-center justify-content-between">
-          <div className='d-flex align-items-center gap-10'>
+          <div className='d-flex align-items-center gap-15'>
             <img src="/images/service.png" alt="services" />
             <div>
               <h6>Free Shipping</h6>
               <p className='mb-0'>From all orders over $5</p>
             </div>
           </div>
-          <div className='d-flex align-items-center gap-10'>
+          <div className='d-flex align-items-center gap-15'>
           <img src="images/service-02.png" alt="services" />
           <div>
           <h6>Daily Surprise Offers</h6>
           <p className='mb-0'>Save upto 25% Off</p>
           </div>
           </div>
-          <div className='d-flex align-items-center gap-10'>
+          <div className='d-flex align-items-center gap-15'>
           <img src="images/service-03.png" alt="services" />
           <div>
           <h6>Support 24/7</h6>
           <p className='mb-0'>Shop with an expert</p>
           </div>
           </div>
-          <div className='d-flex align-items-center gap-10'>
+          <div className='d-flex align-items-center gap-15'>
           <img src="images/service-04.png" alt="services" />
           <div>
           <h6>Affordable Prices</h6>
           <p className='mb-0'>Get Factory default prices</p>
           </div>
           </div>
-          <div className='d-flex align-items-center gap-10'>
+          <div className='d-flex align-items-center gap-15'>
           <img src="images/service-05.png" alt="services" />
           <div>
           <h6>Secure Payments</h6>
@@ -118,6 +118,45 @@ const Home = () => {
      </div>
     </div>
 
+    </section>
+    <section className="home-wrapper-2">
+      <div className="container-xxl">
+        <div className="row">
+          <div className="col-12">
+            <div className="categories d-flex justify-content-between align-items-center">
+              <div className='d-flex g-30 align-items-center'>
+                <div>
+                  <h6>Cameras</h6>
+                  <p>10 items</p>
+                </div>
+                <img src="images/camera.jpg" alt="" />
+              </div>
+              <div className='d-flex g-30 align-items-center'>
+                <div>
+                  <h6>Smart Watches</h6>
+                  <p>10 items</p>
+                </div>
+                <img src="images/watch.jpg" alt="" />
+              </div>
+              <div className='d-flex g-30 align-items-center'>
+                <div>
+                  <h6>Smart Tvs</h6>
+                  <p>10 items</p>
+                </div>
+                <img src="images/tv.jpg" alt="" />
+              </div>
+              <div className='d-flex g-30 align-items-center'>
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 items</p>
+                </div>
+                <img src="images/headphone.jpg" alt="" />
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <Footer />
     </>
