@@ -217,8 +217,12 @@ border-right: 1px solid var(--color-ededed);
 
 .blog-card{
   background-color: white;
-  padding: 20px;
   border-radius: 10px;
+}
+
+.blog-card img{
+  border-top-left-radius: 10px;
+  
 }
 
 /* Blog Part End*/
