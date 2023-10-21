@@ -257,5 +257,8 @@ border-right: 1px solid var(--color-ededed);
 /* Blog Part End*/
 
 /* Product card */
-
+.product-card{
+  padding: 15px;
+  background-color: white;
+}
 /* Product card End*/
