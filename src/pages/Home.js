@@ -124,57 +124,57 @@ const Home = () => {
       <div className="container-xxl">
         <div className="row">
           <div className="col-12">
-            <div className="categories d-flex justify-content-between flex-wrap align-items-center">
-              <div className='d-flex g-30 align-items-center'>
+            <div className="categories d-flex justify-content-center flex-wrap align-items-center">
+              <div className='d-flex g-15 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/camera.jpg" alt="" />
               </div>
-              <div className='d-flex g-30 align-items-center'>
+              <div className='d-flex g-15 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/camera.jpg" alt="" />
               </div>
-              <div className='d-flex g-30 align-items-center'>
+              <div className='d-flex g-15 align-items-center'>
                 <div>
                   <h6>Smart Tvs</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/tv.jpg" alt="" />
               </div>
-              <div className='d-flex g-30 align-items-center'>
+              <div className='d-flex g-15 align-items-center'>
                 <div>
                   <h6>Music & Gaming</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/headphone.jpg" alt="" />
               </div>
-              <div className='d-flex g-30 align-items-center'>
+              <div className='d-flex g-15 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/camera.jpg" alt="" />
               </div>
-              <div className='d-flex g-30 align-items-center'>
+              <div className='d-flex g-15 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/camera.jpg" alt="" />
               </div>
-              <div className='d-flex g-30 align-items-center'>
+              <div className='d-flex g-15 align-items-center'>
                 <div>
                   <h6>Smart Tvs</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/tv.jpg" alt="" />
               </div>
-              <div className='d-flex g-30 align-items-center'>
+              <div className='d-flex g-15 align-items-center'>
                 <div>
                   <h6>Music & Gaming</h6>
                   <p>10 items</p>
@@ -191,9 +191,29 @@ const Home = () => {
      <div className="container-xxl">
       <div className="row">
         <div className="col-12">
-          <div className="marquee-inner-wrapper">
-          <Marquee>
-          I can be a React component, multiple React components, or just some text.
+          <div className="marquee-inner-wrapper card-wrapper">
+          <Marquee className='d-flex'>
+         <div>
+          <img src="" alt="brand" />
+         </div>
+         <div>
+          <img src="" alt="brand" />
+         </div>
+         <div>
+          <img src="" alt="brand" />
+         </div>
+         <div>
+          <img src="" alt="brand" />
+         </div>
+         <div>
+          <img src="" alt="brand" />
+         </div>
+         <div>
+          <img src="" alt="brand" />
+         </div>
+         <div>
+          <img src="" alt="brand" />
+         </div>
           </Marquee>
           </div>
         </div>
