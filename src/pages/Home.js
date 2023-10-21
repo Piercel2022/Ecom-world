@@ -10,7 +10,7 @@ const Home = () => {
       <div className="container-xxl">
         <div className="row">
           <div className="col-6">
-           <div className="main-banner position-relative p-1">
+           <div className="main-banner position-relative">
             <img src='./images/main-banner1.jpg'
             className='img-fluid rounded' alt="main-banner" />
             <div className="main-banner-content position-absolute">
@@ -23,44 +23,44 @@ const Home = () => {
           </div>
 
           <div className="col-6">
-            <div className='d-flex flex-wrap justify-content-between'>
-              <div className="small-banner position-relative py-2">
+            <div className='d-flex gap-10 flex-wrap justify-content-between'>
+              <div className="small-banner position-relative">
             <img src='./images/catbanner-01.jpg'
             className='img-fluid rounded' alt="main-banner" />
             <div className="small-banner-content position-absolute">
               <h4>SUPERCHARGED FOR PROS.</h4>
               <h5>iPad S13+ Pro.</h5>
-              <p>From $9.999 <br /> $41.62/mo</p>
+              <p>From $9.999 <br />or $41.62/mo</p>
              
             </div>
            </div>
-           <div className="small-banner position-relative py-2">
+           <div className="small-banner position-relative">
             <img src='./images/catbanner-02.jpg'
             className='img-fluid rounded' alt="main-banner" />
             <div className="small-banner-content position-absolute">
               <h4>SUPERCHARGED FOR PROS.</h4>
               <h5>iPad S13+ Pro.</h5>
-              <p>From $9.999 <br /> $41.62/mo</p>
+              <p>From $9.999 <br />or $41.62/mo</p>
              
             </div>
            </div>
-           <div className="small-banner position-relative py-2">
+           <div className="small-banner position-relative">
             <img src='./images/catbanner-03.jpg'
             className='img-fluid rounded' alt="main-banner" />
             <div className="small-banner-content position-absolute">
               <h4>Best Sale.</h4>
               <h5>iPad S13+ Pro.</h5>
-              <p>From $9.999 <br /> $41.62/mo</p>
+              <p>From $9.999 <br />or $41.62/mo</p>
              
             </div>
            </div>
-           <div className="small-banner position-relative py-2">
+           <div className="small-banner position-relative">
             <img src='./images/catbanner-04.jpg'
             className='img-fluid rounded' alt="main-banner" />
             <div className="small-banner-content position-absolute">
               <h4>New Arrival.</h4>
               <h5>Buy iPad Air.</h5>
-              <p>From $9.999 <br /> $41.62/mo</p>
+              <p>From $9.999 <br />or $41.62/mo</p>
              
             </div>
            </div>
