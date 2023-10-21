@@ -72,6 +72,9 @@ const Home = () => {
           </div>
 
     </section>
+    <section className="home-wrapper-2 py-5">
+
+    </section>
     <Footer />
     </>
   )
