@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
+import Marquee from "react-fast-marquee";
 const Home = () => {
   return (
     <>
@@ -123,7 +124,7 @@ const Home = () => {
       <div className="container-xxl">
         <div className="row">
           <div className="col-12">
-            <div className="categories d-flex justify-content-between align-items-center">
+            <div className="categories d-flex justify-content-between flex-wrap align-items-center">
               <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
@@ -133,10 +134,38 @@ const Home = () => {
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
-                  <h6>Smart Watches</h6>
+                  <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/watch.jpg" alt="" />
+                <img src="images/camera.jpg" alt="" />
+              </div>
+              <div className='d-flex g-30 align-items-center'>
+                <div>
+                  <h6>Smart Tvs</h6>
+                  <p>10 items</p>
+                </div>
+                <img src="images/tv.jpg" alt="" />
+              </div>
+              <div className='d-flex g-30 align-items-center'>
+                <div>
+                  <h6>Music & Gaming</h6>
+                  <p>10 items</p>
+                </div>
+                <img src="images/headphone.jpg" alt="" />
+              </div>
+              <div className='d-flex g-30 align-items-center'>
+                <div>
+                  <h6>Cameras</h6>
+                  <p>10 items</p>
+                </div>
+                <img src="images/camera.jpg" alt="" />
+              </div>
+              <div className='d-flex g-30 align-items-center'>
+                <div>
+                  <h6>Cameras</h6>
+                  <p>10 items</p>
+                </div>
+                <img src="images/camera.jpg" alt="" />
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
@@ -157,6 +186,19 @@ const Home = () => {
           </div>
         </div>
       </div>
+    </section>
+    <section className="marquee-wrapper py-5">
+     <div className="container-xxl">
+      <div className="row">
+        <div className="col-12">
+          <div className="marquee-inner-wrapper">
+          <Marquee>
+          I can be a React component, multiple React components, or just some text.
+          </Marquee>
+          </div>
+        </div>
+      </div>
+     </div>
     </section>
     <Footer />
     </>
