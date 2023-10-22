@@ -292,4 +292,9 @@ border-right: 1px solid var(--color-ededed);
   right: -23px;
   transition: 0.3s;
 }
+
+.wishlist-icon{
+  top: 0%;
+  right: 15px;
+}
 /* Product card End*/
