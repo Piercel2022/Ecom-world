@@ -40,7 +40,7 @@ const Footer = () => {
        <h4 className='text-white mb-4'>Contact</h4>
      <div>
       <address className='text-white'>
-       Hno: 45 avenue Molière <br /> 67200 Strasbourg
+       Hno: 58 Avenue Marguerite Youcenar <br /> 67200 Strasbourg
       </address>
       <a href="tel:+33 605763361" className="mt-4 text-white d-block mb-3">+33 605763361</a>
       <a href="mailto: piercel.coder2022@gmail.com" className="mt-4 text-white d-block mb-3">piercel.coder2022@gmail.com</a>
@@ -98,7 +98,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-12">
               <div className="text-center mb-0 text-white">
-                &copy; {new Date().getFullYear()}; Powered By Developper's corners
+                &copy; {new Date().getFullYear()}; Powered By Ecom World
               </div>
           </div>
         </div>

@@ -122,61 +122,61 @@ const Home = () => {
     </div>
 
     </section>
-    <section className="home-wrapper-2">
+    <section className="home-wrapper-2 py-5">
       <div className="container-xxl">
         <div className="row">
           <div className="col-12">
-            <div className="categories d-flex justify-content-center flex-wrap align-items-center">
-              <div className='d-flex g-15 align-items-center'>
+            <div className="categories d-flex  flex-wrap justify-content-between  align-items-center">
+              <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/camera.jpg" alt="" />
               </div>
-              <div className='d-flex g-15 align-items-center'>
+              <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/camera.jpg" alt="" />
               </div>
-              <div className='d-flex g-15 align-items-center'>
+              <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Smart Tvs</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/tv.jpg" alt="" />
               </div>
-              <div className='d-flex g-15 align-items-center'>
+              <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Music & Gaming</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/headphone.jpg" alt="" />
               </div>
-              <div className='d-flex g-15 align-items-center'>
+              <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/camera.jpg" alt="" />
               </div>
-              <div className='d-flex g-15 align-items-center'>
+              <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/camera.jpg" alt="" />
               </div>
-              <div className='d-flex g-15 align-items-center'>
+              <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Smart Tvs</h6>
                   <p>10 items</p>
                 </div>
                 <img src="images/tv.jpg" alt="" />
               </div>
-              <div className='d-flex g-15 align-items-center'>
+              <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Music & Gaming</h6>
                   <p>10 items</p>
