@@ -10,7 +10,7 @@ const ratingChanged = (newRating) => {
 const ProductCard = () => {
   return (
     <div className='col-3'>
-        <div className="product-card position-relative">
+        <Link className="product-card position-relative">
              <div className="wishlist-icon position-absolute">
               <Link><img src="images/wish.svg" alt="wishlist" /></Link>
              </div>
@@ -48,7 +48,7 @@ const ProductCard = () => {
                   </div>
                 </div>
             </div>
-        </div>
+        </Link>
 
     </div>
   )
