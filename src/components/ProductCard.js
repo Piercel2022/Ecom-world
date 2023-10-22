@@ -15,8 +15,8 @@ const ProductCard = () => {
               <Link><img src="images/wish.svg" alt="wishlist" /></Link>
              </div>
             <div className="product-image">
-                <img src="./images/watch.jpg" alt="" />
-                <img src="./images/speaker.jpg" alt="" />
+                <img src="./images/laptop.jpg"className='img-fluid' alt="" />
+                <img src="./images/speaker.jpg" className='img-fluid' alt="" />
             </div>
             <div className="product-details">
                 <h6 className="brand">
