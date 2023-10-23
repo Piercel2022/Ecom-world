@@ -211,7 +211,11 @@ const Home = () => {
      <div className="container">
       <div className="row">
         <div className="col-3">
-          
+          <div className="famous-card bg-dark">
+            <h5>Big Screen</h5>
+            <h6></h6>
+
+          </div>
         </div>
       </div>
      </div>
