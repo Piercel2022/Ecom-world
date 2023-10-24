@@ -54,7 +54,7 @@ const Footer = () => {
         <a className='text-white fs-5' href="https://youtube.com">
         <BsYoutube  />
         </a>
-        <a className='text-white fs-5' href="">
+        <a className='text-white fs-5' href="https://instagram.com">
            <BsInstagram />
         </a>
       </div>
