@@ -80,6 +80,7 @@ REQUIRED SECTIONS:
 - **Main homepage**
 - **React Rating**
 - **React Marquee**
+- **Add differents categories**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
