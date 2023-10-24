@@ -90,7 +90,7 @@ REQUIRED SECTIONS:
 
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Ecom world](https://ecom-world.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
