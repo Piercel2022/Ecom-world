@@ -20,7 +20,7 @@ const ProductCard = () => {
             </div>
             <div className="product-details">
                 <h6 className="brand">
-                    Havels
+                    Ecom World
                 </h6>
                 <h5 className="product-title">
                     Kids headphones bulk 10 pack multicolored for students

@@ -6,6 +6,7 @@ import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard';
 import ProductCard from '../components/ProductCard';
 import SpecialProduct from '../components/SpecialProduct';
+import FamousProductCard from '../components/FamousProductCard';
 const Home = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const Home = () => {
         <div className="row">
           <div className="col-6">
            <div className="main-banner position-relative">
-            <img src='./images/main-banner1.jpg'
+            <img src='./images/main-banner.jpg'
             className='img-fluid rounded' alt="main-banner" />
             <div className="main-banner-content position-absolute">
               <h4>SUPERCHARGED FOR PROS.</h4>
@@ -207,19 +208,21 @@ const Home = () => {
     </div>
     </section>
 
-    <section className="famous-wrapper py-5 home-wrapper-2">
-     <div className="container">
+    <div className="container-xxl">
       <div className="row">
-        <div className="col-3">
-          <div className="famous-card bg-dark">
-            <h5>Big Screen</h5>
-            <h6></h6>
-
-          </div>
+        <div className="col-12">
+          <h3 className="section-heading">
+            Our Famous Products
+          </h3>
+        </div>
+        <div className="row">
+        <FamousProductCard />
+        <FamousProductCard />
+        <FamousProductCard />
+        <FamousProductCard />
         </div>
       </div>
-     </div>
-    </section>
+    </div>
 
     <section className="special-wrapper py-5 home-wrapper-2">
       <div className="container-xxl">
