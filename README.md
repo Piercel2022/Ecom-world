@@ -154,11 +154,9 @@ You can deploy this project using: Netlify
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-👤 **Author**
 
 - GitHub: [@gPiercel2022](https://github.com/Piercel2022)
 - Twitter: [@pier_celestin](https://twitter.com/pier_celestin)
