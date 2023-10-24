@@ -43,7 +43,7 @@ REQUIRED SECTIONS:
 # 📖 Ecom world <a name="about-project"></a>
 
 
-**[Ecom world]** is a...
+**Ecom world** is a complete E-Commerce App or a shopping App With React. The project set up and configure React and Redux to create a simple ecommerce store, complete with checkout and payment processing!
 
 ## 🛠 Built With <a name="built-with"></a>
 
