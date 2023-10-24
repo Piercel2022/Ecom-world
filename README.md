@@ -77,9 +77,9 @@ REQUIRED SECTIONS:
 ### Key Features <a name="key-features"></a>
 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Main homepage**
+- **React Rating**
+- **React Marquee**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -170,9 +170,9 @@ You can deploy this project using: Netlify
 
 
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Checkout Page**
+- [ ] **Compare Products**
+- [ ] **Like Products**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
