@@ -40,10 +40,10 @@ REQUIRED SECTIONS:
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Ecom world <a name="about-project"></a>
 
 
-**[your_project__name]** is a...
+**[Ecom world]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -76,7 +76,6 @@ REQUIRED SECTIONS:
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
 - **[key_feature_1]**
 - **[key_feature_2]**
@@ -159,18 +158,15 @@ You can deploy this project using: Netlify
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Author**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gPiercel2022](https://github.com/Piercel2022)
+- Twitter: [@pier_celestin](https://twitter.com/pier_celestin)
+- LinkedIn: [Piercel2022](https://linkedin.com/in/piercelestinmax)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
