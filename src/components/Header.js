@@ -90,9 +90,9 @@ const Header = () => {
    <span className=' d-inline-block'>Shop Categories</span> 
   </button>
   <ul class="dropdown-menu">
-  <li><a className="dropdown-item text-white" href="./pages/TVHome.js">tv&home</a></li>
- <li><a className="dropdown-item text-white" href="./pages/Iphone.js">iphone</a></li>
- <li><a className="dropdown-item text-white" href="./pages/Accessories.js ">Accessories</a></li>
+  <li><a className="dropdown-item text-white" href="https://ecom-world.netlify.app/pages/TVHome.js">tv&home</a></li>
+ <li><a className="dropdown-item text-white" href="https://ecom-world.netlify.app/pages/Iphone.js">iphone</a></li>
+ <li><a className="dropdown-item text-white" href="https://ecom-world.netlify.app/pages/Accessories.js ">Accessories</a></li>
    </ul>
   </div>
               <div className='menu-links'>
