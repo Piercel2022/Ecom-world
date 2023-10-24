@@ -61,14 +61,14 @@ REQUIRED SECTIONS:
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://node.org/">Node.js</a></li>
   </ul>
 </details>
 
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://www.mongodb.com/">Mongo</a></li>
   </ul>
 </details>
 
