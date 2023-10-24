@@ -13,7 +13,7 @@ const Header = () => {
                <p className='text-white mb-0'>Free Shipping over $100 & Free Returns</p>
                 </div>
                 <div className="col-6">
-                    <p className='text-end text-white'>Hotline: <a className='text-white' href="tel:+33 605763361">+33 605763361</a></p>
+                    <p className='text-end text-white'>Hotline: <a className='text-white' href="tel:+33 005765361">+33 005765361</a></p>
                 </div>
             </div>
         </div>
