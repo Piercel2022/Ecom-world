@@ -89,11 +89,10 @@ const Header = () => {
    <img src="images/menu.svg" alt="" />    
    <span className=' d-inline-block'>Shop Categories</span> 
   </button>
-  {/*eslint-disable-next-line */} 
   <ul class="dropdown-menu">
-  <li><a className="dropdown-item text-white" to=" ">Action</a></li>
- <li><a className="dropdown-item text-white" to=" ">Another action</a></li>
- <li><a className="dropdown-item text-white" to=" ">Something else here</a></li>
+  <li><a className="dropdown-item text-white" href="./pages/tv-home.js">tv&home</a></li>
+ <li><a className="dropdown-item text-white" href="./pages/Iphone.js">iphone</a></li>
+ <li><a className="dropdown-item text-white" href=" ">Something else here</a></li>
    </ul>
   </div>
               <div className='menu-links'>
