@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard';
 import ProductCard from '../components/ProductCard';
 import SpecialProduct from '../components/SpecialProduct';
-import FamousProductCard from '../components/FamousProductCard';
+
 const Home = () => {
   return (
     <>
@@ -207,22 +207,28 @@ const Home = () => {
       </div>
     </div>
     </section>
-
-    <div className="container-xxl">
+<section>
+<div className="container-xxl">
       <div className="row">
-        <div className="col-12">
+        <div className="col-3">
           <h3 className="section-heading">
             Our Famous Products
           </h3>
         </div>
-        <div className="row">
-        <FamousProductCard />
-        <FamousProductCard />
-        <FamousProductCard />
-        <FamousProductCard />
+        <div className="famous-card position-relative">
+        <img src='images/famous.jpg' className='famous1' alt='famous'/>
+          <div className="famous-content position-absolute">
+            <h5>Big screen</h5>
+            <h6>Smart Watches <br /> Series 7</h6>
+            <p>From $399 <br />or $16.64/mo.<br /> for 24 mo.</p>
+
+          </div>
+        
         </div>
       </div>
-    </div>
+      </div>
+</section>
+    
 
     <section className="special-wrapper py-5 home-wrapper-2">
       <div className="container-xxl">
