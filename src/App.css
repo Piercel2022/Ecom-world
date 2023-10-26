@@ -386,5 +386,7 @@ height: 400px;
 .sub-title{
   font-size: 14px;
   font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
 }
 /* Our Store end*/

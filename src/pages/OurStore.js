@@ -30,7 +30,9 @@ const OurStore = () => {
         <h3 className="filter-title">
         Filter By 
         <div>
-          
+          <h5 className="sub-title">
+            
+          </h5>
         </div>
         </h3>
         </div>
