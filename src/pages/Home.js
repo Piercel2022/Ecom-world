@@ -210,10 +210,10 @@ const Home = () => {
 <section className="famous-wrapper py-5 home-wrapper-2">
 <div className="container-xxl">
       <div className="row">
-        <div className="col-3">
-        <h3 className="section-heading">
+      <h3 className="section-heading">
             Famous Products
         </h3>
+        <div className="col-3">
        
         <div className="famous-card position-relative">
         <img src='images/famous.jpg' className='famous img-fluid' alt='famous'/>
