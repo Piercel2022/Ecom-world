@@ -1,15 +1,19 @@
 
 import React from 'react'
-import Link from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
 const BreadCrumb = (props) => {
+    const {title} = props;
   return (
-    <div className='breadcrumb py-4'>
+    <div className='breadcrumb mb-0 py-4'>
         <div className="container-xxl">
             <div className="row">
                 <div className="col-12">
-                    <p>
-                        <Link to = '/home'>Home</Link>
+                    <p className='text-center mb-0'>
+                        <Link to = '' className='text-dark'>
+                            Home &nbsp;
+                        </Link>
+                        / {title}
                     </p>
                 </div>
             </div>
