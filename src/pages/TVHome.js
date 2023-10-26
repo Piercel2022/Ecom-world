@@ -3,7 +3,9 @@ import React from 'react'
 
 const TVHome = () => {
   return (
-    <div>TVHome</div>
+    <>
+      TVHome
+    </>
   )
 }
 

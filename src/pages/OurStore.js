@@ -13,10 +13,26 @@ const OurStore = () => {
     <div className="store-wrapper home-wrapper-2 py-5">
       <div className="row">
         <div className="col-3">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div className='filter-card mb-3'>
+          <h3 className="filter-title">
+           Shop By Categories
+          </h3>
+        </div>
+        <div className='filter-card mb-3'>
+        <h3 className="filter-title">
+        Shop By Categories
+            </h3>
+        </div>
+        <div className='filter-card mb-3'>
+        <h3 className="filter-title">
+        Shop By Categories
+            </h3>
+        </div>
+        <div className='filter-card mb-3'>
+        <h3 className="filter-title">
+        Shop By Categories
+            </h3>
+        </div>
         </div>
         <div className="col-9">
 

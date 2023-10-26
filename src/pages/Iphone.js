@@ -1,9 +1,15 @@
 
 import React from 'react'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 const Iphone = () => {
   return (
-    <div>Iphone</div>
+    <>
+     <Header />
+      Iphone
+     <Footer />
+    </>
   )
 }
 

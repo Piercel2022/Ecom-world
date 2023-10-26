@@ -90,16 +90,16 @@ const Header = () => {
    <span className=' d-inline-block'>Shop Categories</span> 
   </button>
   <ul class="dropdown-menu">
-  <li><a className="dropdown-item text-white" href="./pages/TVHome">tv&home</a></li>
- <li><a className="dropdown-item text-white" href="./pages/Iphone">iphone</a></li>
- <li><a className="dropdown-item text-white" href="./pages/Accessories">Accessories</a></li>
+  <li><a className="dropdown-item text-white" href="./tv-home">tv&home</a></li>
+ <li><a className="dropdown-item text-white" href="./iphone">Iphones</a></li>
+ <li><a className="dropdown-item text-white" href="./accessories">Accessories</a></li>
    </ul>
   </div>
       <div className='menu-links'>
           <div className="d-flex align-items-center gap-15">
               <NavLink  to='/'>Home</NavLink>
               <NavLink to='/store'>Our Store</NavLink>
-              <NavLink to='/'>Blog</NavLink>
+              <NavLink to='/blog'>Blog</NavLink>
               <NavLink to='/contact'>Contact</NavLink>
               <NavLink to='/about'>About</NavLink>
           </div>
