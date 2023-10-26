@@ -378,5 +378,6 @@ height: 400px;
 .filter-card ul{
   list-style-type: none;
   font-size: 13px;
+  line-height: 30px;
 }
 /* Our Store end*/
