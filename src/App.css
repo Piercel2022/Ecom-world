@@ -379,5 +379,6 @@ height: 400px;
   list-style-type: none;
   font-size: 13px;
   line-height: 30px;
+  color: var(--color-777777);
 }
 /* Our Store end*/
