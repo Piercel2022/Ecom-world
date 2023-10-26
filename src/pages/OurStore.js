@@ -29,6 +29,9 @@ const OurStore = () => {
         <div className='filter-card mb-3'>
         <h3 className="filter-title">
         Filter By 
+        <div>
+          
+        </div>
         </h3>
         </div>
         <div className='filter-card mb-3'>
