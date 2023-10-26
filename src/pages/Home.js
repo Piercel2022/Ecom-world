@@ -207,12 +207,16 @@ const Home = () => {
       </div>
     </div>
     </section>
-<section>
+<section className="famous-wrapper py-5 home-wrapper-2">
 <div className="container-xxl">
       <div className="row">
         <div className="col-3">
+        <h3 className="section-heading">
+            Famous Products
+        </h3>
+       
         <div className="famous-card position-relative">
-        <img src='images/famous.jpg' className='famous1' alt='famous'/>
+        <img src='images/famous.jpg' className='famous img-fluid' alt='famous'/>
           <div className="famous-content position-absolute">
             <h5>Big screen</h5>
             <h6>Smart Watches <br /> Series 7</h6>
@@ -224,7 +228,7 @@ const Home = () => {
         </div>
         <div className="col-3">
         <div className="famous-card position-relative">
-        <img src='images/home-speakers.jpg' className='img-fluid famous1' alt='famous'/>
+        <img src='images/home-speakers.jpg' className='famous img-fluid' alt='famous'/>
           <div className="famous-content position-absolute">
             <h5 className='text-dark'>Home Speaker.</h5>
             <h6 className='text-dark'>Room filling sound.</h6>
@@ -236,7 +240,7 @@ const Home = () => {
         </div>
         <div className="col-3">
         <div className="famous-card position-relative">
-        <img src='images/display.jpg' className='img-fluid famous1' alt='famous'/>
+        <img src='images/display.jpg' className='famous img-fluid' alt='famous'/>
           <div className="famous-content position-absolute">
             <h5>Studio Display</h5>
             <h6>600 nits   of brightness </h6>
@@ -248,18 +252,17 @@ const Home = () => {
         </div>
         <div className="col-3">
         <div className="famous-card position-relative">
-        <img src='images/famous-3.jpg' className='img-fluid famous1' alt='famous'/>
+        <img src='images/famous-3.jpg' className='famous img-fluid' alt='famous'/>
           <div className="famous-content position-absolute">
             <h5>Iphone Max Pro.</h5>
             <h6>Iphone  <br />max pro </h6>
             <p>From $1999 <br />or $126.64/mo.<br /> for 24 mo.</p>
 
           </div>
-        
           </div>
-        </div>
+          </div>
       </div>
-      </div>
+    </div>
 </section>
     
 
