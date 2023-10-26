@@ -382,11 +382,15 @@ height: 400px;
   color: var(--color-777777);
   cursor: pointer;
 }
+.filter-card .form-check-input::checked {
+  background-color: var(--color-bf4800);
+}
 
-.sub-title{
+.sub-title .filter-card .form-check-label{
   font-size: 14px;
   font-weight: 600;
   color: var(--color-1c1c1b);
   margin-bottom: 15px;
 }
+
 /* Our Store end*/

@@ -35,15 +35,15 @@ const OurStore = () => {
             Availability
           </h5>
           <div className="form-check">
-            <input type="checkbox" value="" id="" className="form-check-input" />
-            <label htmlFor="" className="form-check-label">
-              In stock
+            <input type="checkbox" value="" id="" class="form-check-input" />
+            <label for="" class="form-check-label">
+              In stock(1)
             </label>
           </div>
           <div className="form-check">
-            <input type="checkbox" value="" id="" className="form-check-input" />
-            <label htmlFor="" className="form-check-label">
-              Out of stock
+            <input type="checkbox" value="" id="" class="form-check-input" />
+            <label for="" class="form-check-label">
+              Out of stock(0)
             </label>
           </div>
         </div>
