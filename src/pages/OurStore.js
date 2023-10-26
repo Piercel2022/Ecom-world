@@ -30,7 +30,7 @@ const OurStore = () => {
         </div>
         <div className='filter-card mb-3'>
         <h3 className="filter-title">
-        Shop By Categories
+        Random Product
             </h3>
         </div>
         </div>
