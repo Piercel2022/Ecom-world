@@ -90,20 +90,21 @@ const Header = () => {
    <span className=' d-inline-block'>Shop Categories</span> 
   </button>
   <ul class="dropdown-menu">
-  <li><a className="dropdown-item text-white" href="https://ecom-world.netlify.app/pages/TVHome">tv&home</a></li>
- <li><a className="dropdown-item text-white" href="https://ecom-world.netlify.app/pages/Iphone">iphone</a></li>
- <li><a className="dropdown-item text-white" href="https://ecom-world.netlify.app/pages/Accessories">Accessories</a></li>
+  <li><a className="dropdown-item text-white" href="./pages/TVHome">tv&home</a></li>
+ <li><a className="dropdown-item text-white" href="./pages/Iphone">iphone</a></li>
+ <li><a className="dropdown-item text-white" href="./pages/Accessories">Accessories</a></li>
    </ul>
   </div>
-              <div className='menu-links'>
-                <div className="d-flex align-items-center gap-15">
-                  <NavLink  to='/'>Home</NavLink>
-                  <NavLink to='/'>Our Store</NavLink>
-                  <NavLink to='/'>Blog</NavLink>
-                  <NavLink to='/contact'>Contact</NavLink>
-                </div>
-              </div>
-            </div>
+      <div className='menu-links'>
+          <div className="d-flex align-items-center gap-15">
+              <NavLink  to='/'>Home</NavLink>
+              <NavLink to='/store'>Our Store</NavLink>
+              <NavLink to='/'>Blog</NavLink>
+              <NavLink to='/contact'>Contact</NavLink>
+              <NavLink to='/about'>About</NavLink>
+          </div>
+      </div>
+          </div>
           </div>
         </div>
        </div>

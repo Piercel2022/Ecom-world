@@ -3,14 +3,14 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const Contact = () => {
+const Blog = () => {
   return (
     <>
     <Header />
-      Contact
+    Blog
     <Footer />
     </>
   )
 }
 
-export default Contact
+export default Blog

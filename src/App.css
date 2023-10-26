@@ -327,17 +327,17 @@ display: none;
 /* Special Product card End*/
 
 /* Famous card */
-.famous-card .famous-image img{
-  width: 410px;
-  height: 400px;
-}
-.famous-card{
-
+.famous-card  img{
+  border-radius: 10px;
 }
 
-.famous-content{
-  top: 2%;
-  left: 5%;
+.famous1{
+  width: 460px;
+height: 500px;
+}
+.famous-card .famous-content{
+  top: 10%;
+  left: 2%;
 }
 .famous-content h5{
   font-size: 13px;
