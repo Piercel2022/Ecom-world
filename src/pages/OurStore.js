@@ -20,7 +20,7 @@ const OurStore = () => {
         </div>
         <div className='filter-card mb-3'>
         <h3 className="filter-title">
-        Shop By Categories
+        Filter By 
             </h3>
         </div>
         <div className='filter-card mb-3'>
