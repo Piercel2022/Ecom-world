@@ -61,17 +61,21 @@ const OurStore = () => {
           </div>
 
           </div>
-          <div className="form-check">
-            <input type="checkbox" value="" id="" class="form-check-input" />
-            <label htmlFor="" class="form-check-label">
-              In stock(1)
-            </label>
-          </div>
-          <div className="form-check">
-            <input type="checkbox" value="" id="" class="form-check-input" />
-            <label htmlFor="" class="form-check-label">
-              Out of stock(0)
-            </label>
+          
+          <h5 className="sub-title">
+            Colors
+          </h5>
+          <div>
+            <div className="d-flex flex-wrap">
+              <ul className='colors'>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+
+            </div>
           </div>
           </div>
         </div>

@@ -408,4 +408,11 @@ height: 400px;
 
 }
 
+.colors li{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+}
+
 /* Our Store end*/
