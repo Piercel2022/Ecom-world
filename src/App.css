@@ -399,5 +399,13 @@ height: 400px;
   color: var(--color-1c1c1b);
   margin-bottom: 15px;
 }
+.sub-title{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+  margin-top: 15px;
+
+}
 
 /* Our Store end*/
