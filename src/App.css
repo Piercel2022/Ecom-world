@@ -331,9 +331,9 @@ display: none;
   border-radius: 10px;
 }
 
-.famous1{
+.famous{
   width: 460px;
-height: 500px;
+height: 400px;
 }
 .famous-card .famous-content{
   top: 10%;
@@ -361,3 +361,40 @@ height: 500px;
   color: white;
 }
 /* Famous card End*/
+
+/* Our Store */
+.filter-card{
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+.filter-title {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 20px;
+}
+.filter-card ul{
+  list-style-type: none;
+  font-size: 13px;
+  line-height: 30px;
+  color: var(--color-777777);
+  cursor: pointer;
+}
+.filter-card .form-check-input::checked {
+  background-color: var(--color-bf4800);
+}
+.filter-card .form-check-input::focus{
+  box-shadow: none;
+  border-color: inherit;
+}
+
+.sub-title .filter-card .form-check-label{
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 15px;
+}
+
+/* Our Store end*/
