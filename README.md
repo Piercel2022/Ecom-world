@@ -38,7 +38,8 @@ REQUIRED SECTIONS:
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
+![Screenshot2](https://github.com/Piercel2022/Ecom-world/assets/98626003/f6236c59-1609-4c50-8ab7-a651fa9291d1)
+
 
 # 📖 Ecom world <a name="about-project"></a>
 
