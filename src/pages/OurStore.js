@@ -67,7 +67,7 @@ const OurStore = () => {
           </h5>
           <div>
             <div className="d-flex flex-wrap">
-              <ul className='colors'>
+              <ul className='colors ps-0'>
                 <li></li>
                 <li></li>
                 <li></li>
