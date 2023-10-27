@@ -385,6 +385,10 @@ height: 400px;
 .filter-card .form-check-input::checked {
   background-color: var(--color-bf4800);
 }
+.filter-card .form-check-input::focus{
+  box-shadow: none;
+  border-color: inherit;
+}
 
 .sub-title .filter-card .form-check-label{
   font-size: 14px;
