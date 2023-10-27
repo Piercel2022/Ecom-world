@@ -52,9 +52,13 @@ const OurStore = () => {
           </h5>
           <div className='d-flex align-items-center gap-10'>
           <div className="form-floating mb-3">
-         <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com"/>
+         <input type="email" className="form-control py-1" id="floatingInput" placeholder="From"/>
          <label htmlFor="floatingInput">From</label>
-           </div> 
+          </div> 
+          <div className="form-floating mb-3">
+         <input type="email" className="form-control py-1" id="floatingInput1" placeholder="To"/>
+         <label htmlFor="floatingInput1">To</label>
+          </div>
 
           </div>
           <div className="form-check">
