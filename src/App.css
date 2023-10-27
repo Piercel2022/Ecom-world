@@ -389,6 +389,9 @@ height: 400px;
   box-shadow: var(--color-febd69);
   border-color:var(--color-febd69)
 }
+.form-check-input:checked{
+  background-color: var(--color-febd69);
+}
 
 .sub-title .filter-card .form-check-label{
   font-size: 14px;
