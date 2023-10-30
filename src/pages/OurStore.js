@@ -17,8 +17,8 @@ const OurStore = () => {
     <BreadCrumb title = "Our Store" />
     <div className="store-wrapper home-wrapper-2 py-5">
       <div className="row">
-        <div className="col-3">
-        <div className='filter-card mb-3'>
+        <div className="col-3 ms-5 mb-3">
+        <div className='filter-card'>
           <h3 className="filter-title">
            Shop By Categories
            </h3>
