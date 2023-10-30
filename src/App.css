@@ -366,7 +366,7 @@ height: 400px;
 .filter-card{
   background-color: white;
   border-radius: 10px;
-  padding: 10px 15px;
+  padding: 10px 15px 25px;
 }
 .filter-title {
   font-size: 16px;
@@ -407,7 +407,12 @@ height: 400px;
   margin-top: 15px;
 
 }
-
+.colors{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 .colors li{
   width: 20px;
   height: 20px;

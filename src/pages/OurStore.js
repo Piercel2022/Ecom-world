@@ -66,8 +66,18 @@ const OurStore = () => {
             Colors
           </h5>
           <div>
-            <div className="d-flex flex-wrap">
+            <div>
               <ul className='colors ps-0'>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
                 <li></li>
                 <li></li>
                 <li></li>
@@ -77,10 +87,27 @@ const OurStore = () => {
 
             </div>
           </div>
+          <h5 className="sub-title">
+            Size
+          </h5>
+          <div>
+          <div className="form-check">
+            <input type="checkbox" value="" id="color-1" class="form-check-input" />
+            <label htmlFor="color-1" class="form-check-label">
+              S (2)
+            </label>
+          </div>
+          <div className="form-check">
+            <input type="checkbox" value="" id="color-2" class="form-check-input" />
+            <label htmlFor="color-2" class="form-check-label">
+              L (2)
+            </label>
+          </div>
+          </div>
           </div>
         </div>
         </div>
-        <div className='filter-card mb-3'>
+        <div className='filter-card'>
         <h3 className="filter-title">
         Products Tags
             </h3>
