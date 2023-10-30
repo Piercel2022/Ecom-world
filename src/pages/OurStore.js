@@ -113,6 +113,7 @@ const OurStore = () => {
           </div>
         </div>
         </div>
+
         <div className='filter-card'>
         <h3 className="filter-title">
         Products Tags
@@ -120,25 +121,36 @@ const OurStore = () => {
             <div>
               <div className="product-tags d-flex flex-wrap align-items-center gap-10">
                 <span className="badge bg-light text-secondary rounded-3 py-2 px-3">Headphones</span>
-
-              </div>
+                <span className="badge bg-light text-secondary rounded-3 py-2 px-3">Iphones</span>
+                <span className="badge bg-light text-secondary rounded-3 py-2 px-3">Cameras</span>
+                <span className="badge bg-light text-secondary rounded-3 py-2 px-3">Home screen</span>
+                <span className="badge bg-light text-secondary rounded-3 py-2 px-3">Home sound</span>
+               </div>
+              <div>
+              
+              
             </div>
         </div>
         <div className='filter-card mb-3'>
         <h3 className="filter-title">
         Random Product
             </h3>
+            <div>
+              <div className="random-products d-flex">
+
+              </div>
+            </div>
         </div>
         </div>
         <div className="col-9">
 
         </div>
       </div>
-
+      </div>
     </div>
     <Footer />
     </>
   )
 }
 
-export default OurStore
+export default OurStore;
