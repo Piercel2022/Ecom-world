@@ -155,7 +155,7 @@ const OurStore = () => {
                  edit="false"               
                 activeColor="#ffd700"
                 />
-                   <p></p>
+                   <b>$ 200</b>
                   </div>
               </div>
             </div>
