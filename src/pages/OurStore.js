@@ -118,7 +118,7 @@ const OurStore = () => {
         Products Tags
             </h3>
             <div>
-              <div className="product-tags d-flex flex-wrap">
+              <div className="product-tags d-flex flex-wrap align-items-center">
 
               </div>
             </div>
