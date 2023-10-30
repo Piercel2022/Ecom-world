@@ -426,7 +426,7 @@ height: 400px;
 }
 
 .random-products:first-child{
-  border-bottom: 1px solid #3b4149;
-  
+  border-bottom: 1px solid var(--color-3b4149);
+
 }
 /* Our Store end*/
