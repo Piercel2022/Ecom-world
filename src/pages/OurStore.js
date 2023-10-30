@@ -117,6 +117,11 @@ const OurStore = () => {
         <h3 className="filter-title">
         Products Tags
             </h3>
+            <div>
+              <div className="product-tags">
+                
+              </div>
+            </div>
         </div>
         <div className='filter-card mb-3'>
         <h3 className="filter-title">
