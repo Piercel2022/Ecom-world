@@ -138,6 +138,9 @@ const OurStore = () => {
             <div>
               <div className="random-products d-flex">
                   <div className="w-25">
+
+                  </div>
+                  <div className="w-25">
                     
                   </div>
               </div>
