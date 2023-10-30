@@ -119,7 +119,7 @@ const OurStore = () => {
             </h3>
             <div>
               <div className="product-tags d-flex flex-wrap align-items-center gap-10">
-                <span className="badge bg-secondary"></span>
+                <span className="badge bg-secondary rounded-3"></span>
 
               </div>
             </div>
