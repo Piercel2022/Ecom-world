@@ -424,4 +424,9 @@ height: 400px;
   font-size: 14px;
   margin-bottom: 8px;
 }
+
+.random-products:first-child{
+  border-bottom: 1px solid #3b4149;
+  
+}
 /* Our Store end*/
