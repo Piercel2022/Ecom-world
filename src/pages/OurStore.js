@@ -137,7 +137,9 @@ const OurStore = () => {
             </h3>
             <div>
               <div className="random-products d-flex">
-
+                  <div className="w-25">
+                    
+                  </div>
               </div>
             </div>
         </div>
