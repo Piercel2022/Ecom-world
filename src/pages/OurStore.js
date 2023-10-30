@@ -133,15 +133,15 @@ const OurStore = () => {
         </div>
         <div className='filter-card mb-3'>
         <h3 className="filter-title">
-        Random Product
+        Random Products
             </h3>
             <div>
-              <div className="random-products d-flex">
+              <div className="random-products d-flex align-items-center gap-10">
                   <div className="w-25">
-                   <img src="images/acc.jpg" alt="" />
+                   <img src="images/acc.jpg" className='img-fluid' alt="" />
                   </div>
                   <div className="w-25">
-                    
+                    <img src="images/famous6.jpg" className='img-fluid' alt="" />
                   </div>
               </div>
             </div>
