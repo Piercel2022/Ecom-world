@@ -100,6 +100,12 @@ const OurStore = () => {
           <div className="form-check">
             <input type="checkbox" value="" id="color-2" class="form-check-input" />
             <label htmlFor="color-2" class="form-check-label">
+              M (2)
+            </label>
+          </div>
+          <div className="form-check">
+            <input type="checkbox" value="" id="color-2" class="form-check-input" />
+            <label htmlFor="color-2" class="form-check-label">
               L (2)
             </label>
           </div>
