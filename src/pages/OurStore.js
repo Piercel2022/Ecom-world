@@ -138,7 +138,7 @@ const OurStore = () => {
             <div>
               <div className="random-products d-flex">
                   <div className="w-25">
-
+                   <img src="images/acc.jpg" alt="" />
                   </div>
                   <div className="w-25">
                     
