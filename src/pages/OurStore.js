@@ -1,9 +1,14 @@
 
 import React from 'react'
 import BreadCrumb from '../components/BreadCrumb'
+import ReactStars from "react-rating-stars-component";
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta';
+
+const ratingChanged = (newRating) => {
+  console.log(newRating);
+};
 const OurStore = () => {
   return (
     <>
@@ -137,11 +142,20 @@ const OurStore = () => {
             </h3>
             <div>
               <div className="random-products d-flex align-items-center gap-10">
-                  <div className="w-25">
-                   <img src="images/acc.jpg" className='img-fluid' alt="" />
+                  <div className="w-50">
+                   <img src="images/watch.jpg" className='img-fluid' alt="" />
                   </div>
-                  <div className="w-25">
-                    <img src="images/famous6.jpg" className='img-fluid' alt="" />
+                  <div className="w-50">
+                   <h5>Kids headphones bulk 10 pack multicolored for students</h5>
+                   <ReactStars
+                 count={5}
+                 onChange={ratingChanged}
+                 size={24}
+                 value={3}
+                 edit="false"               
+                activeColor="#ffd700"
+                />
+                   <p></p>
                   </div>
               </div>
             </div>
