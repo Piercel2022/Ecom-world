@@ -158,7 +158,7 @@ const OurStore = () => {
                    <b>$ 200</b>
                   </div>
               </div>
-              <div className="random-products d-flex align-items-center gap-10">
+              <div className="random-products d-flex mb-3 align-items-center gap-10">
                   <div className="w-50">
                    <img src="images/watch.jpg" className='img-fluid' alt="" />
                   </div>
