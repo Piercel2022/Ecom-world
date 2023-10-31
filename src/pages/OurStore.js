@@ -198,7 +198,11 @@ const OurStore = () => {
                 
                 <div className='d-flex align-items-center gap-10'>
                     <p className="totalproducts">21 Products</p>
-                    <div className='d-flex gap-10 align-items-center'>
+                    <div className='d-flex gap-10 align-items-center grid'>
+                      <img src="images/gr.svg" className='img-fluid' alt="grid" />
+                      <img src="images/gr2.svg" className=' img-fluid' alt="grid" />
+                      <img src="images/gr3.svg" className=' img-fluid' alt="grid" />
+                      <img src="images/gr4.svg" className=' img-fluid' alt="grid" />
 
                     </div>
                 </div>
