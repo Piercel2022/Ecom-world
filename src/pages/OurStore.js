@@ -5,14 +5,14 @@ import ReactStars from "react-rating-stars-component";
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta';
+import ProductCard from '../components/ProductCard'
 
 const ratingChanged = (newRating) => {
   console.log(newRating);
 };
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
-  const gridSetter = (i) => {
-  }
+  
   return (
     <>
     <Meta title={"Our Store"} />
@@ -202,13 +202,13 @@ const OurStore = () => {
                 <div className='d-flex align-items-center gap-10'>
                     <p className="totalproducts mb-0">21 Products</p>
                     <div className='d-flex gap-10 align-items-center grid'>
-                      <img onClick={() => {setGrid()}}
+                      <img onClick={() => {setGrid(3)}}
                       src="images/gr.svg" className='img-fluid' alt="grid" />
-                      <img onClick={() => {setGrid()}}
+                      <img onClick={() => {setGrid(4)}}
                       src="images/gr2.svg" className=' img-fluid' alt="grid" />
-                      <img onClick={() => {setGrid()}}
+                      <img onClick={() => {setGrid(6)}}
                       src="images/gr3.svg" className=' img-fluid' alt="grid" />
-                      <img onClick={() => {setGrid()}}
+                      <img onClick={() => {setGrid(12)}}
                       src="images/gr4.svg" className=' img-fluid' alt="grid" />
 
                     </div>
@@ -216,7 +216,9 @@ const OurStore = () => {
                </div>
             </div>
             <div className="products-list pb-5">
-
+             <div className='d-flex flex-wrap gap-10'>
+             <ProductCard grid={grid} />
+             </div>
             </div>
           </div>
           </div>
