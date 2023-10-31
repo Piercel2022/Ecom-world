@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 import BreadCrumb from '../components/BreadCrumb'
 import ReactStars from "react-rating-stars-component";
 import Header from '../components/Header'
@@ -10,6 +10,9 @@ const ratingChanged = (newRating) => {
   console.log(newRating);
 };
 const OurStore = () => {
+  const [grid, setGrid] = useState(4);
+  const gridSetter = (i) => {
+  }
   return (
     <>
     <Meta title={"Our Store"} />
@@ -199,10 +202,14 @@ const OurStore = () => {
                 <div className='d-flex align-items-center gap-10'>
                     <p className="totalproducts mb-0">21 Products</p>
                     <div className='d-flex gap-10 align-items-center grid'>
-                      <img src="images/gr.svg" className='img-fluid' alt="grid" />
-                      <img src="images/gr2.svg" className=' img-fluid' alt="grid" />
-                      <img src="images/gr3.svg" className=' img-fluid' alt="grid" />
-                      <img src="images/gr4.svg" className=' img-fluid' alt="grid" />
+                      <img onClick={() => {setGrid()}}
+                      src="images/gr.svg" className='img-fluid' alt="grid" />
+                      <img onClick={() => {setGrid()}}
+                      src="images/gr2.svg" className=' img-fluid' alt="grid" />
+                      <img onClick={() => {setGrid()}}
+                      src="images/gr3.svg" className=' img-fluid' alt="grid" />
+                      <img onClick={() => {setGrid()}}
+                      src="images/gr4.svg" className=' img-fluid' alt="grid" />
 
                     </div>
                 </div>
