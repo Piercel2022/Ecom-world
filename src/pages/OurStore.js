@@ -182,8 +182,9 @@ const OurStore = () => {
         </div>
         <div className="col-9">
                <div className="filter-sort-grid">
-                <div className='d-flex align-items-center gap-20'>
-                  <p className='mb-0'>Sort By:</p>
+                <div className='d-flex justify-content-between align-items-center'>
+                <div className='d-flex  align-items-center gap-30'>
+                  <p className='mb-0 d-block'>Sort By:</p>
                   <select name="" id="" className="form-control form-select">
                     <option value="manual">featured</option>
                     <option value="best-selling"></option>
@@ -194,7 +195,15 @@ const OurStore = () => {
                     <option value="created-descending">Date,  to High</option>
                   </select>
                 </div>
+                
+                <div className='d-flex align-items-center gap-10'>
+                    <p className="totalproducts">21 Products</p>
+                    <div className='d-flex gap-10 align-items-center'>
+
+                    </div>
+                </div>
                </div>
+            </div>
           </div>
           </div>
       </div>
