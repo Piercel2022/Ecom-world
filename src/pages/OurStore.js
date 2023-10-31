@@ -16,8 +16,8 @@ const OurStore = () => {
     <Header />
     <BreadCrumb title = "Our Store" />
     <div className="store-wrapper home-wrapper-2 py-5">
-      <div className='container-xxl'>
-      <div className="row">
+      <div className="container-xxl">
+        <div className="col-12 d-flex">
         <div className="col-3 ms-5 mb-3">
         <div className='filter-card mb-3'>
           <h3 className="filter-title">
@@ -177,12 +177,12 @@ const OurStore = () => {
                   </div>
               </div>
             </div>
-        </div>
+           </div>
         </div>
         </div>
         <div className="col-9">
                <div className="filter-sort-grid">
-                <div className='d-flex align-items-center gap-10'>
+                <div className='d-flex align-items-center gap-20'>
                   <p className='mb-0'>Sort By:</p>
                   <select name="" id="" className="form-control form-select">
                     <option value="manual">featured</option>
@@ -191,13 +191,12 @@ const OurStore = () => {
                     <option value="price-ascending">Price, Low to High</option>
                     <option value="price-descending">Price, High to Low</option>
                     <option value="created-ascending">Date, Old to New</option>
-                    <option value="created-descending">Date, New to Old</option>
+                    <option value="created-descending">Date,  to High</option>
                   </select>
                 </div>
                </div>
           </div>
-        </div>
-
+          </div>
       </div>
     </div>
     <Footer />
