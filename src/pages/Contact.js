@@ -23,6 +23,9 @@ const Contact = () => {
 
          </iframe>
         </div>
+        <div className="col-12 mt-12">
+
+        </div>
       </div>
      </div>
     </div>
