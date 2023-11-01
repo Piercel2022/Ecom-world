@@ -509,5 +509,7 @@ height: 400px;
 }
 .contact-inner-wrapper form .form-control{
   background-color: var(--color-f5f5f7);
+  border-radius: 10px;
+ 
 }
 /* Contact end */
