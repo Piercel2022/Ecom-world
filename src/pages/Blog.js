@@ -9,9 +9,13 @@ const Blog = () => {
   return (
     <>
     <Meta title={"Blogs"} />
-    <BreadCrumb title = "Blogs" />
     <Header />
-    Blog
+    <BreadCrumb title = "Blogs" />
+    
+    <div className="blog-wrapper home-wrapper-2 py-5">
+
+
+    </div>
     <Footer />
     </>
   )
