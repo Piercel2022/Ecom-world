@@ -7,9 +7,10 @@ import BreadCrumb from '../components/BreadCrumb'
 const About = () => {
   return (
     <>
-     <Header />
-      About
-      <Footer />
+    <Meta title={"About"} />
+    <Header />
+    <BreadCrumb title = "About" />
+    <Footer />
     </>
   )
 }

@@ -8,8 +8,9 @@ import BreadCrumb from '../components/BreadCrumb'
 const Contact = () => {
   return (
     <>
+    <Meta title={"Contact"} />
     <Header />
-      Contact
+    <BreadCrumb title = "Contact" />
     <Footer />
     </>
   )
