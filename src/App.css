@@ -513,4 +513,7 @@ height: 400px;
   border-color: transparent;
   padding: 10px;
 }
+.contact-inner-wrapper ul{
+  list-style: none;
+}
 /* Contact end */

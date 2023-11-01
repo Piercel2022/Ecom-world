@@ -1,6 +1,8 @@
 
 import React from 'react'
 import Header from '../components/Header'
+import {AiTwotoneHome, AiFillInfoCircle, AiFillMail} from 'react-icons/ai'
+import {BsFillTelephoneFill} from 'react-icons/bs'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
@@ -48,6 +50,26 @@ const Contact = () => {
             </div>
             <div>
               <h3 className="contact-title mb-4">Get In Touch With Us</h3>
+              <div>
+                <ul className='ps-0'>
+                  <li className='mb-3 d-flex align-items-center gap-15'>
+                    <AiTwotoneHome className='fs-5' />
+                    <address className='mb-0'>Hno: 55 Marguerite Youcenar 67200 Strasbourg</address>
+                  </li>
+                  <li className='mb-3 d-flex align-items-center gap-15'>
+                    <BsFillTelephoneFill className='fs-5' />
+                    <a href="tel:+33 005765361">+33 005765361</a>
+                    </li>
+                  <li className='mb-3 d-flex align-items-center gap-15'>
+                    <AiFillMail className='fs-5'/>
+                    <a href="mailto:piercel.coder2022@gmail.com">piercel.coder2022@gmail.com</a>
+                    </li>
+                  <li className='mb-3 d-flex align-items-center gap-15'>
+                    <AiFillInfoCircle className='fs-5'/>
+                    <p className='mb-0'>Monday - Friday : 10 am to 8 pm</p>
+                  </li>
+                </ul>
+              </div>
             </div>
 
           </div>
