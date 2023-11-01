@@ -462,6 +462,10 @@ height: 400px;
   width: 32%;
   margin-left: 15px;
 }
+
+.gr-4 .product-image{
+  width: 100%;
+}
 .gr-3{
   width: 24%;
   margin-left: 15px;
