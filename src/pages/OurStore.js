@@ -215,7 +215,7 @@ const OurStore = () => {
                 </div>
                </div>
             </div>
-            <div className="products-list pb-5">
+            <div className="products-list pb-5 gap-5">
              <div className='d-flex flex-wrap gap-10'>
              <ProductCard grid={grid} />
              </div>
