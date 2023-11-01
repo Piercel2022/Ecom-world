@@ -533,8 +533,9 @@ color: var(--color-777777);
 }
 
 .compare-product-card .cross{
-  top: 10px;
-  right: 10px;
+  top: 15px;
+  right: 15px;
   width: 20px;
+  cursor: pointer;
 }
 /* Compare products End*/
