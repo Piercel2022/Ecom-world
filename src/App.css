@@ -523,3 +523,12 @@ color: var(--color-777777);
 }
 
 /* Contact end */
+
+/* Compare products */
+.compare-product-card{
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+  
+}
+/* Compare products End*/
