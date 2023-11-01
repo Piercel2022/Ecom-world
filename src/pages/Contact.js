@@ -29,16 +29,19 @@ const Contact = () => {
               <h3 className="contact-title mb-4">Contact</h3>
               <form action="" className='d-flex flex-column gap-15'>
                 <div>
-                <input type="text" className="form-control" />
+                <input type="text" className="form-control" placeholder="Name" />
                 </div>
                 <div>
-                <input type="text" className="form-control" />
+                <input type="text" className="form-control" placeholder="Email" />
                 </div>
                 <div>
-                <input type="text" className="form-control" />
+                <input type="tel" className="form-control" placeholder="Mobile Number" />
                 </div>
                 <div>
-                <textarea name="" className="w-100 form-control" id="" cols="30" rows="10" />
+                <textarea name="" className="w-100 form-control" placeholder="Message" id="" cols="30" rows="10" />
+                </div>
+                <div>
+                  <button className="button border-0">Submit</button>
                 </div>
                 
               </form>
