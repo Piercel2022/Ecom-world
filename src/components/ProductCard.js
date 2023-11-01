@@ -36,7 +36,7 @@ const ProductCard = (props) => {
                  edit="false"               
                 activeColor="#ffd700"
                 />
-                <p className="description">
+                <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                 text ever since the 1500s, 
                 when an unknown printer took a galley of type 
                 and scrambled it to make a type specimen book. 
@@ -84,7 +84,7 @@ const ProductCard = (props) => {
          edit="false"               
         activeColor="#ffd700"
         />
-        <p className="description">
+        <p className={`description ${grid === 12 ? "d-block" : "d-none"}`}>
                 text ever since the 1500s, 
                 when an unknown printer took a galley of type 
                 and scrambled it to make a type specimen book. 
