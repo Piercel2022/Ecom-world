@@ -307,6 +307,11 @@ display: none;
   color: var(--color-1c1c1b);
   font-size: 16px;
 }
+
+.product-card p.description{
+  font-size: 13px;
+  color: var(--color-777777);
+}
 .action-bar{
   top: 10%;
   right: -23px;
