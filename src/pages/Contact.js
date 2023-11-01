@@ -26,10 +26,10 @@ const Contact = () => {
         <div className="col-12 mt-12">
           <div className="contact-inner-wrapper d-flex justify-content-between">
             <div>
-              <h3 className="contact-title">Contact</h3>
+              <h3 className="contact-title mb-4">Contact</h3>
             </div>
             <div>
-              <h3 className="contact-title">Get In Touch With Us</h3>
+              <h3 className="contact-title mb-4">Get In Touch With Us</h3>
             </div>
 
           </div>
