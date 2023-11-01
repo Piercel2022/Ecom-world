@@ -24,6 +24,9 @@ const Contact = () => {
          </iframe>
         </div>
         <div className="col-12 mt-12">
+          <div className="contact-wrapper">
+            
+          </div>
 
         </div>
       </div>
