@@ -6,10 +6,13 @@ import Marquee from "react-fast-marquee";
 import BlogCard from '../components/BlogCard';
 import ProductCard from '../components/ProductCard';
 import SpecialProduct from '../components/SpecialProduct';
+import Meta from '../components/Meta'
+
 
 const Home = () => {
   return (
     <>
+    <Meta title={"Home"} />
     <Header />
     <section className="home-wrapper-1 py-5">
       <div className="container-xxl">
