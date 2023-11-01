@@ -516,4 +516,10 @@ height: 400px;
 .contact-inner-wrapper ul{
   list-style: none;
 }
+.contact-inner-wrapper address,
+.contact-inner-wrapper a,
+.contact-inner-wrapper p{
+color: var(--color-777777);
+}
+
 /* Contact end */
