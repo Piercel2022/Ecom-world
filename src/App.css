@@ -531,4 +531,10 @@ color: var(--color-777777);
   border-radius: 10px;
   
 }
+
+.compare-product-card .cross{
+  top: 10px;
+  right: 10px;
+  width: 20px;
+}
 /* Compare products End*/

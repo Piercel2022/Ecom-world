@@ -15,7 +15,8 @@ const CompareProduct = () => {
          <div className="container-xxl">
             <div className="row">
                 <div className="col-3">
-                    <div className="compare-product-card">
+                    <div className="compare-product-card position-relative">
+                        <img src="images/cross.svg" alt="cross" className="position-absolute cross img-fluid" />
                         <div className="product-card-image">
                             <img src="images/watch.jpg" alt="watch" />
                         </div>
