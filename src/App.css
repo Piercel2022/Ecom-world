@@ -490,9 +490,18 @@ height: 400px;
 /* Our Store end*/
 
 /* Contact */
-.contact_wrapper{
-  padding: 20px;
+.contact-inner-wrapper{
+  padding: 30px 20px;
   border-radius: 15px;
   background-color: white;
+  gap: 15px;
+}
+
+.contact-inner-wrapper > div {
+  width: 48%;
+}
+
+.contact-title{
+  font-size: 26px;
 }
 /* Contact end */
