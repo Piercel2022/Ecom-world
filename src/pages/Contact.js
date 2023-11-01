@@ -10,7 +10,7 @@ const Contact = () => {
     <>
     <Meta title={"Contact"} />
     <Header />
-    <BreadCrumb title = "Contact" />
+    <BreadCrumb title = "Contact Us" />
     <Footer />
     </>
   )
