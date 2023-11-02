@@ -546,5 +546,7 @@ color: var(--color-777777);
 }
 .compare-product-details h6.price{
   font-size: 15px;
+  line-height: 22px;
+  
 }
 /* Compare products End*/
