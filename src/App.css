@@ -535,7 +535,10 @@ color: var(--color-777777);
 .compare-product-card .cross{
   top: 15px;
   right: 15px;
-  width: 20px;
+  width: 25px;
   cursor: pointer;
+}
+.compare-product-details h5.title{
+  font-size: 15px;
 }
 /* Compare products End*/
