@@ -11,6 +11,7 @@ import Iphone from './pages/Iphone'
 import TVHome from './pages/TVHome';
 import Accessories from './pages/Accessories'
 import CompareProduct from './pages/CompareProduct'
+import Wishlist from './pages/Wishlist';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="accessories" element={<Accessories />} />
         <Route path="iphone" element={<Iphone />} />
         <Route path="tv-home" element={<TVHome />} />
+        <Route path="wishlist" element={<Wishlist />} />
         <Route path="compare-products" element={<CompareProduct />} />
       </Routes>
     </BrowserRouter>
