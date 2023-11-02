@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
+import Color from '../components/Color'
 
 const CompareProduct = () => {
   return (
@@ -31,16 +32,27 @@ const CompareProduct = () => {
                                 <p>Ecom world</p>
                               </div>
                               <div className='product-detail'>
-                                <h5>Brand: </h5>
-                                <p>Ecom world</p>
+                                <h5>Type: </h5>
+                                <p> </p>
                               </div>
                               <div className='product-detail'>
-                                <h5>Brand: </h5>
-                                <p>Ecom world</p>
+                                <h5>SKU: </h5>
+                                <p> </p>
                               </div>
                               <div className='product-detail'>
-                                <h5>Brand: </h5>
-                                <p>Ecom world</p>
+                                <h5>Availability: </h5>
+                                <p> </p>
+                              </div>
+                              <div className='product-detail'>
+                                <h5>Color: </h5>
+                                <Color />
+                              </div>
+                              <div className='product-detail'>
+                                <h5>Size: </h5>
+                                <div className='d-flex gap-10'> 
+                                 <p>L</p>
+                                 <p>M</p>
+                                 </div>
                               </div>
                             </div>
                         </div>
@@ -54,4 +66,4 @@ const CompareProduct = () => {
   )
 }
 
-export default CompareProduct
+export default CompareProduct;
