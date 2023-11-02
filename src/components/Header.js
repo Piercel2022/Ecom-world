@@ -90,7 +90,7 @@ const Header = () => {
    <span className=' d-inline-block'>Shop Categories</span> 
   </button>
   <ul class="dropdown-menu">
-  <li><a className="dropdown-item text-white" href="./tv-home">tv&home</a></li>
+  <li><a className="dropdown-item text-white" href="./tv-home">Tv&Home</a></li>
  <li><a className="dropdown-item text-white" href="./iphone">Iphones</a></li>
  <li><a className="dropdown-item text-white" href="./accessories">Accessories</a></li>
    </ul>
@@ -103,7 +103,7 @@ const Header = () => {
               <NavLink to='/contact'>Contact</NavLink>
               <NavLink to='/about'>About</NavLink>
           </div>
-      </div>
+          </div>
           </div>
           </div>
         </div>
