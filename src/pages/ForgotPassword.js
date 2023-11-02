@@ -16,7 +16,7 @@ const ForgotPassword = () => {
         <div className="col-12">
           <div className="auth-card">
             <h3 className='text-center mb-3'>Reset Your Password</h3>
-            <p className="text-center">
+            <p className="text-center mt-2 mb-3">
               We will send you an email to reset your password
             </p>
             <form action="" className='d-flex flex-column gap-30'>
