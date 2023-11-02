@@ -15,7 +15,9 @@ const Wishlist = () => {
         <div className="container-xxl">
             <div className="row">
                 <div className="col-3">
-                    
+                    <div className="wishlist-card">
+                        
+                    </div>
                 </div>
             </div>
         </div>
