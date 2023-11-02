@@ -580,5 +580,6 @@ color: var(--color-777777);
   height: 50px;
   background-color: var(--color-f5f5f7);
   color: var(--color-131921);
+  font-size: 14px;
 }
 /* Authentication end*/
