@@ -11,8 +11,8 @@ const Wishlist = () => {
     <Meta title={"wishlist"} />
     <Header />
     <BreadCrumb title = "wishlist" />
-      <div className="wishlist-wrapper">
-        
+      <div className="wishlist-wrapper home-wrapper-2 py-3">
+
       </div>
     <Footer />
     </>
