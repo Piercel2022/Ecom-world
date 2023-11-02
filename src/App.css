@@ -573,6 +573,7 @@ color: var(--color-777777);
 
 .auth-card h3{
   font-size: 19px;
+  font-weight: 500;
 }
 
 /* Authentication end*/
