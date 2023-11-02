@@ -552,5 +552,6 @@ color: var(--color-777777);
 .compare-product-card .product-details{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 /* Compare products End*/
