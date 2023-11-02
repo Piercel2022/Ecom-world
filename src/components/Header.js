@@ -49,7 +49,7 @@ const Header = () => {
                         </Link>
                       </div>
                       <div>
-                      <Link className='d-flex align-items-center gap-10 text-white'>
+                      <Link to="/wishlist" className='d-flex align-items-center gap-10 text-white'>
                         <img src="images/wishlist.svg" alt="wishlist" />
                         <p className='mb-0'>Favourite <br /> Wishlist </p>
                         </Link>
