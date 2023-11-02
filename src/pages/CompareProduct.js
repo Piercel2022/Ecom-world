@@ -30,6 +30,18 @@ const CompareProduct = () => {
                                 <h5>Brand: </h5>
                                 <p>Ecom world</p>
                               </div>
+                              <div className='product-detail'>
+                                <h5>Brand: </h5>
+                                <p>Ecom world</p>
+                              </div>
+                              <div className='product-detail'>
+                                <h5>Brand: </h5>
+                                <p>Ecom world</p>
+                              </div>
+                              <div className='product-detail'>
+                                <h5>Brand: </h5>
+                                <p>Ecom world</p>
+                              </div>
                             </div>
                         </div>
                     </div>
