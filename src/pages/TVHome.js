@@ -10,7 +10,7 @@ const TVHome = () => {
     <>
     <Meta title={"tv home"} />
     <Header />
-    <BreadCrumb title = "tv home" />
+    <BreadCrumb title = "TV Home" />
     <Footer />
     </>
   )
