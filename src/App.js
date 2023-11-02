@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import OurStore from './pages/OurStore';
 import Blog from './pages/Blog';
 import Iphone from './pages/Iphone'
+import TVHome from './pages/TVHome';
 import Accessories from './pages/Accessories'
 import CompareProduct from './pages/CompareProduct'
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="store" element={<OurStore />} />
         <Route path="accessories" element={<Accessories />} />
         <Route path="iphone" element={<Iphone />} />
+        <Route path="tv-home" element={<TVHome />} />
         <Route path="compare-products" element={<CompareProduct />} />
       </Routes>
     </BrowserRouter>
