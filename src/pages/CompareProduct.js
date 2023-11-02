@@ -25,7 +25,7 @@ const CompareProduct = () => {
                             <h5 className="title">
                               Honor T1 7.0.3 GB Ram 8  7-inch with Wi-Fi + 3G Tablet
                             </h5>
-                            <h6 className="price mb-2">$ 100</h6>
+                            <h6 className="price mb-3 mt-3">$ 100</h6>
                             <div>
                               <div className='product-detail'>
                                 <h5>Brand: </h5>
@@ -33,11 +33,11 @@ const CompareProduct = () => {
                               </div>
                               <div className='product-detail'>
                                 <h5>Type: </h5>
-                                <p> </p>
+                                <p>Tablet </p>
                               </div>
                               <div className='product-detail'>
                                 <h5>SKU: </h5>
-                                <p> </p>
+                                <p> TAB2670</p>
                               </div>
                               <div className='product-detail'>
                                 <h5>Availability: </h5>
