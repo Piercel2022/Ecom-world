@@ -20,7 +20,7 @@ const CompareProduct = () => {
                         <div className="product-card-image">
                             <img src="images/tab.jpg" className='img-fluid' alt="tablet" />
                         </div>
-                        <div className="compare-product-details">
+                        <div className="compare-product-card">
                             <h5 className="title">
                               Honor T1 7.0.3 GB Ram 8  7-inch with Wi-Fi + 3G Tablet
                             </h5>
