@@ -532,7 +532,8 @@ color: var(--color-777777);
   
 }
 
-.compare-product-card .cross{
+.compare-product-card .cross,
+.wishlist-card .cross{
   top: 15px;
   right: 15px;
   width: 25px;
