@@ -55,7 +55,7 @@ const Header = () => {
                         </Link>
                       </div>
                       <div>
-                      <Link className='d-flex align-items-center gap-10 text-white'>
+                      <Link to="/login" className='d-flex align-items-center gap-10 text-white'>
                         <img src="images/user.svg" alt="user" />
                         <p className='mb-0'>Login <br /> MyAccount</p>
                         </Link>

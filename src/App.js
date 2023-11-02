@@ -12,6 +12,7 @@ import TVHome from './pages/TVHome';
 import Accessories from './pages/Accessories'
 import CompareProduct from './pages/CompareProduct'
 import Wishlist from './pages/Wishlist';
+import Login from './pages/Login';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="tv-home" element={<TVHome />} />
         <Route path="wishlist" element={<Wishlist />} />
         <Route path="compare-products" element={<CompareProduct />} />
+        <Route path="login" element={<Login />} />
       </Routes>
     </BrowserRouter>
     </>
