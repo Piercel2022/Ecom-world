@@ -549,4 +549,7 @@ color: var(--color-777777);
   line-height: 22px;
   font-weight: 400;
 }
+.compare-product-card .product-details{
+  display: flex;
+}
 /* Compare products End*/

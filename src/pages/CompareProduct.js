@@ -26,7 +26,10 @@ const CompareProduct = () => {
                             </h5>
                             <h6 className="price">$ 100</h6>
                             <div>
-                              <div className='product-detail'></div>
+                              <div className='product-detail'>
+                                <h5>Brand: </h5>
+                                <p>Havels</p>
+                              </div>
                             </div>
                         </div>
                     </div>
