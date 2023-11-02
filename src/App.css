@@ -571,4 +571,8 @@ color: var(--color-777777);
 
 }
 
-/* Authentication begin*/
+.auth-card h3{
+  font-size: 19px;
+}
+
+/* Authentication end*/
