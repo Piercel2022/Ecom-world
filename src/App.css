@@ -541,5 +541,6 @@ color: var(--color-777777);
 .compare-product-details h5.title{
   font-size: 15px;
   line-height: 22px;
+  font-weight: 500;
 }
 /* Compare products End*/
