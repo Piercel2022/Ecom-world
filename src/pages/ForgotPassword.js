@@ -7,10 +7,10 @@ import BreadCrumb from '../components/BreadCrumb'
 const ForgotPassword = () => {
   return (
     <>
-    <Meta title={"login"} />
+    <Meta title={"forgot password"} />
     <Header />
-    <BreadCrumb title = "login" />
-    
+    <BreadCrumb title = "Forgot Password" />
+
     <Footer />
     </>
   )

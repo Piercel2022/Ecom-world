@@ -13,6 +13,7 @@ import Accessories from './pages/Accessories'
 import CompareProduct from './pages/CompareProduct'
 import Wishlist from './pages/Wishlist';
 import Login from './pages/Login';
+import ForgotPassword from './pages/ForgotPassword';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
         <Route path="wishlist" element={<Wishlist />} />
         <Route path="compare-products" element={<CompareProduct />} />
         <Route path="login" element={<Login />} />
+        <Route path="forgot-password" element={<ForgotPassword />} />
       </Routes>
     </BrowserRouter>
     </>
