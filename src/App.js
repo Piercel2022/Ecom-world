@@ -9,6 +9,7 @@ import OurStore from './pages/OurStore';
 import Blog from './pages/Blog';
 import Iphone from './pages/Iphone'
 import Accessories from './pages/Accessories'
+import CompareProduct from './pages/CompareProduct'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="store" element={<OurStore />} />
         <Route path="accessories" element={<Accessories />} />
         <Route path="iphone" element={<Iphone />} />
+        <Route path="compare-products" element={<CompareProduct />} />
       </Routes>
     </BrowserRouter>
     </>

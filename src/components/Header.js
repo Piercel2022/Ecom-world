@@ -43,7 +43,7 @@ const Header = () => {
                 <div className="col-5">
                     <div className="header-upper-links d-flex align-items-center justify-content-between">
                       <div>
-                        <Link className='d-flex align-items-center gap-10 text-white'>
+                        <Link to="/compare-products "className='d-flex align-items-center gap-10 text-white'>
                         <img src="images/compare.svg" alt="compare" />
                         <p className='mb-0'>Compare <br /> Products</p>
                         </Link>
