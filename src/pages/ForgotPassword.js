@@ -23,14 +23,10 @@ const ForgotPassword = () => {
               <div>
                 <input type="email" name="email" placeholder='Email' className="form-control" />
               </div>
-        
-              <div>
-                <Link to="/forgot-password">Forgot Password?</Link>
-              </div>
-              <div className='d-flex justify-content-center align-items-center gap-15'>
-                <button className='button border-0'>Login</button>
-                <Link className='button signup'>Signup</Link>
-              </div>
+              <div className='d-flex justify-content-center flex-column align-items-center gap-15'>
+                <button className='button border-0' type='submit' >Submit</button>
+                <Link to="/login">Cancel</Link>
+               </div>
             </form>
           </div>
         </div>
