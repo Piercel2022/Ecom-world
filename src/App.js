@@ -16,6 +16,7 @@ import Login from './pages/Login';
 import ForgotPassword from './pages/ForgotPassword';
 import Signup from './pages/Signup';
 import ResetPassword from './pages/ResetPassword';
+import SingleBlog from './pages/SingleBlog';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="signup" element={<Signup />} />
         <Route path="forgot-password" element={<ForgotPassword />} />
         <Route path="reset-password" element={<ResetPassword />} />
+        <Route path="blog/:id" element={<SingleBlog />} />
       </Routes>
     </BrowserRouter>
     </>

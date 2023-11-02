@@ -12,6 +12,7 @@ const Login = () => {
     <Header />
     <BreadCrumb title = "login" />
     <div className="login-wrapper home-wrapper-2 py-3">
+      <div className="container-xxl">
       <div className="row">
         <div className="col-12">
           <div className="auth-card">
@@ -33,6 +34,7 @@ const Login = () => {
             </form>
           </div>
         </div>
+      </div>
       </div>
     </div>
     <Footer />
