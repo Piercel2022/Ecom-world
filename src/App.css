@@ -544,4 +544,7 @@ color: var(--color-777777);
   font-weight: 500;
   color: var(--color-1c1c1b);
 }
+.compare-product-details h6.price{
+  font-size: 15px;
+}
 /* Compare products End*/
