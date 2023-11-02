@@ -598,4 +598,9 @@ color: var(--color-131921);
   background-color: var(--color-131921);
   color: white;
   }
+
+  .auth-card p{
+    font-size: 13px;
+    color: var(--color-777777);
+  }
 /* Authentication end*/
