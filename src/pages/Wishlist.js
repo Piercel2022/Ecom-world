@@ -11,7 +11,9 @@ const Wishlist = () => {
     <Meta title={"wishlist"} />
     <Header />
     <BreadCrumb title = "wishlist" />
-
+      <div className="wishlist-wrapper">
+        
+      </div>
     <Footer />
     </>
   )
