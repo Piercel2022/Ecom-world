@@ -28,7 +28,7 @@ const CompareProduct = () => {
                             <div>
                               <div className='product-detail'>
                                 <h5>Brand: </h5>
-                                <p>Havels</p>
+                                <p>Ecom world</p>
                               </div>
                             </div>
                         </div>
