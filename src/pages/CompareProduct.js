@@ -66,9 +66,9 @@ const CompareProduct = () => {
                         </div>
                         <div className="compare-product-card">
                             <h5 className="title">
-                              Honor T1 7.0.3 GB Ram 8  7-inch with Wi-Fi + 3G Tablet
+                            Sony Ultraportable speaker, Bluetooth, One Size
                             </h5>
-                            <h6 className="price mb-3 mt-3">$ 100</h6>
+                            <h6 className="price mb-3 mt-3">$ 150</h6>
                             <div>
                               <div className='product-detail'>
                                 <h5>Brand: </h5>
@@ -76,11 +76,11 @@ const CompareProduct = () => {
                               </div>
                               <div className='product-detail'>
                                 <h5>Type: </h5>
-                                <p>Tablet </p>
+                                <p>Home sound </p>
                               </div>
                               <div className='product-detail'>
                                 <h5>SKU: </h5>
-                                <p> TAB2670</p>
+                                <p> HSO2670</p>
                               </div>
                               <div className='product-detail'>
                                 <h5>Availability: </h5>
