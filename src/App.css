@@ -568,7 +568,7 @@ color: var(--color-777777);
   background-color: white;
   width: 500px;
   margin: 30px auto;
-
+  border-radius: 10px;
 }
 
 .auth-card h3{
