@@ -25,6 +25,9 @@ const CompareProduct = () => {
                               Honor T1 7.0.3 GB Ram 8  7-inch with Wi-Fi + 3G Tablet
                             </h5>
                             <h6 className="price">$ 100</h6>
+                            <div>
+                              <div className='product-detail'></div>
+                            </div>
                         </div>
                     </div>
                 </div>
