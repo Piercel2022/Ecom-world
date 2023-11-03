@@ -11,6 +11,9 @@ const SingleProduct = () => {
     <Meta title={"single product"} />
     <Header />
     <BreadCrumb title = "Single Product" />
+    <div className="main-product-wrapper  py-5 home-wrapper-2">
+     
+    </div>
 
     <Footer />
     </>
