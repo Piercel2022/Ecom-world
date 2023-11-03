@@ -10,7 +10,7 @@ const ratingChanged = (newRating) => {
   console.log(newRating);
 };
 const SingleProduct = () => {
-  const{orderedProduct, setorderedProduct} = useState(0)
+  const [orderedProduct] = useState(true);
   return (
     <>
     <Meta title={"single product"} />
@@ -32,6 +32,7 @@ const SingleProduct = () => {
             <div className="row">
               <div className="col-12">
                 <h4 className=''>Description</h4>
+                
                 <div className="bg-white p-3">
                    <p>text ever since the 1500s, when an unknown printer took a 
                     galley of type and scrambled it to make a type specimen book. 
@@ -47,6 +48,7 @@ const SingleProduct = () => {
             <div className="container-xxl">
                 <div className="row">
                 <div className="col-12">
+                <div className="review-inner-wrapper">
                   <div className="review-head d-flex justify-content-between align-items-end">
                     <div>
                       <h4>Customer Reviews</h4>
@@ -63,10 +65,13 @@ const SingleProduct = () => {
                      </div>
                     </div>
                     <div>
-                      <a href="http://">Write a Review</a>
+                      {orderedProduct &&(
+                      <div>
+                      <a className='text-dark text-decoration-underline' href="http:">{" "}Write a Review</a>
+                    </div> )}
                     </div>
                   </div>
-
+                  </div>
                 </div>
                 </div>
             </div>
