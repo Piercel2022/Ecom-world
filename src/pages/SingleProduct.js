@@ -49,7 +49,7 @@ const SingleProduct = () => {
                   <div className="review-head d-flex justify-content-between align-items-end">
                     <div>
                       <h4>Customer Reviews</h4>
-                      <div>
+                      <div className='d-flex gap-10'>
                       <ReactStars
                        count={5}
                        onChange={ratingChanged}
@@ -58,6 +58,7 @@ const SingleProduct = () => {
                        edit="false"               
                       activeColor="#ffd700"
                      />
+                     <p>Based on 2 reviews</p>
                      </div>
                     </div>
                     <div></div>
