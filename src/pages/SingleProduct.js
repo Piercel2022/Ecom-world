@@ -24,7 +24,9 @@ const SingleProduct = () => {
         </div>
 
         <div className="description-wrapper py-5 home-wrapper-2">
-           
+           <div className="container-xxl">
+            
+           </div>
         </div>
         
         <section className="review-wrapper py-5 home-wrapper-2">
