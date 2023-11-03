@@ -11,6 +11,12 @@ import Iphone from './pages/Iphone'
 import TVHome from './pages/TVHome';
 import Accessories from './pages/Accessories'
 import CompareProduct from './pages/CompareProduct'
+import Wishlist from './pages/Wishlist';
+import Login from './pages/Login';
+import ForgotPassword from './pages/ForgotPassword';
+import Signup from './pages/Signup';
+import ResetPassword from './pages/ResetPassword';
+import SingleBlog from './pages/SingleBlog';
 
 function App() {
   return (
@@ -26,7 +32,13 @@ function App() {
         <Route path="accessories" element={<Accessories />} />
         <Route path="iphone" element={<Iphone />} />
         <Route path="tv-home" element={<TVHome />} />
+        <Route path="wishlist" element={<Wishlist />} />
         <Route path="compare-products" element={<CompareProduct />} />
+        <Route path="login" element={<Login />} />
+        <Route path="signup" element={<Signup />} />
+        <Route path="forgot-password" element={<ForgotPassword />} />
+        <Route path="reset-password" element={<ResetPassword />} />
+        <Route path="blog/:id" element={<SingleBlog />} />
       </Routes>
     </BrowserRouter>
     </>
