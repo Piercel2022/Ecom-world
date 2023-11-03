@@ -15,6 +15,9 @@ const SingleProduct = () => {
      <div className="container-xxl">
         <div className="row">
             <div className="col-6">
+
+            </div>
+            <div className="col-6">
                 
             </div>
         </div>
