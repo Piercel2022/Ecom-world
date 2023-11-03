@@ -19,7 +19,7 @@ const SingleBlog = () => {
           <div className="col-12">
             <div className="single-blog-card">
               <Link to='/blog' className='d-flex align-items-center gap-10'>
-                <BiArrowBack />
+                <BiArrowBack className='fs-4'/>
                 Go Back To Blogs</Link>
                 <h3 className="title">
                     A Beautiful Sunday Morning Renaissance
