@@ -19,6 +19,7 @@ const SingleBlog = () => {
                 <h3 className="title">
                     A beautiful Sunday Morning Renaissance
                 </h3>
+                <img src="/images/blog-1.jpg" alt="blog" />
             </div>
           </div>
         </div>
