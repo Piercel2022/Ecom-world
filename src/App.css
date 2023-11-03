@@ -606,6 +606,7 @@ color: var(--color-131921);
 /* Authentication end*/
 .single-blog-card h3{
  font-size: 24px;
+ font-weight: 600;
 }
 /* Single blog */
 
