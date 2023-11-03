@@ -12,7 +12,9 @@ const SingleProduct = () => {
     <Header />
     <BreadCrumb title = "Single Product" />
     <div className="main-product-wrapper  py-5 home-wrapper-2">
-     
+     <div className="container-xxl">
+        
+     </div>
     </div>
 
     <Footer />
