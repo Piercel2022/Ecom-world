@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header'
+import {BiArrowBack} from 'react-icons/bi'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
@@ -17,7 +18,9 @@ const SingleBlog = () => {
         <div className="row">
           <div className="col-12">
             <div className="single-blog-card">
-              <Link to='/blog'>Go Back To Blogs</Link>
+              <Link to='/blog'>
+                <BiArrowBack />
+                Go Back To Blogs</Link>
                 <h3 className="title">
                     A Beautiful Sunday Morning Renaissance
                 </h3>
