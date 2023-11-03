@@ -22,6 +22,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermAndConditions from './pages/TermAndConditions';
 import RefundPolicy from './pages/RefundPolicy';
 import Laptops from './pages/Laptops';
+import SingleProduct from './pages/SingleProduct';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
         <Route path="blog" element={<Blog />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="store" element={<OurStore />} />
+        <Route path="product" element={<OurStore />} />
+        <Route path="/product/:id" element={<SingleProduct />} />
         <Route path="accessories" element={<Accessories />} />
         <Route path="iphone" element={<Iphone />} />
         <Route path="tv-home" element={<TVHome />} />

@@ -633,3 +633,22 @@ color: var(--color-131921);
 }
 
 /* policy end */
+
+/* Main Product page */
+
+.review-head{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.review-inner-wrapper{
+  background-color: white;
+  padding: 30px;
+  
+}
+.review-head h4{
+
+}
+
+.review-head p{
+
+}
+/* Main Product page end */
