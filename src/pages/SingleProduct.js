@@ -23,8 +23,8 @@ const SingleProduct = () => {
             </div>
         </div>
 
-        <div className="description-wrapper">
-
+        <div className="description-wrapper py-5 home-wrapper-2">
+           
         </div>
         
         <section className="review-wrapper py-5 home-wrapper-2">
