@@ -4,8 +4,11 @@ import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import ProductCard from '../components/ProductCard'
+import ReactStars from "react-rating-stars-component";
 
-
+const ratingChanged = (newRating) => {
+  console.log(newRating);
+};
 const SingleProduct = () => {
   return (
     <>
@@ -44,7 +47,19 @@ const SingleProduct = () => {
                 <div className="row">
                 <div className="col-12">
                   <div className="review-head d-flex justify-content-between align-items-end">
-                    <div></div>
+                    <div>
+                      <h4>Customer Reviews</h4>
+                      <div>
+                      <ReactStars
+                       count={5}
+                       onChange={ratingChanged}
+                       size={24}
+                       value={3}
+                       edit="false"               
+                      activeColor="#ffd700"
+                     />
+                     </div>
+                    </div>
                     <div></div>
                   </div>
 
