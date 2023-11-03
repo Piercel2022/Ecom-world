@@ -20,7 +20,7 @@ import SingleBlog from './pages/SingleBlog';
 import ShippingPolicy from './pages/ShippingPolicy';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermAndConditions from './pages/TermAndConditions';
-import RefundPolicy from './components/RefundPolicy';
+import RefundPolicy from './pages/RefundPolicy';
 import Laptops from './pages/Laptops';
 
 function App() {
@@ -48,7 +48,7 @@ function App() {
         <Route path="shipping-policy" element={<ShippingPolicy />} />
         <Route path="refund-policy" element={<RefundPolicy />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="term-and-conditions" element={<TermAndConditions />} />
+        <Route path="terms-conditions" element={<TermAndConditions />} />
       </Routes>
     </BrowserRouter>
     </>
