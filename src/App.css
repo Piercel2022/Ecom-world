@@ -614,6 +614,10 @@ color: var(--color-131921);
   color: var(--color-777777);
   font-size: 14px;
 }
+.single-blog-card a{
+  font-size: 15px;
+  
+}
 /* Single blog */
 
 
