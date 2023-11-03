@@ -627,6 +627,9 @@ color: var(--color-131921);
 
 /* policy */
 
-
+.policy{
+  background-color: white;
+  padding: 30px;
+}
 
 /* policy end */
