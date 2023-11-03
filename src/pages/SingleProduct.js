@@ -43,6 +43,10 @@ const SingleProduct = () => {
             <div className="container-xxl">
                 <div className="row">
                 <div className="col-12">
+                  <div className="review-head d-flex justify-content-between">
+                    <div></div>
+                    <div></div>
+                  </div>
 
                 </div>
                 </div>
