@@ -40,7 +40,7 @@ const Footer = () => {
        <h4 className='text-white mb-4'>Contact</h4>
      <div>
       <address className='text-white'>
-       Hno: 58 Avenue Marguerite Youcenar <br /> 67200 Strasbourg
+       Hno: 55 Avenue Marguerite Youcenar <br /> 67200 Strasbourg
       </address>
       <a href="tel:+33 005765361" className="mt-4 text-white d-block mb-3">+33 005765361</a>
       <a href="mailto: piercel.coder2022@gmail.com" className="mt-4 text-white d-block mb-3">piercel.coder2022@gmail.com</a>
