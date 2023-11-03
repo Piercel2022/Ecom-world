@@ -27,7 +27,9 @@ const SingleProduct = () => {
            <div className="container-xxl">
             <div className="row">
               <div className="col-12">
-                
+                <p className="bg-white p-3">
+
+                </p>
               </div>
             </div>
            </div>
