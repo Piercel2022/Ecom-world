@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
@@ -10,6 +10,7 @@ const ratingChanged = (newRating) => {
   console.log(newRating);
 };
 const SingleProduct = () => {
+  const{orderedProduct, setorderedProduct} = useState(0)
   return (
     <>
     <Meta title={"single product"} />
@@ -49,7 +50,7 @@ const SingleProduct = () => {
                   <div className="review-head d-flex justify-content-between align-items-end">
                     <div>
                       <h4>Customer Reviews</h4>
-                      <div className='d-flex gap-10'>
+                      <div className='d-flex align-items-center gap-10'>
                       <ReactStars
                        count={5}
                        onChange={ratingChanged}
@@ -61,7 +62,9 @@ const SingleProduct = () => {
                      <p className='mb-0'>Based on 2 reviews</p>
                      </div>
                     </div>
-                    <div></div>
+                    <div>
+                      <a href="http://">Write a Review</a>
+                    </div>
                   </div>
 
                 </div>
