@@ -20,7 +20,7 @@ import SingleBlog from './pages/SingleBlog';
 import ShippingPolicy from './pages/ShippingPolicy';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermAndConditions from './pages/TermAndConditions';
-import RefundPolicy from './components/RefundPolicy';
+import RefundPolicy from './pages/RefundPolicy';
 import Laptops from './pages/Laptops';
 
 function App() {
