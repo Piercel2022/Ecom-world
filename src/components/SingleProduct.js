@@ -12,7 +12,7 @@ const ratingChanged = (newRating) => {
 };
 const SingleProduct = () => {
   const [orderedProduct] = useState(true);
-  const props = {width: 400, height: 250, zoomWidth: 500, img: "https://w7.pngwing.com/pngs/942/726/png-transparent-hamilton-watch-company-automatic-watch-chronograph-watch-strap-hamilton-watches-black-watches-mechanical-watches-male-table-black-hair-watch-accessory-black-white-thumbnail.png"};
+  const props = {width: 400, height: 500, zoomWidth: 500, img: "https://w7.pngwing.com/pngs/942/726/png-transparent-hamilton-watch-company-automatic-watch-chronograph-watch-strap-hamilton-watches-black-watches-mechanical-watches-male-table-black-hair-watch-accessory-black-white-thumbnail.png"};
   return (
     <>
     <Meta title={"single product"} />
@@ -26,6 +26,9 @@ const SingleProduct = () => {
                     <div>
                     <ReactImageZoom {...props} />
                     </div>
+              </div>
+              <div className="other-product-images">
+                
               </div>
             </div>
             <div className="col-6">
