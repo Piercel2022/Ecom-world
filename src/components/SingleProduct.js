@@ -26,11 +26,16 @@ const SingleProduct = () => {
                     <div>
                     <ReactImageZoom {...props} />
                     </div>
-              </div>
-              <div className="other-product-images">
+                  
+                    </div>
+                    <div className="other-product-images d-flex flex-wrap gap-15">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
                 
+                  </div>
               </div>
-            </div>
             <div className="col-6">
                 
             </div>

@@ -650,6 +650,15 @@ border: 1px solid rgba(0, 0, 0, 0.25);
   height: 500px !important;
   object-fit: cover;
 }
+
+.other-product-images{
+  background-color: white;
+}
+.other-product-images > div{
+  width: 48%;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  }
 .description-wrapper h4, 
 .reviews-wrapper h3{
 font-size: 26px;
