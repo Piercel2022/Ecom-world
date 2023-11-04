@@ -656,4 +656,8 @@ color: var(--color-131921);
   color: var(--color-777777);
 
 }
+.review-form h4{
+  font-size: 16px;
+  color: var(--color-777777);
+}
 /* Main Product page end */

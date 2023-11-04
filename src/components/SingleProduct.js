@@ -71,7 +71,8 @@ const SingleProduct = () => {
                     </div> )}
                     </div>
                   </div>
-                  <div className="review-form">
+                  <div className="review-form py-4">
+                    <h4>Write a Review</h4>
                   <form action="" className='d-flex flex-column gap-15'>
                 <div>
                 <input type="text" className="form-control" placeholder="Name" />
