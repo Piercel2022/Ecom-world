@@ -637,10 +637,13 @@ color: var(--color-131921);
 /* Main Product page */
 
 .description-wrapper h4{
-
+font-size: 26px;
+color: var(--color-1c1c1b);
 }
 
 .description-wrapper p{
+  font-size: 14px;
+  color: var(--color-777777);
 }
 .review-head{
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
