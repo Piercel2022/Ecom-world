@@ -638,6 +638,7 @@ color: var(--color-131921);
 
 .main-product-image{
   padding: 20px;
+  background-color: white;
 }
 .description-wrapper h4, 
 .reviews-wrapper h3{
