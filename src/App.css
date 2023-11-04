@@ -636,6 +636,9 @@ color: var(--color-131921);
 
 /* Main Product page */
 
+.main-product-image{
+  
+}
 .description-wrapper h4, 
 .reviews-wrapper h3{
 font-size: 26px;
