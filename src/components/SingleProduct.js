@@ -75,11 +75,16 @@ const SingleProduct = () => {
                   <form action="" className='d-flex flex-column gap-15'>
                 <div>
                 <input type="text" className="form-control" placeholder="Name" />
-                </div>
                 <div>
-                <input type="text" className="form-control" placeholder="Email" />
+                <ReactStars
+                 count={5}
+                 onChange={ratingChanged}
+                 size={24}
+                 value={3}
+                 edit="true"               
+                activeColor="#ffd700"
+                />
                 </div>
-                <div>
                 <input type="tel" className="form-control" placeholder="Mobile Number" />
                 </div>
                 <div>
