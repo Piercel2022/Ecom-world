@@ -660,4 +660,8 @@ color: var(--color-131921);
   font-size: 16px;
   color: var(--color-777777);
 }
+
+.review p {
+  font-size: 14px;
+}
 /* Main Product page end */

@@ -105,6 +105,7 @@ const SingleProduct = () => {
                      edit="true"               
                      activeColor="#ffd700"
                     />
+                    <p></p>
                     </div>
                   </div>
                   </div>
