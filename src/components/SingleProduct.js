@@ -95,7 +95,7 @@ const SingleProduct = () => {
                 </div>
               </form>
                   </div>
-                  <div className='reviews'>
+                  <div className='reviews mt-3'>
                     <div className="review">
                     <div className='d-flex align-items-center gap-10'>
                     <h6 className='mb-0'>Navdeep</h6>
