@@ -653,6 +653,7 @@ border: 1px solid rgba(0, 0, 0, 0.25);
 
 .other-product-images{
   background-color: white;
+  padding: 20px;
 }
 .other-product-images > div{
   width: 48%;

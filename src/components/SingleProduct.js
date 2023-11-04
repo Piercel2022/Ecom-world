@@ -12,7 +12,7 @@ const ratingChanged = (newRating) => {
 };
 const SingleProduct = () => {
   const [orderedProduct] = useState(true);
-  const props = {width: 400, height: 500, zoomWidth: 500, img: "https://w7.pngwing.com/pngs/942/726/png-transparent-hamilton-watch-company-automatic-watch-chronograph-watch-strap-hamilton-watches-black-watches-mechanical-watches-male-table-black-hair-watch-accessory-black-white-thumbnail.png"};
+  const props = {width: 400, height: 500, zoomWidth: 500, img: "https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920"};
   return (
     <>
     <Meta title={"single product"} />
@@ -29,10 +29,18 @@ const SingleProduct = () => {
                   
                     </div>
                     <div className="other-product-images d-flex flex-wrap gap-15">
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
+                      <div>
+                        <img src="https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920" className='img-fluid' alt="" />
+                      </div>
+                      <div>
+                      <img src="https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920" className='img-fluid' alt="" />
+                      </div>
+                      <div>
+                      <img src="https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920" className='img-fluid' alt="" />
+                      </div>
+                      <div>
+                      <img src="https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920" className='img-fluid' alt="" />
+                      </div>
                 
                   </div>
               </div>
