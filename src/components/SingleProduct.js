@@ -5,12 +5,14 @@ import Meta from './Meta'
 import BreadCrumb from './BreadCrumb'
 import ProductCard from './ProductCard'
 import ReactStars from 'react-rating-stars-component';
+import ReactImageZoom from 'react-image-zoom';
 
 const ratingChanged = (newRating) => {
   console.log(newRating);
 };
 const SingleProduct = () => {
   const [orderedProduct] = useState(true);
+  const props = {width: 400, height: 250, zoomWidth: 500, img: "https://w7.pngwing.com/pngs/942/726/png-transparent-hamilton-watch-company-automatic-watch-chronograph-watch-strap-hamilton-watches-black-watches-mechanical-watches-male-table-black-hair-watch-accessory-black-white-thumbnail.png"};
   return (
     <>
     <Meta title={"single product"} />
@@ -21,7 +23,9 @@ const SingleProduct = () => {
         <div className="row">
             <div className="col-6">
               <div className="main-product-image">
-
+                    <div>
+                    <ReactImageZoom {...props} />
+                    </div>
               </div>
             </div>
             <div className="col-6">

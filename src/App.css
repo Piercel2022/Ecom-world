@@ -642,6 +642,13 @@ color: var(--color-131921);
   border-radius: 10px;
   
 }
+.main-product-image > div{
+border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.main-product-image img{
+  width: 100% !important;
+  height: 500px !important;
+}
 .description-wrapper h4, 
 .reviews-wrapper h3{
 font-size: 26px;
