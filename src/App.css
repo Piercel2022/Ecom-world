@@ -663,5 +663,7 @@ color: var(--color-131921);
 
 .review p {
   font-size: 14px;
+  color: var(--color-777777);
+
 }
 /* Main Product page end */
