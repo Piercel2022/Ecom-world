@@ -75,7 +75,6 @@ const SingleProduct = () => {
                     <h4>Write a Review</h4>
                   <form action="" className='d-flex flex-column gap-15'>
                 <div>
-                <input type="text" className="form-control" placeholder="Name" />
                 <div>
                 <ReactStars
                  count={5}
@@ -86,16 +85,27 @@ const SingleProduct = () => {
                 activeColor="#ffd700"
                 />
                 </div>
-                <input type="tel" className="form-control" placeholder="Mobile Number" />
-                </div>
+                
                 <div>
                 <textarea name="" className="w-100 form-control" placeholder="Message" id="" cols="30" rows="10" />
                 </div>
-                <div>
-                  <button className="button border-0">Submit</button>
+                <div className='d-flex justify-content-end py-3'>
+                  <button className="button border-0">Submit a Review</button>
                 </div>
-                
+                </div>
               </form>
+                  </div>
+                  <div className='reviews'>
+                    <div className="review">
+                    <ReactStars
+                     count={5}
+                     onChange={ratingChanged}
+                     size={24}
+                     value={3}
+                     edit="true"               
+                     activeColor="#ffd700"
+                    />
+                    </div>
                   </div>
                   </div>
                 </div>
