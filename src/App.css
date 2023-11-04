@@ -638,6 +638,7 @@ color: var(--color-131921);
 
 .review-head{
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
 
 }
 .review-inner-wrapper{
@@ -650,8 +651,9 @@ color: var(--color-131921);
  color: var(--color-1c1c1b);
 }
 
-.review-head p{
-  color: var(--color-777777)
+.review-head p, 
+.review-head a{
+  color: var(--color-777777);
 
 }
 /* Main Product page end */

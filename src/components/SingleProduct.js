@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Meta from '../components/Meta'
-import BreadCrumb from '../components/BreadCrumb'
-import ProductCard from '../components/ProductCard'
-import ReactStars from "react-rating-stars-component";
+import Header from './Header'
+import Footer from './Footer'
+import Meta from './Meta'
+import BreadCrumb from './BreadCrumb'
+import ProductCard from './ProductCard'
+import ReactStars from 'react-rating-stars-component';
 
 const ratingChanged = (newRating) => {
   console.log(newRating);
@@ -27,7 +27,7 @@ const SingleProduct = () => {
             </div>
         </div>
 
-        <div className="description-wrapper py-5 home-wrapper-2">
+  <div className="description-wrapper py-5 home-wrapper-2">
            <div className="container-xxl">
             <div className="row">
               <div className="col-12">
@@ -44,7 +44,7 @@ const SingleProduct = () => {
            </div>
         </div>
         
-        <section className="review-wrapper py-5 home-wrapper-2">
+  <section className="review-wrapper py-5 home-wrapper-2">
             <div className="container-xxl">
                 <div className="row">
                 <div className="col-12">
@@ -75,7 +75,7 @@ const SingleProduct = () => {
                 </div>
                 </div>
             </div>
-        </section>
+    </section>
     <section className="popular-wrapper py-5 home-wrapper-2">
     <div className="container-xxl">
       <div className="row">

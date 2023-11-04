@@ -22,7 +22,10 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import TermAndConditions from './pages/TermAndConditions';
 import RefundPolicy from './pages/RefundPolicy';
 import Laptops from './pages/Laptops';
-import SingleProduct from './pages/SingleProduct';
+import SingleProduct from './components/SingleProduct';
+import HeadPhones from './pages/HeadPhones';
+import Tablets from './pages/Tablets';
+import Watches from './pages/Watches';
 
 function App() {
   return (
@@ -47,6 +50,9 @@ function App() {
         <Route path="reset-password" element={<ResetPassword />} />
         <Route path="blog/:id" element={<SingleBlog />} />
         <Route path="laptops" element={<Laptops />} />
+        <Route path="headphones" element={<HeadPhones />} />
+        <Route path="tablets" element={<Tablets />} />
+        <Route path="watches" element={<Watches />} />
         <Route path="shipping-policy" element={<ShippingPolicy />} />
         <Route path="refund-policy" element={<RefundPolicy />} />
         <Route path="privacy-policy" element={<PrivacyPolicy />} />

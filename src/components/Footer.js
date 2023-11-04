@@ -85,7 +85,7 @@ const Footer = () => {
           <Link to ='/laptops' className='text-white mb-1 py-2'>Laptops</Link>
           <Link to ='/headphones' className='text-white mb-1 py-2'>Headphones</Link>
           <Link to ='/tablets' className='text-white mb-1 py-2'>Tablets</Link>
-          <Link to ='/watches' className='text-white mb-1 py-2'>Watch</Link>
+          <Link to ='/watches' className='text-white mb-1 py-2'>Watches</Link>
         </div>
         </div>
       

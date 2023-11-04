@@ -6,7 +6,11 @@ import BreadCrumb from '../components/BreadCrumb'
 const HeadPhones = () => {
   return (
     <>
-      
+    <Meta title={"headphones"} />
+    <Header />
+    <BreadCrumb title = "Headphones" />
+    
+    <Footer />
     </>
   )
 }
