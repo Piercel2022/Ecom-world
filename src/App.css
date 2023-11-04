@@ -640,6 +640,7 @@ color: var(--color-131921);
 .reviews-wrapper h3{
 font-size: 26px;
 color: var(--color-1c1c1b);
+margin-bottom: 10px;
 }
 
 .description-wrapper p{
