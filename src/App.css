@@ -637,7 +637,7 @@ color: var(--color-131921);
 /* Main Product page */
 
 .main-product-image{
-  
+  padding: 20px;
 }
 .description-wrapper h4, 
 .reviews-wrapper h3{

@@ -17,7 +17,7 @@ const SingleProduct = () => {
     <Header />
     <BreadCrumb title = "Single Product" />
     <div className="main-product-wrapper  py-5 home-wrapper-2">
-     <div className="container-xxl p-3 bg-white">
+     <div className="container-xxl">
         <div className="row">
             <div className="col-6">
               <div className="main-product-image">
