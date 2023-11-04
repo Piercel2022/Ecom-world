@@ -20,7 +20,9 @@ const SingleProduct = () => {
      <div className="container-xxl">
         <div className="row">
             <div className="col-6">
-
+              <div className="main-product-image">
+                
+              </div>
             </div>
             <div className="col-6">
                 
