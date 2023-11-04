@@ -97,8 +97,8 @@ const SingleProduct = () => {
                   </div>
                   <div className='reviews'>
                     <div className="review">
-                    <div className='d-flex align-items-center '>
-                    <h6>Navdeep</h6>
+                    <div className='d-flex align-items-center gap-10'>
+                    <h6 className='mb-0'>Navdeep</h6>
                     <ReactStars
                      count={5}
                      onChange={ratingChanged}
