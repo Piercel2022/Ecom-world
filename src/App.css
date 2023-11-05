@@ -719,7 +719,10 @@ margin-bottom: 10px;
   -webkit-border-radius: 10px;
   
 }
-
+.main-product-details h3.title{
+  font-size: 18px;
+  font-weight: 600;
+}
 .border-bottom{
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
