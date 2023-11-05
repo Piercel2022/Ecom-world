@@ -66,16 +66,16 @@ const SingleProduct = () => {
                   </div>
                   <div className='border-bottom py-3'>
                     <div className='d-flex align-items-center gap-10'>
-                      <h3> ABC: </h3><p>Gfd</p>
+                      <h3 className='product-heading'> ABC: </h3><p className='product-data'>Gfd</p>
                     </div>
                     <div className='d-flex align-items-center gap-10'>
-                    <h3> ABC: </h3><p>Gfd</p>
+                    <h3 className='product-heading'> ABC: </h3><p className='product-data'>Gfd</p>
                     </div>
                     <div className='d-flex align-items-center gap-10'>
-                    <h3> ABC: </h3><p>Gfd</p>
+                    <h3 className='product-heading'> ABC: </h3><p className='product-data'>Gfd</p>
                     </div>
                     <div className='d-flex align-items-center gap-10'>
-                    <h3> ABC: </h3><p>Gfd</p>
+                    <h3 className='product-heading'> ABC: </h3><p className='product-data'>Gfd</p>
                     </div>
                   </div>
                   
