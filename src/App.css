@@ -719,4 +719,8 @@ margin-bottom: 10px;
   -webkit-border-radius: 10px;
   
 }
+
+.border-bottom{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 /* Main Product page end */
