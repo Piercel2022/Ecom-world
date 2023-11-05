@@ -62,13 +62,21 @@ const SingleProduct = () => {
                      />
                      <p className='mb-0'>( 2 reviews ) </p>
                     </div>
-                    <a href="#review">Write a review</a>
+                    <a className='review-btn' href="#review">Write a review</a>
                   </div>
-                  <div className='border-bottom'>
-                    <div className='d-flex align-items-center gap-10'></div>
-                    <div className='d-flex align-items-center gap-10'></div>
-                    <div className='d-flex align-items-center gap-10'></div>
-                    <div className='d-flex align-items-center gap-10'></div>
+                  <div className='border-bottom py-3'>
+                    <div className='d-flex align-items-center gap-10'>
+                      <h3> ABC: </h3><p>Gfd</p>
+                    </div>
+                    <div className='d-flex align-items-center gap-10'>
+                    <h3> ABC: </h3><p>Gfd</p>
+                    </div>
+                    <div className='d-flex align-items-center gap-10'>
+                    <h3> ABC: </h3><p>Gfd</p>
+                    </div>
+                    <div className='d-flex align-items-center gap-10'>
+                    <h3> ABC: </h3><p>Gfd</p>
+                    </div>
                   </div>
                   
                 </div>
