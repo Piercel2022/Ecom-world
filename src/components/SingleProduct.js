@@ -50,7 +50,7 @@ const SingleProduct = () => {
                     <h3>Day Date and calendar watches, calibre, watches of Switzerland UK</h3>
                   </div>
                   <div>
-                    <p className="price border-bottom">$ 100,00</p>
+                    <p className="price border-bottom py-3">$ 100,00</p>
                     <div className='d-flex align-items-center'>
                     <ReactStars
                      count={5}
@@ -63,6 +63,12 @@ const SingleProduct = () => {
                      <p className='mb-0'>( 2 reviews ) </p>
                     </div>
                     <a href="#review">Write a review</a>
+                  </div>
+                  <div className='border-bottom'>
+                    <div className='d-flex align-items-center gap-10'></div>
+                    <div className='d-flex align-items-center gap-10'></div>
+                    <div className='d-flex align-items-center gap-10'></div>
+                    <div className='d-flex align-items-center gap-10'></div>
                   </div>
                   
                 </div>
