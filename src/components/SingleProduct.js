@@ -46,7 +46,9 @@ const SingleProduct = () => {
               </div>
             <div className="col-6">
                 <div className="main-product-details">
-                  
+                  <div>
+                    <h3>Day Date and calendar watches, calibre, watches of Switzerland UK</h3>
+                  </div>
                 </div>
             </div>
           </div>

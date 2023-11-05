@@ -715,5 +715,8 @@ margin-bottom: 10px;
 .main-product-details{
   padding: 20px;
   background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  
 }
 /* Main Product page end */
