@@ -60,8 +60,9 @@ const SingleProduct = () => {
                       edit="true"               
                       activeColor="#ffd700"
                      />
-                     <p className='mb-0'>Based on 2 reviews</p>
+                     <p className='mb-0'>( 2 reviews ) </p>
                     </div>
+                    <a href="">Write a review</a>
                   </div>
                   
                 </div>
