@@ -45,7 +45,9 @@ const SingleProduct = () => {
                   </div>
               </div>
             <div className="col-6">
-                
+                <div className="main-product-details">
+                  
+                </div>
             </div>
           </div>
         </div>

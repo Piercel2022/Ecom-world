@@ -26,6 +26,7 @@ import SingleProduct from './components/SingleProduct';
 import HeadPhones from './pages/HeadPhones';
 import Tablets from './pages/Tablets';
 import Watches from './pages/Watches';
+import Faq from './pages/Faq';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="reset-password" element={<ResetPassword />} />
         <Route path="blog/:id" element={<SingleBlog />} />
         <Route path="laptops" element={<Laptops />} />
+        <Route path="faq" element={<Faq />} />
         <Route path="headphones" element={<HeadPhones />} />
         <Route path="tablets" element={<Tablets />} />
         <Route path="watches" element={<Watches />} />

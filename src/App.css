@@ -651,6 +651,12 @@ border: 1px solid rgba(0, 0, 0, 0.25);
   object-fit: cover;
 }
 
+.main-product-image .js-image-zoom_zoomed-image{
+  left: 20px !important;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+}
 .other-product-images{
   background-color: white;
   padding: 20px;
@@ -705,5 +711,8 @@ margin-bottom: 10px;
   font-size: 14px;
   color: var(--color-777777);
 
+}
+.main-product-details{
+  
 }
 /* Main Product page end */
