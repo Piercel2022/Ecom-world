@@ -722,6 +722,7 @@ margin-bottom: 10px;
 .main-product-details h3.title{
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 10px;
   color: var(--color-1c1c1b);
 }
 
