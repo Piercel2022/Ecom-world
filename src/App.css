@@ -724,6 +724,12 @@ margin-bottom: 10px;
   font-weight: 600;
   color: var(--color-1c1c1b);
 }
+
+.main-product-details p.price{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
 .border-bottom{
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
