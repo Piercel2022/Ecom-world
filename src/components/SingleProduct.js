@@ -68,7 +68,7 @@ const SingleProduct = () => {
                     <div className='d-flex align-items-center gap-10 my-2'>
                       <h3 className='product-heading'> ABC: </h3><p className='product-data'>Gfd</p>
                     </div>
-                    <div className='d-flex align-items-center gap-10 '>
+                    <div className='d-flex align-items-center gap-10 my-2'>
                     <h3 className='product-heading'> ABC: </h3><p className='product-data'>Gfd</p>
                     </div>
                     <div className='d-flex align-items-center gap-10'>
