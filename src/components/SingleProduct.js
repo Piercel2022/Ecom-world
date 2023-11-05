@@ -45,7 +45,41 @@ const SingleProduct = () => {
                   </div>
               </div>
             <div className="col-6">
-                
+                <div className="main-product-details">
+                  <div className='border-bottom title'>
+                    <h3>Day Date and calendar watches, calibre, watches of Switzerland UK</h3>
+                  </div>
+                  <div>
+                    <p className="price border-bottom py-3">$ 100,00</p>
+                    <div className='d-flex align-items-center'>
+                    <ReactStars
+                     count={5}
+                     onChange={ratingChanged}
+                     size={24}
+                     value={3}
+                      edit="true"               
+                      activeColor="#ffd700"
+                     />
+                     <p className='mb-0'>( 2 reviews ) </p>
+                    </div>
+                    <a className='review-btn' href="#review">Write a review</a>
+                  </div>
+                  <div className='border-bottom py-3'>
+                    <div className='d-flex align-items-center gap-10'>
+                      <h3> ABC: </h3><p>Gfd</p>
+                    </div>
+                    <div className='d-flex align-items-center gap-10'>
+                    <h3> ABC: </h3><p>Gfd</p>
+                    </div>
+                    <div className='d-flex align-items-center gap-10'>
+                    <h3> ABC: </h3><p>Gfd</p>
+                    </div>
+                    <div className='d-flex align-items-center gap-10'>
+                    <h3> ABC: </h3><p>Gfd</p>
+                    </div>
+                  </div>
+                  
+                </div>
             </div>
           </div>
         </div>
@@ -72,12 +106,12 @@ const SingleProduct = () => {
             <div className="container-xxl">
                 <div className="row">
                 <div className="col-12">
-                  <h4>Reviews</h4>
+                  <h4 id='review' >Reviews</h4>
                 <div className="review-inner-wrapper">
                   <div className="review-head d-flex justify-content-between align-items-end">
                     <div>
                       <h4>Customer Reviews</h4>
-                      <div className='d-flex align-items-center gap-10'>
+                      <div id='review' className='d-flex align-items-center gap-10'>
                       <ReactStars
                        count={5}
                        onChange={ratingChanged}
