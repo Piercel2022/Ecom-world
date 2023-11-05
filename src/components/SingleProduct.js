@@ -60,7 +60,7 @@ const SingleProduct = () => {
                       edit="true"               
                       activeColor="#ffd700"
                      />
-                     <p className='mb-0'>( 2 reviews ) </p>
+                     <p className='mb-0 t-review'>( 2 reviews ) </p>
                     </div>
                     <a className='review-btn' href="#review">Write a review</a>
                   </div>
