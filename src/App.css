@@ -749,5 +749,6 @@ color: var(--color-1c1c1b);
 .product-data{
   font-size: 13px;
   color: var(--color-777777);
+  margin-bottom: 0px;
 }
 /* Main Product page end */
