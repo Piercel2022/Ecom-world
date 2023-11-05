@@ -46,12 +46,12 @@ const SingleProduct = () => {
               </div>
             <div className="col-6">
                 <div className="main-product-details">
-                  <div className='title'>
+                  <div className='border-bottom title'>
                     <h3>Day Date and calendar watches, calibre, watches of Switzerland UK</h3>
                   </div>
-                  <border-bottom>
-                    <p className="price">$ 100,00</p>
-                  </border-bottom>
+                  <div>
+                    <p className="price border-bottom">$ 100,00</p>
+                  </div>
                 </div>
             </div>
           </div>
