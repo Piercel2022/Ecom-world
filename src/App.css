@@ -745,6 +745,7 @@ margin-bottom: 10px;
 .product-heading{
 font-size: 14px;
 color: var(--color-1c1c1b);
+margin-bottom: 0px;
 }
 .product-data{
   font-size: 13px;
