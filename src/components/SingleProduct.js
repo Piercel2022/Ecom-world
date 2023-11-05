@@ -62,7 +62,7 @@ const SingleProduct = () => {
                      />
                      <p className='mb-0'>( 2 reviews ) </p>
                     </div>
-                    <a href="">Write a review</a>
+                    <a href="#review">Write a review</a>
                   </div>
                   
                 </div>
@@ -92,12 +92,12 @@ const SingleProduct = () => {
             <div className="container-xxl">
                 <div className="row">
                 <div className="col-12">
-                  <h4>Reviews</h4>
+                  <h4 id='review' >Reviews</h4>
                 <div className="review-inner-wrapper">
                   <div className="review-head d-flex justify-content-between align-items-end">
                     <div>
                       <h4>Customer Reviews</h4>
-                      <div className='d-flex align-items-center gap-10'>
+                      <div id='review' className='d-flex align-items-center gap-10'>
                       <ReactStars
                        count={5}
                        onChange={ratingChanged}
