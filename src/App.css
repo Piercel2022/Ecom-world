@@ -742,4 +742,12 @@ margin-bottom: 10px;
 .border-bottom{
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
 }
+.product-heading{
+font-size: 14px;
+color: var(--color-1c1c1b);
+}
+.product-data{
+  font-size: 13px;
+  color: var(--color-777777);
+}
 /* Main Product page end */
