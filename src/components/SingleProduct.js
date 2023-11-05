@@ -51,7 +51,19 @@ const SingleProduct = () => {
                   </div>
                   <div>
                     <p className="price border-bottom">$ 100,00</p>
+                    <div className='d-flex align-items-center'>
+                    <ReactStars
+                     count={5}
+                     onChange={ratingChanged}
+                     size={24}
+                     value={3}
+                      edit="true"               
+                      activeColor="#ffd700"
+                     />
+                     <p className='mb-0'>Based on 2 reviews</p>
+                    </div>
                   </div>
+                  
                 </div>
             </div>
           </div>
