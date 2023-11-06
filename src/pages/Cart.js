@@ -38,7 +38,12 @@ const Cart = () => {
               </div>
             <div className='cart-col-3 d-flex align-items-center gap-15'>
               <div>
-                <input type="number" className='form-control' name="" id="" />
+                <input 
+                type="number" 
+                className='form-control' 
+                min={1}
+                max={10}
+                name="" id="" />
               </div>
               <div>
               <AiOutlineDelete className='fs-5' />
