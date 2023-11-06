@@ -108,12 +108,18 @@ const SingleProduct = () => {
                       max={10}
                       />
                     </div>
-                    <div className='d-flex align-items gap-30'>
+                    <div className='d-flex align-items-center gap-30'>
                        <button className='button border-0' type='submit'>Add To Cart
 
                        </button>
                        <button className='button signup'>Buy it now</button>
                     </div>
+                    </div>
+                    <div  className='d-flex align-items-center gap-15'>
+                      <div>
+                        <a href="">Add To Compare</a>
+                      </div>
+                      <div></div>
                     </div>
                     
                   </div>
