@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
+import speakers from '../home-speakers.jpg'
 const Cart = () => {
   return (
     <>
@@ -21,7 +22,16 @@ const Cart = () => {
             <h4 className='cart-col-4'>TOTAL</h4>
           </div>
           <div className="cart-data d-flex justify-content-between align-items-center">
-            <div className='cart-col-1'></div>
+            <div className='cart-col-1 d-flex align-items-center'>
+              <div className='w-25'>
+                <img src={speakers} className='img-fluid' alt="speaker" />
+              </div>
+              <div>
+                <h5 className="title">Home Speakers</h5>
+                <p className="color">Black</p>
+                <p className="size">L</p>
+              </div>
+            </div>
             <div className='cart-col-2'></div>
             <div className='cart-col-3'></div>
             <div className='cart-col-4'></div>
