@@ -6,6 +6,7 @@ import BreadCrumb from './BreadCrumb'
 import ProductCard from './ProductCard'
 import ReactStars from 'react-rating-stars-component';
 import ReactImageZoom from 'react-image-zoom';
+import  Color from './Color'
 
 const ratingChanged = (newRating) => {
   console.log(newRating);
@@ -82,7 +83,20 @@ const SingleProduct = () => {
                     <h3 className='product-heading'> Avalaibility: </h3><p className='product-data'>In Stock</p>
                     </div>
                     <div className='d-flex flex-column gap-10 my-2'>
-                    <h3 className='product-heading'> Size: </h3><p className='product-data'>Gfd</p>
+                    <h3 className='product-heading'> Size: </h3>
+                    <div className='d-flex flex-wrap gap-15'>
+                      <span className="badge border border-1 bg-white text-dark border-secondary">S</span>
+                      <span className="badge border border-1 bg-white text-dark border-secondary">M</span>
+                      <span className="badge border border-1 bg-white text-dark border-secondary">L</span>
+                      <span className="badge border border-1 bg-white text-dark border-secondary">XXL</span>
+                    </div>
+                    </div>
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                    <h3 className='product-heading'> Color: </h3>
+                    <Color />
+                    </div>
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                    <h3 className='product-heading'> Quantity: </h3><p className='product-data'>Gfd</p>
                     </div>
                   </div>
                   
