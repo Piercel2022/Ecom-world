@@ -6,6 +6,7 @@ import BreadCrumb from './BreadCrumb'
 import ProductCard from './ProductCard'
 import ReactStars from 'react-rating-stars-component';
 import ReactImageZoom from 'react-image-zoom';
+import  Color from './Color'
 
 const ratingChanged = (newRating) => {
   console.log(newRating);
@@ -64,18 +65,47 @@ const SingleProduct = () => {
                     </div>
                     <a className='review-btn' href="#review">Write a review</a>
                   </div>
-                  <div className='border-bottom py-3'>
-                    <div className='d-flex align-items-center gap-10'>
-                      <h3> ABC: </h3><p>Gfd</p>
+                  <div className='border-bottom py-2'></div>
+                  <div className=' py-3'>
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                      <h3 className='product-heading'> Type: </h3><p className='product-data'>Watch</p>
                     </div>
-                    <div className='d-flex align-items-center gap-10'>
-                    <h3> ABC: </h3><p>Gfd</p>
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                    <h3 className='product-heading'> Brand: </h3><p className='product-data'>Ecom world</p>
                     </div>
-                    <div className='d-flex align-items-center gap-10'>
-                    <h3> ABC: </h3><p>Gfd</p>
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                    <h3 className='product-heading'> Category: </h3><p className='product-data'>Watch</p>
                     </div>
-                    <div className='d-flex align-items-center gap-10'>
-                    <h3> ABC: </h3><p>Gfd</p>
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                    <h3 className='product-heading'> Tags: </h3><p className='product-data'>Watch</p>
+                    </div>
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                    <h3 className='product-heading'> Avalaibility: </h3><p className='product-data'>In Stock</p>
+                    </div>
+                    <div className='d-flex flex-column gap-10 mt-2 mb-3'>
+                    <h3 className='product-heading'> Size: </h3>
+                    <div className='d-flex flex-wrap gap-15'>
+                      <span className="badge border border-1 bg-white text-dark border-secondary">S</span>
+                      <span className="badge border border-1 bg-white text-dark border-secondary">M</span>
+                      <span className="badge border border-1 bg-white text-dark border-secondary">L</span>
+                      <span className="badge border border-1 bg-white text-dark border-secondary">XXL</span>
+                    </div>
+                    </div>
+                    <div className='d-flex align-items-center gap-10 my-2 mt-2 mb-3'>
+                    <h3 className='product-heading'> Color: </h3>
+                    <Color />
+                    </div>
+                    <div className='d-flex align-items-center gap-10 my-2 mt-2 mb-3'>
+                    <h3 className='product-heading'> Quantity: </h3>
+                    <div>
+                      <input 
+                      type="number" 
+                      name="" 
+                      style={{width: "60px"}}
+                      min={1}
+                      max={10}
+                      />
+                    </div>
                     </div>
                   </div>
                   
