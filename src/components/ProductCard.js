@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from 'react-router-dom';
-import prodcompare from './compare.svg'
+
 import view from './view.svg'
 import wish from './wish.svg'
 import addcart from './add-cart.svg'
@@ -23,8 +23,8 @@ const ProductCard = (props) => {
               <Link><img src={wish} alt="wishlist" /></Link>
              </div>
             <div className="product-image">
-                <img src="./images/laptop.jpg"className='img-fluid' alt="" />
-                <img src="./images/speaker.jpg" className='img-fluid' alt="" />
+                <img src="../images/laptop.jpg"className='img-fluid' alt="" />
+                <img src="../images/speaker.jpg" className='img-fluid' alt="" />
             </div>
             <div className="product-details">
                 <h6 className="brand">
@@ -53,10 +53,10 @@ const ProductCard = (props) => {
                     <img src={view} alt="view" />
                     </Link>
                     <Link>    
-                    <img src={prodcompare} alt="compare" />
+                    <img src="../images/compare.svg" alt="compare" />
                     </Link>
                     <Link>    
-                    <img src="./images/add-cart.svg" alt="addcart" />
+                    <img src={addcart} alt="addcart" />
                     </Link>
                   </div>
                 </div>
@@ -71,8 +71,8 @@ const ProductCard = (props) => {
       <Link><img src={wish} alt="wishlist" /></Link>
      </div>
     <div className="product-image">
-        <img src="./images/laptop.jpg"className='img-fluid' alt="" />
-        <img src="./images/speaker.jpg" className='img-fluid' alt="" />
+        <img src="../images/laptop.jpg"className='img-fluid' alt="" />
+        <img src="../images/speaker.jpg" className='img-fluid' alt="" />
     </div>
     <div className="product-details">
         <h6 className="brand">
@@ -101,10 +101,10 @@ const ProductCard = (props) => {
             <img src={view} alt="view" />
             </Link>
             <Link>    
-            <img src={prodcompare} alt="compare" />
+            <img src="../images/compare.svg" alt="compare" />
             </Link>
             <Link>    
-            <img src="./images/add-cart.svg" alt="addcart" />
+            <img src={addcart} alt="addcart" />
             </Link>
           </div>
         </div>
