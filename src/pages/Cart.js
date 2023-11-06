@@ -35,7 +35,12 @@ const Cart = () => {
             <div className='cart-col-2'>
               <h5 className="price">$ 500</h5>
               </div>
-            <div className='cart-col-3'>1</div>
+            <div className='cart-col-3'>
+              <div>
+                <input type="number" className='form-control' name="" id="" />
+              </div>
+              <div></div>
+            </div>
             <div className='cart-col-4'>$ 500</div>
           </div>
         </div>
