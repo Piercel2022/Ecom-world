@@ -7,6 +7,8 @@ import ProductCard from './ProductCard'
 import ReactStars from 'react-rating-stars-component';
 import ReactImageZoom from 'react-image-zoom';
 import  Color from './Color'
+import {TbGitCompare} from 'react-icons/tb'
+import {AiOutlineHeart} from 'react-icons/ai'
 
 
 const ratingChanged = (newRating) => {
@@ -117,9 +119,11 @@ const SingleProduct = () => {
                     </div>
                     <div  className='d-flex align-items-center gap-15'>
                       <div>
-                        <a href="">Add To Compare</a>
+                        <a href=""> <TbGitCompare />Add To Compare</a>
                       </div>
-                      <div></div>
+                      <div>
+                        <a href=""><AiOutlineHeart />Add To Wishlist</a>
+                      </div>
                     </div>
                     
                   </div>

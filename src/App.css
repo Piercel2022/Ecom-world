@@ -724,6 +724,10 @@ margin-bottom: 10px;
   border-radius: 10px;
   
 }
+.main-product-details a{
+  font-size: 13px;
+  color: var(--color-777777);
+}
 .main-product-details h3.title{
   font-size: 18px;
   font-weight: 600;
