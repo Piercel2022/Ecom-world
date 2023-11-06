@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import speakers from '../home-speakers.jpg'
-import {AiOutlineDelete} from 'react-icons/ai'
+import {AiFillDelete} from 'react-icons/ai'
 const Cart = () => {
   return (
     <>
@@ -29,8 +29,8 @@ const Cart = () => {
               </div>
               <div className='w-75'>
                 <h5 className="title">Home Speakers</h5>
-                <p className="color">Black</p>
-                <p className="size">L</p>
+                <p>Color: Black</p>
+                <p>Size: L</p>
               </div>
             </div>
             <div className='cart-col-2'>
@@ -46,7 +46,7 @@ const Cart = () => {
                 name="" id="" />
               </div>
               <div>
-              <AiOutlineDelete className='fs-5' />
+              <AiFillDelete className='fs-5 text-danger' />
               </div>
             </div>
             <div className='cart-col-4'>$ 500</div>
