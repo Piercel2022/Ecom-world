@@ -108,14 +108,14 @@ const SingleProduct = () => {
                       max={10}
                       />
                     </div>
-                    
-                    </div>
                     <div className='d-flex align-items gap-30'>
-                       <button className='button border-0' type='submit'>Login
+                       <button className='button border-0' type='submit'>Add To Cart
 
                        </button>
-                       <Link to='/signup' className='button signup'>Sign up</Link>
+                       <button className='button signup'>Buy it now</button>
                     </div>
+                    </div>
+                    
                   </div>
                   
                 </div>
