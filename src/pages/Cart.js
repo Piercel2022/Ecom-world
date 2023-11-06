@@ -14,8 +14,8 @@ const Cart = () => {
      <div className="container-xxl">
       <div className="row">
         <div className="col-12">
-          <div className="d-flex">
-            
+          <div className="d-flex justify-content-between align-items-center">
+
           </div>
         </div>
       </div>
