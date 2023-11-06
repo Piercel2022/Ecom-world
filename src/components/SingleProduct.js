@@ -98,7 +98,13 @@ const SingleProduct = () => {
                     <div className='d-flex align-items-center gap-10 my-2 mt-2 mb-3'>
                     <h3 className='product-heading'> Quantity: </h3>
                     <div>
-                      <input type="number" name="" style={{width: "60px"}}/>
+                      <input 
+                      type="number" 
+                      name="" 
+                      style={{width: "60px"}}
+                      min={1}
+                      max={10}
+                      />
                     </div>
                     </div>
                   </div>
