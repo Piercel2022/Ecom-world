@@ -7,7 +7,7 @@ import ProductCard from './ProductCard'
 import ReactStars from 'react-rating-stars-component';
 import ReactImageZoom from 'react-image-zoom';
 import  Color from './Color'
-import { Link } from 'react-router-dom'
+
 
 const ratingChanged = (newRating) => {
   console.log(newRating);
