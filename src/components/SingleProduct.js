@@ -7,6 +7,7 @@ import ProductCard from './ProductCard'
 import ReactStars from 'react-rating-stars-component';
 import ReactImageZoom from 'react-image-zoom';
 import  Color from './Color'
+import { Link } from 'react-router-dom'
 
 const ratingChanged = (newRating) => {
   console.log(newRating);
@@ -97,15 +98,23 @@ const SingleProduct = () => {
                     </div>
                     <div className='d-flex align-items-center gap-10 my-2 mt-2 mb-3'>
                     <h3 className='product-heading'> Quantity: </h3>
-                    <div>
+                    <div className=''>
                       <input 
                       type="number" 
                       name="" 
+                      className='form-control'
                       style={{width: "60px"}}
                       min={1}
                       max={10}
                       />
                     </div>
+                    
+                    </div>
+                    <div className='d-flex align-items gap-30'>
+                       <button className='button border-0' type='submit'>Login
+
+                       </button>
+                       <Link>Sign up</Link>
                     </div>
                   </div>
                   
