@@ -131,7 +131,7 @@ const SingleProduct = () => {
                         <a className='fs-5 me-2' href="/compare-products"> <TbGitCompare />Add To Compare</a>
                       </div>
                       <div>
-                        <a className='fs-5 me-2' href="/wislist"><AiOutlineHeart />Add To Wishlist</a>
+                        <a className='fs-5 me-2' href="/wishlist"><AiOutlineHeart />Add To Wishlist</a>
                       </div>
                     </div>
                     <div className='d-flex flex-column  gap-10 my-3'>
@@ -141,7 +141,7 @@ const SingleProduct = () => {
                     </div>
                     <div className='d-flex align-items-center gap-10 my-3'>
                       <h3 className='product-heading'> Copy Product Link </h3>
-                      <a href="javascript:void(0)" onClick={() =>{
+                      <a href="./images" onClick={() =>{
                         copyToClipboard("https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920");
                       }}>
                         Copy Product Link
