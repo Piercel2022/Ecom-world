@@ -144,7 +144,7 @@ const SingleProduct = () => {
                       <a href="javascript:void(0)" onClick={() =>{
                         copyToClipboard("https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920");
                       }}>
-                        https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920
+                        Copy Product Link
                       </a>
                     </div>
                     
