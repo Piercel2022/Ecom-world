@@ -15,10 +15,16 @@ const Cart = () => {
       <div className="row">
         <div className="col-12">
           <div className="cart-header d-flex justify-content-between align-items-center">
-            <h4>PRODUCT</h4>
-            <h4>PRICE</h4>
-            <h4>QUANTITY</h4>
-            <h4>TOTAL</h4>
+            <h4 className='cart-col-1'>PRODUCT</h4>
+            <h4 className='cart-col-2'>PRICE</h4>
+            <h4 className='cart-col-3'>QUANTITY</h4>
+            <h4 className='cart-col-4'>TOTAL</h4>
+          </div>
+          <div className="cart-data d-flex justify-content-between align-items-center">
+            <div className='cart-col-1'></div>
+            <div className='cart-col-2'></div>
+            <div className='cart-col-3'></div>
+            <div className='cart-col-4'></div>
           </div>
         </div>
       </div>
