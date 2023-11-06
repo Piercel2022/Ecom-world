@@ -70,7 +70,7 @@ const SingleProduct = () => {
                       <h3 className='product-heading'> Type: </h3><p className='product-data'>Gfd</p>
                     </div>
                     <div className='d-flex align-items-center gap-10 my-2'>
-                    <h3 className='product-heading'> Brand: </h3><p className='product-data'>Gfd</p>
+                    <h3 className='product-heading'> Brand: </h3><p className='product-data'>Ecom world</p>
                     </div>
                     <div className='d-flex align-items-center gap-10 my-2'>
                     <h3 className='product-heading'> Category: </h3><p className='product-data'>Watch</p>
