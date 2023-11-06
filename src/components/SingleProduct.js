@@ -119,12 +119,18 @@ const SingleProduct = () => {
                     </div>
                     <div  className='d-flex align-items-center gap-15'>
                       <div>
-                        <a className='fs-5' href=""> <TbGitCompare />Add To Compare</a>
+                        <a className='fs-5 me-2' href=""> <TbGitCompare />Add To Compare</a>
                       </div>
                       <div>
-                        <a className='fs-5' href=""><AiOutlineHeart />Add To Wishlist</a>
+                        <a className='fs-5 me-2' href=""><AiOutlineHeart />Add To Wishlist</a>
                       </div>
                     </div>
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                      <h3 className='product-heading'> Shipping & returns </h3>
+                      <p className='product-data'>Free shipping and returns available on orders!
+                      We ship all US domestic orders within <b>5 - 10 days!</b></p>
+                    </div>
+                    
                     
                   </div>
                   
