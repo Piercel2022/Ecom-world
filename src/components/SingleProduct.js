@@ -67,7 +67,7 @@ const SingleProduct = () => {
                   <div className='border-bottom py-2'></div>
                   <div className=' py-3'>
                     <div className='d-flex align-items-center gap-10 my-2'>
-                      <h3 className='product-heading'> Type: </h3><p className='product-data'>Gfd</p>
+                      <h3 className='product-heading'> Type: </h3><p className='product-data'>Watch</p>
                     </div>
                     <div className='d-flex align-items-center gap-10 my-2'>
                     <h3 className='product-heading'> Brand: </h3><p className='product-data'>Ecom world</p>
@@ -76,7 +76,7 @@ const SingleProduct = () => {
                     <h3 className='product-heading'> Category: </h3><p className='product-data'>Watch</p>
                     </div>
                     <div className='d-flex align-items-center gap-10 my-2'>
-                    <h3 className='product-heading'> Tags: </h3><p className='product-data'>Gfd</p>
+                    <h3 className='product-heading'> Watch: </h3><p className='product-data'>Gfd</p>
                     </div>
                     <div className='d-flex align-items-center gap-10 my-2'>
                     <h3 className='product-heading'> Avalaibility: </h3><p className='product-data'>In Stock</p>
