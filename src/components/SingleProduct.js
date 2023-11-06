@@ -114,7 +114,7 @@ const SingleProduct = () => {
                        <button className='button border-0' type='submit'>Login
 
                        </button>
-                       <Link>Sign up</Link>
+                       <Link to='/signup' className='button signup'>Sign up</Link>
                     </div>
                   </div>
                   
