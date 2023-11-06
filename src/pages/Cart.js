@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import speakers from '../home-speakers.jpg'
+import {AiOutlineDelete} from 'react-icons/ai'
 const Cart = () => {
   return (
     <>
@@ -35,11 +36,13 @@ const Cart = () => {
             <div className='cart-col-2'>
               <h5 className="price">$ 500</h5>
               </div>
-            <div className='cart-col-3'>
+            <div className='cart-col-3 d-flex align-items-center gap-15'>
               <div>
                 <input type="number" className='form-control' name="" id="" />
               </div>
-              <div></div>
+              <div>
+              <AiOutlineDelete className='fs-5' />
+              </div>
             </div>
             <div className='cart-col-4'>$ 500</div>
           </div>
