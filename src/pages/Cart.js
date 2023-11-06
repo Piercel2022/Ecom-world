@@ -32,9 +32,9 @@ const Cart = () => {
                 <p className="size">L</p>
               </div>
             </div>
-            <div className='cart-col-2'></div>
-            <div className='cart-col-3'></div>
-            <div className='cart-col-4'></div>
+            <div className='cart-col-2'>$500</div>
+            <div className='cart-col-3'>1</div>
+            <div className='cart-col-4'>$500</div>
           </div>
         </div>
       </div>
