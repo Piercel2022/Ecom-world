@@ -2,6 +2,11 @@
 import React from 'react'
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from 'react-router-dom';
+import {BiGitCompare} from 'react-icons/bi'
+import view from './view.svg'
+import wish from './wish.svg'
+import addcart from './add-cart.svg'
+
 
 
 const ratingChanged = (newRating) => {
@@ -15,11 +20,11 @@ const ProductCard = (props) => {
     <div className={ `${location.pathname === "/store" ? `gr-${grid}`  : "col-3" }`}>
         <Link to=':id' className="product-card position-relative">
              <div className="wishlist-icon position-absolute">
-              <Link><img src="images/wish.svg" alt="wishlist" /></Link>
+              <Link><img src={wish} alt="wishlist" /></Link>
              </div>
             <div className="product-image">
-                <img src="./images/laptop.jpg"className='img-fluid' alt="" />
-                <img src="./images/speaker.jpg" className='img-fluid' alt="" />
+                <img src="../images/laptop.jpg"className='img-fluid' alt="" />
+                <img src="../images/speaker.jpg" className='img-fluid' alt="" />
             </div>
             <div className="product-details">
                 <h6 className="brand">
@@ -45,13 +50,13 @@ const ProductCard = (props) => {
                 <div className="action-bar position-absolute">
                   <div className='d-flex flex-column gap-15'>
                     <Link>    
-                    <img src="images/view.svg" alt="view" />
+                    <img src={view} alt="view" />
                     </Link>
                     <Link>    
-                    <img src="images/prodcompare.svg" alt="compare" />
+                    <BiGitCompare />
                     </Link>
                     <Link>    
-                    <img src="images/add-cart.svg" alt="addcart" />
+                    <img src={addcart} alt="addcart" />
                     </Link>
                   </div>
                 </div>
@@ -61,13 +66,13 @@ const ProductCard = (props) => {
     </div>
 
     <div className={ `${location.pathname === "/store" ? `gr-${grid}`  : "col-3" }`}>
-<Link to=':id' className="product-card position-relative">
+     <Link to=':id' className="product-card position-relative">
      <div className="wishlist-icon position-absolute">
-      <Link><img src="images/wish.svg" alt="wishlist" /></Link>
+      <Link><img src={wish} alt="wishlist" /></Link>
      </div>
     <div className="product-image">
-        <img src="./images/laptop.jpg"className='img-fluid' alt="" />
-        <img src="./images/speaker.jpg" className='img-fluid' alt="" />
+        <img src="../images/laptop.jpg"className='img-fluid' alt="" />
+        <img src="../images/speaker.jpg" className='img-fluid' alt="" />
     </div>
     <div className="product-details">
         <h6 className="brand">
@@ -92,14 +97,14 @@ const ProductCard = (props) => {
         <p className="price">$100.00</p>
         <div className="action-bar position-absolute">
           <div className='d-flex flex-column gap-15'>
-            <Link>    
-            <img src="images/view.svg" alt="view" />
+            <Link to='/product/:id'>    
+            <img src={view} alt="view" />
+            </Link>
+            <Link  >    
+            <img src="../images/compare.svg" alt="compare" />
             </Link>
             <Link>    
-            <img src="images/prodcompare.svg" alt="compare" />
-            </Link>
-            <Link>    
-            <img src="images/add-cart.svg" alt="addcart" />
+            <img src={addcart} alt="addcart" />
             </Link>
           </div>
         </div>
