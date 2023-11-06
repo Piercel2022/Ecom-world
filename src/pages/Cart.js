@@ -22,19 +22,19 @@ const Cart = () => {
             <h4 className='cart-col-4'>TOTAL</h4>
           </div>
           <div className="cart-data d-flex justify-content-between align-items-center">
-            <div className='cart-col-1 d-flex align-items-center'>
+            <div className='cart-col-1 gap-15 d-flex align-items-center'>
               <div className='w-25'>
                 <img src={speakers} className='img-fluid' alt="speaker" />
               </div>
-              <div>
+              <div className='w-75'>
                 <h5 className="title">Home Speakers</h5>
                 <p className="color">Black</p>
                 <p className="size">L</p>
               </div>
             </div>
-            <div className='cart-col-2'>$500</div>
+            <div className='cart-col-2'>$ 500</div>
             <div className='cart-col-3'>1</div>
-            <div className='cart-col-4'>$500</div>
+            <div className='cart-col-4'>$ 500</div>
           </div>
         </div>
       </div>
