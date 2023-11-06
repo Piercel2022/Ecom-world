@@ -13,7 +13,9 @@ const Cart = () => {
     <section className="cart-wrapper home-wrapper-2 py-2">
      <div className="container-xxl">
       <div className="row">
-        
+        <div className="col-12">
+          
+        </div>
       </div>
      </div>
     </section>
