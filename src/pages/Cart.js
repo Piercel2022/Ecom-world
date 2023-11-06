@@ -11,7 +11,9 @@ const Cart = () => {
     <Header />
     <BreadCrumb title = "Your Shopping Cart" />
     <section className="cart-wrapper home-wrapper-2 py-2">
-
+     <div className="container-xxl">
+      
+     </div>
     </section>
       
     <Footer />
