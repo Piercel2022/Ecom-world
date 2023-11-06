@@ -119,10 +119,10 @@ const SingleProduct = () => {
                     </div>
                     <div  className='d-flex align-items-center gap-15'>
                       <div>
-                        <a href=""> <TbGitCompare />Add To Compare</a>
+                        <a className='fs-5' href=""> <TbGitCompare />Add To Compare</a>
                       </div>
                       <div>
-                        <a href=""><AiOutlineHeart />Add To Wishlist</a>
+                        <a className='fs-5' href=""><AiOutlineHeart />Add To Wishlist</a>
                       </div>
                     </div>
                     
