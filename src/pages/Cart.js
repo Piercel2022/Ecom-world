@@ -6,6 +6,7 @@ import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import speakers from '../home-speakers.jpg'
 import {AiFillDelete} from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 const Cart = () => {
   return (
     <>
@@ -51,6 +52,9 @@ const Cart = () => {
             </div>
             <div className='cart-col-4'>$ 500</div>
           </div>
+        </div>
+        <div className="col-12 py-2 mt-4">
+          <Link to='/product/' className='button'>Continue Shopping</Link>
         </div>
       </div>
      </div>
