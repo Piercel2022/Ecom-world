@@ -14,7 +14,9 @@ const Cart = () => {
      <div className="container-xxl">
       <div className="row">
         <div className="col-12">
-          
+          <div className="d-flex">
+            
+          </div>
         </div>
       </div>
      </div>
