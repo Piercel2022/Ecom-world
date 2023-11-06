@@ -2,7 +2,7 @@
 import React from 'react'
 import ReactStars from "react-rating-stars-component";
 import { Link, useLocation } from 'react-router-dom';
-
+import {BiGitCompare} from 'react-icons/bi'
 import view from './view.svg'
 import wish from './wish.svg'
 import addcart from './add-cart.svg'
@@ -53,7 +53,7 @@ const ProductCard = (props) => {
                     <img src={view} alt="view" />
                     </Link>
                     <Link>    
-                    <img src="../images/compare.svg" alt="compare" />
+                    <BiGitCompare />
                     </Link>
                     <Link>    
                     <img src={addcart} alt="addcart" />
@@ -66,7 +66,7 @@ const ProductCard = (props) => {
     </div>
 
     <div className={ `${location.pathname === "/store" ? `gr-${grid}`  : "col-3" }`}>
-<Link to=':id' className="product-card position-relative">
+     <Link to=':id' className="product-card position-relative">
      <div className="wishlist-icon position-absolute">
       <Link><img src={wish} alt="wishlist" /></Link>
      </div>
@@ -97,10 +97,10 @@ const ProductCard = (props) => {
         <p className="price">$100.00</p>
         <div className="action-bar position-absolute">
           <div className='d-flex flex-column gap-15'>
-            <Link>    
+            <Link to='/product/:id'>    
             <img src={view} alt="view" />
             </Link>
-            <Link>    
+            <Link  >    
             <img src="../images/compare.svg" alt="compare" />
             </Link>
             <Link>    
