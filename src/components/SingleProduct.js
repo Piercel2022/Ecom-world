@@ -16,6 +16,15 @@ const ratingChanged = (newRating) => {
 };
 const SingleProduct = () => {
   const [orderedProduct] = useState(true);
+  const copyToClipboard = (text) => {
+  console.log('text', text)
+  var textField = document.createElement('textarea')
+  textField.innerText = text
+  document.body.appendChild(textField)
+  textField.select()
+  document.execCommand('copy')
+  textField.remove()
+}
   const props = {width: 400, height: 500, zoomWidth: 500, img: "https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920"};
   return (
     <>
@@ -130,7 +139,14 @@ const SingleProduct = () => {
                       <p className='product-data'>Free shipping and returns available on orders!
                       We ship all US domestic orders within <b>5 - 10 days!</b></p>
                     </div>
-                    
+                    <div className='d-flex align-items-center gap-10 my-2'>
+                      <h3 className='product-heading'> Copy Product Link </h3>
+                      <a href="javascript:void(0)" onClick={() =>{
+                        copyToClipboard("https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920");
+                      }}>
+                        https://www.watches-of-switzerland.co.uk/medias/Carrera-3-hands.png?context=bWFzdGVyfHJvb3R8MTIwNDE4N3xpbWFnZS9wbmd8aDM5L2g5Zi85MTE3NjA5MzYxNDM4LnBuZ3w5ZWJjMDBiZWVkNDdiOGM4MzI5MDRiZWJiN2JjNGQ2NDM0ZjVkNWJjZTk5ZjYwZmE3ZmM5OWY5NGRmMTg5N2I0&imwidth=1920
+                      </a>
+                    </div>
                     
                   </div>
                   
