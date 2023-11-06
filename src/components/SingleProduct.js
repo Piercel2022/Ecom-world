@@ -82,7 +82,7 @@ const SingleProduct = () => {
                     <div className='d-flex align-items-center gap-10 my-2'>
                     <h3 className='product-heading'> Avalaibility: </h3><p className='product-data'>In Stock</p>
                     </div>
-                    <div className='d-flex flex-column gap-10 my-2'>
+                    <div className='d-flex flex-column gap-10 mt-2 mb-3'>
                     <h3 className='product-heading'> Size: </h3>
                     <div className='d-flex flex-wrap gap-15'>
                       <span className="badge border border-1 bg-white text-dark border-secondary">S</span>
@@ -91,12 +91,15 @@ const SingleProduct = () => {
                       <span className="badge border border-1 bg-white text-dark border-secondary">XXL</span>
                     </div>
                     </div>
-                    <div className='d-flex align-items-center gap-10 my-2'>
+                    <div className='d-flex align-items-center gap-10 my-2 mt-2 mb-3'>
                     <h3 className='product-heading'> Color: </h3>
                     <Color />
                     </div>
-                    <div className='d-flex align-items-center gap-10 my-2'>
-                    <h3 className='product-heading'> Quantity: </h3><p className='product-data'>Gfd</p>
+                    <div className='d-flex align-items-center gap-10 my-2 mt-2 mb-3'>
+                    <h3 className='product-heading'> Quantity: </h3>
+                    <div>
+                      <input type="number" name="" style={{width: "60px"}}/>
+                    </div>
                     </div>
                   </div>
                   
