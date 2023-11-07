@@ -31,10 +31,13 @@ const Checkout = () => {
                           </div>
                           <div>
                             <input type="text" className="form-control" />
-
                           </div>
                           
-                          <div></div>
+                          <div>
+                          <div>
+                            <input type="text" className="form-control" />
+                          </div>
+                          </div>
                           <div></div>
                           <div></div>
                           </form>
