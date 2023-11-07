@@ -21,6 +21,7 @@ const Checkout = () => {
              <li className="breadcrumb-item active" aria-current="page">Library</li>
                      </ol>
                         </nav>
+                        <h4 className="title">Contact Information</h4>
                     </div>
                 </div>
                 <div className="col-5"></div>
