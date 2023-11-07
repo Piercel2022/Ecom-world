@@ -12,7 +12,7 @@ const Checkout = () => {
       <div className="checkout-wrapper home-wrapper-2">
         <div className="container-xxl">
             <div className="row">
-                
+                <div className="col-5"></div>
             </div>
         </div>
       </div>
