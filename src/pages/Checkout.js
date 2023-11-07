@@ -14,7 +14,7 @@ const Checkout = () => {
             <div className="row">
                 <div className="col-7">
                     <div className="checkout-left-data">
-                        <h3 className='website-name'></h3>
+                        <h3 className='website-name'>Ecom world</h3>
                     </div>
                 </div>
                 <div className="col-5"></div>
