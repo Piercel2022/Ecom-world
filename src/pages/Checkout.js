@@ -26,7 +26,9 @@ const Checkout = () => {
                           Navdeep Pambolo (manulo-sekada@gmail.com)
                         </p>
                         <form action="" className='d-flex justify-content-between gap-15'>
-                          <div></div>
+                          <div>
+                            <select name="" className='form-control' id=""></select>
+                          </div>
                           <div></div>
                           <div></div>
                           <div></div>
