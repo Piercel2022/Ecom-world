@@ -27,14 +27,17 @@ const Checkout = () => {
                         </p>
                         <form action="" className='d-flex justify-content-between gap-15'>
                           <div>
-                            <select name="" className='form-control' id=""></select>
+                            <select name="" className='form-control form-select' id=""></select>
                           </div>
-                          <div></div>
-                          <div></div>
-                          <div></div>
-                          <div></div>
+                          <div>
+                            <input type="text" className="form-control" />
 
-                        </form>
+                          </div>
+                          
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                          </form>
                     </div>
                 </div>
                 <div className="col-5"></div>
