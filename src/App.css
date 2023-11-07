@@ -791,4 +791,9 @@ margin-bottom: 0px;
   font-size: 14px;
   color: var(--color-1c1c1b);
 }
+.main-button{
+  position: relative;
+  margin-bottom: 0px;
+  left: 40px;
+}
 /* cart page end*/
