@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import { Link } from 'react-router-dom'
 import Meta from './Meta'
 import BreadCrumb from './BreadCrumb'
 import ProductCard from './ProductCard'
@@ -131,7 +132,7 @@ const SingleProduct = () => {
                         <a className='fs-5 me-2' href="/compare-products"> <TbGitCompare />Add To Compare</a>
                       </div>
                       <div>
-                        <a className='fs-5 me-2' href="/wishlist"><AiOutlineHeart />Add To Wishlist</a>
+                        <Link className='fs-5 me-2' to="/wishlist"><AiOutlineHeart />Add To Wishlist</Link>
                       </div>
                     </div>
                     <div className='d-flex flex-column  gap-10 my-3'>
