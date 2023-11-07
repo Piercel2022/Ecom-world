@@ -16,7 +16,7 @@ const Wishlist = () => {
             <div className="row">
                 <div className="col-3">
                     <div className="wishlist-card  position-relative">
-                    <img src="images/cross.svg" alt="cross" className="position-absolute cross" />
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                         <div className="wishlist-card-image">
                          <img src="images/tab.jpg" className='img-fluid w-100' alt="" />
                         </div>
@@ -28,7 +28,7 @@ const Wishlist = () => {
                 </div>
                 <div className="col-3">
                     <div className="wishlist-card  position-relative">
-                    <img src="images/cross.svg" alt="cross" className="position-absolute cross" />
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                         <div className="wishlist-card-image">
                          <img src="images/tab.jpg" className='img-fluid w-100' alt="" />
                         </div>
@@ -40,7 +40,7 @@ const Wishlist = () => {
                 </div>
                 <div className="col-3">
                     <div className="wishlist-card  position-relative">
-                    <img src="images/cross.svg" alt="cross" className="position-absolute cross" />
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                         <div className="wishlist-card-image">
                          <img src="images/tab.jpg" className='img-fluid w-100' alt="" />
                         </div>

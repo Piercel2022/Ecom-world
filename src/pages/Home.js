@@ -151,24 +151,24 @@ const Home = () => {
             <div className="categories d-flex  flex-wrap justify-content-between  align-items-center">
               <div className='d-flex g-30 align-items-center'>
                 <div>
-                  <h6>Cameras</h6>
+                  <h6>Tablets</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/camera.jpg" alt="" />
+                <img src="images/tab1.jpg" className='img-fluid' alt="" />
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
-                  <h6>Cameras</h6>
+                  <h6>Sound speakers</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/camera.jpg" alt="" />
+                <img src="images/famous-4.jpg" className='img-fluid' alt="" />
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Smart Tvs</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/tv.jpg" alt="" />
+                <img src="images/tv.jpg" alt="" className='img-fluid w-28' />
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
@@ -179,31 +179,31 @@ const Home = () => {
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
-                  <h6>Cameras</h6>
+                  <h6>Sony Home sound</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/camera.jpg" alt="" />
+                <img src="images/sony.jpg" className='img-fluid w-28' alt="" />
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Cameras</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/camera.jpg" alt="" />
+                <img src="images/camera.jpg" alt="" className='img-fluid w-28' />
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Smart Tvs</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/tv.jpg" alt="" />
+                <img src="images/tv.jpg" alt="" className='img-fluid w-28' />
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Music & Gaming</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/headphone.jpg" alt="" />
+                <img src="images/headphone.jpg" alt="" className='img-fluid w-28' />
               </div>
 
             </div>
