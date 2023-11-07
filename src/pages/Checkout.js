@@ -12,8 +12,12 @@ const Checkout = () => {
       <div className="checkout-wrapper home-wrapper-2">
         <div className="container-xxl">
             <div className="row">
+                <div className="col-7">
+                    <div className="checkout-left-data">
+                        
+                    </div>
+                </div>
                 <div className="col-5"></div>
-                <div className="col-7"></div>
             </div>
         </div>
       </div>
