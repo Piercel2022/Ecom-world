@@ -23,8 +23,11 @@ const Checkout = () => {
                         </nav>
                         <h4 className="title">Contact Information</h4>
                         <p className="user-details">
-                          
+                          Navdeep Pambolo (manulo-sekada@gmail.com)
                         </p>
+                        <form action="">
+                          
+                        </form>
                     </div>
                 </div>
                 <div className="col-5"></div>
