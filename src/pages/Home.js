@@ -175,7 +175,7 @@ const Home = () => {
                   <h6>Music & Gaming</h6>
                   <p>10 items</p>
                 </div>
-                <img src="images/headphone.jpg" alt="" />
+                <img src="images/headphone.jpg" alt="" className='img-fluid w-28' />
               </div>
               <div className='d-flex g-30 align-items-center'>
                 <div>

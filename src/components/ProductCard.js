@@ -53,7 +53,7 @@ const ProductCard = (props) => {
                     <img src={view} alt="view" />
                     </Link>
                     <Link>    
-                    <BiGitCompare />
+                    <BiGitCompare className='compare' />
                     </Link>
                     <Link>    
                     <img src={addcart} alt="addcart" />
@@ -101,7 +101,7 @@ const ProductCard = (props) => {
             <img src={view} alt="view" />
             </Link>
             <Link  >    
-            <img src="../images/compare.svg" alt="compare" />
+            <BiGitCompare className='compare'/>
             </Link>
             <Link>    
             <img src={addcart} alt="addcart" />

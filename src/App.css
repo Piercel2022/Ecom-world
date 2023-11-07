@@ -331,7 +331,10 @@ display: none;
   border-radius: 10px;
  background-color: white;
 }
-
+.compare{
+  color: var(--color-777777);
+  font-size: 24px;
+}
 /* Special Product card End*/
 
 /* Famous card */

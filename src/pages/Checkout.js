@@ -40,7 +40,11 @@ const Checkout = () => {
                           <div className='w-100'>
                           <input type="text" className="form-control" />
                           </div>
-                          <div></div>
+                          
+                          <div className='w-100'>
+                          <input type="text" className="form-control" />
+                          </div>
+                         
                           </form>
                     </div>
                 </div>

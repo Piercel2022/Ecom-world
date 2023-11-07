@@ -8,6 +8,7 @@ import speakers from '../home-speakers.jpg'
 import {AiFillDelete} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 const Cart = () => {
+  
   return (
     <>
     <Meta title={"cart"} />
@@ -53,6 +54,8 @@ const Cart = () => {
             <div className='cart-col-4'>$ 500</div>
           </div>
         </div>
+        <div>
+      </div>
         <div className="col-12 py-2 mt-4">
           <div className='d-flex justify-content-around align-items-center'>
           <Link to='/product/' className='button mb-4'>Continue Shopping</Link>
