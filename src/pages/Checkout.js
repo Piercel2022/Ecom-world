@@ -17,8 +17,8 @@ const Checkout = () => {
                         <h3 className='website-name'>Ecom world</h3>
                         <nav style={{"--bs-breadcrumb-divider": ">;"}} aria-label="breadcrumb">
              <ol className="breadcrumb">
-             <li className="breadcrumb-item"><a href="/home">Home</a></li>
-             <li className="breadcrumb-item active" aria-current="page">Library</li>
+             <li className="breadcrumb-item"><a href="/cart">Cart</a></li>
+             <li className="breadcrumb-item active" aria-current="page">Checkout</li>
                      </ol>
                         </nav>
                         <h4 className="title">Contact Information</h4>
