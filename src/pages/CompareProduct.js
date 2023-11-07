@@ -17,7 +17,7 @@ const CompareProduct = () => {
             <div className="row">
                 <div className="col-3">
                     <div className="compare-product-card position-relative">
-                        <img src="images/cross.svg" alt="cross" className="position-absolute cross" />
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                         <div className="product-card-image">
                             <img src="images/tab.jpg" className='img-fluid' alt="tablet" />
                         </div>
@@ -60,7 +60,7 @@ const CompareProduct = () => {
                 </div>
                 <div className="col-3">
                     <div className="compare-product-card position-relative">
-                        <img src="images/cross.svg" alt="cross" className="position-absolute cross" />
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                         <div className="product-card-image">
                             <img src="images/sony.jpg" className='img-fluid' alt="sound" />
                         </div>
@@ -103,7 +103,7 @@ const CompareProduct = () => {
                 </div>
                 <div className="col-3">
                     <div className="compare-product-card position-relative">
-                        <img src="images/cross.svg" alt="cross" className="position-absolute cross" />
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                         <div className="product-card-image">
                             <img src="images/tab.jpg" className='img-fluid' alt="tablet" />
                         </div>
@@ -146,7 +146,7 @@ const CompareProduct = () => {
                 </div>
                 <div className="col-3">
                     <div className="compare-product-card position-relative">
-                        <img src="images/cross.svg" alt="cross" className="position-absolute cross" />
+                    <button type="button" class="btn-close" aria-label="Close"></button>
                         <div className="product-card-image">
                             <img src="images/watch.jpg" className='img-fluid' alt="watch" />
                         </div>
