@@ -10,7 +10,9 @@ const Checkout = () => {
     <Header />
     <BreadCrumb title = "Your Checkout" />
       <div className="checkout-wrapper">
-        
+        <div className="container-xxl">
+            
+        </div>
       </div>
     <Footer />
     </>
