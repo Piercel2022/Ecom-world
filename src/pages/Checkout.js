@@ -9,9 +9,9 @@ const Checkout = () => {
     <Meta title={"checkout"} />
     <Header />
     <BreadCrumb title = "Your Checkout" />
-      <div className="checkout-wrapper">
+      <div className="checkout-wrapper home-wrapper-2">
         <div className="container-xxl">
-            
+
         </div>
       </div>
     <Footer />
