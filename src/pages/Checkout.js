@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
+import { Link } from 'react-router-dom'
 const Checkout = () => {
   return (
     <>
@@ -68,7 +69,7 @@ const Checkout = () => {
                          </div>
                          <div className="w-100">
                           <div className="d-flex">
-                            
+                            <Link to='/cart'>Return To Cart</Link>
                           </div>
                          </div>
                           </form>
