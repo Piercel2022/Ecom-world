@@ -85,7 +85,7 @@ const Home = () => {
             <div className="small-banner-content position-absolute">
               <h4>New Arrival.</h4>
               <h5>Buy AirPod</h5>
-              <p>From $459.999 <br />or $41.62/mo</p>
+              <p>From $1459.999 <br />or $41.62/mo</p>
              
             </div>
            </div>
