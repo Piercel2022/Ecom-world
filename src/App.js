@@ -29,6 +29,8 @@ import Tablets from './pages/Tablets';
 import Watches from './pages/Watches';
 import Faq from './pages/Faq';
 import Checkout from './pages/Checkout';
+import Shipping from './pages/Shipping';
+import Payment from './pages/Payment';
 
 function App() {
   return (
@@ -49,6 +51,8 @@ function App() {
         <Route path="compare-products" element={<CompareProduct />} />
         <Route path="login" element={<Login />} />
         <Route path="cart" element={<Cart />} />
+        <Route path="shipping" element={<Shipping />} />
+        <Route path="payment" element={<Payment />} />
         <Route path="checkout" element={<Checkout />} />
         <Route path="signup" element={<Signup />} />
         <Route path="forgot-password" element={<ForgotPassword />} />

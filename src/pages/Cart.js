@@ -30,7 +30,7 @@ const Cart = () => {
               </div>
               <div className='w-75'>
                 <h5 className="title">Airpod Max 2023</h5>
-                <p>Color: Black</p>
+                <p>Color: White</p>
                 <p>Size: </p>
                 <p>price:$ 1500 </p>
               </div>
@@ -58,7 +58,7 @@ const Cart = () => {
       </div>
         <div className="col-12 py-2 mt-4">
           <div className='d-flex justify-content-around align-items-center'>
-          <Link to='/product/' className='button mb-4'>Continue Shopping</Link>
+          <Link to='/payment' className='button mb-4'>Continue Payment</Link>
           <div className='d-flex flex-column justify-content-end'>
             <h4>Subtotal: $ 1500 </h4>
             <p>Taxes and shipping calculated at checkout</p>
