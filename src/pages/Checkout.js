@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import { Link } from 'react-router-dom'
+import {BiArrowBack} from 'react-icons/bi'
 const Checkout = () => {
   return (
     <>
@@ -69,7 +70,8 @@ const Checkout = () => {
                          </div>
                          <div className="w-100">
                           <div className="d-flex justify-content-between align-items-center">
-                            <Link to='/cart' className='text-dark'>Return To Cart</Link>
+                            <Link to='/cart' className='text-dark'>
+                            <BiArrowBack /> Return To Cart</Link>
                             <Link to='/' className='button'>Continue To Shipping</Link>
                           </div>
                          </div>
