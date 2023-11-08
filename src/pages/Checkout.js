@@ -25,16 +25,22 @@ const Checkout = () => {
                         <p className="user-details">
                           Navdeep Pambolo (manulo-sekada@gmail.com)
                         </p>
-                        <form action="" className='d-flex flex-wrap justify-content-between gap-15'>
-                          <div className='w-100'>
-                            <select name="" className='form-control form-select' id=""></select>
+                        <form 
+                        action="" 
+                        className="d-flex flex-wrap justify-content-between gap-15"
+                        >
+                          <div className='w-100' >
+                            <select className='options' 
+                            >
+                              <option value="" selected disabled>Select Country</option>
+                            </select>
                           </div>
-                          <div>
-                            <input type="text" className="form-control" />
+                          <div className='flex-grow-1'>
+                            <input placeholder="First Name" type="text" className="form-control" />
                           </div>
                           
-                          <div>
-                            <input type="text" className="form-control" />
+                          <div className='flex-grow-1'>
+                            <input placeholder="Last Name" type="text" className="form-control" />
                           </div>
                           
                           <div className='w-100'>
@@ -44,7 +50,19 @@ const Checkout = () => {
                           <div className='w-100'>
                           <input type="text" className="form-control" />
                           </div>
+                          <div className='flex-grow-1'>
+                         <input type="text" className="form-control" />
+                         </div>
+                         <div className='flex-grow-1'>
+                         <select
+                         name=""
+                         className='form-control form-select'
+                         id=""></select>
+                         </div>
                          
+                         <div className='flex-grow-1'>
+                         <input type="text" className="form-control" />
+                         </div>
                           </form>
                     </div>
                 </div>

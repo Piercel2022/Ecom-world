@@ -335,6 +335,12 @@ display: none;
   color: var(--color-777777);
   font-size: 24px;
 }
+.mobile-tablet{
+  width: 105px;
+}
+.options{
+  width: 100%;
+}
 /* Special Product card End*/
 
 /* Famous card */
