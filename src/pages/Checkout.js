@@ -113,7 +113,7 @@ const Checkout = () => {
                   </div>
                   <div className='d-flex justify-content-between align-items-center border-bottom py-4'>
                     <h4>Total</h4>
-                    <h6>$ 1590</h6>
+                    <h6 className='total-price'>$ 1590</h6>
                   </div>
                 </div>
             </div>
