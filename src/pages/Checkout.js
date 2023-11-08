@@ -17,7 +17,7 @@ const Checkout = () => {
                 <div className="col-7">
                     <div className="checkout-left-data">
                         <h3 className='website-name'>Ecom world</h3>
-                        <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
+            <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
              <ol className="breadcrumb">
              <li className="breadcrumb-item"><a href="/cart">Cart</a></li>
              &nbsp; /
