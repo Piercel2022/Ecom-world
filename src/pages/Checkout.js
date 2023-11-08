@@ -92,7 +92,24 @@ const Checkout = () => {
                           </form>
                     </div>
                 </div>
-                <div className="col-5"></div>
+                <div className="col-5">
+                  
+                  <div className='border-bottom py-4'></div>
+                  <div className='border-bottom py-4'>
+                  <div className='d-flex justify-content-between align-items-center'>
+                    <p>Subtotal</p>
+                    <p>$ 500</p>
+                  </div>
+                  <div className='d-flex justify-content-between align-items-center'>
+                    <p className='mb-0'>Shipping</p>
+                    <p className='mb-0'>$ 90</p>
+                  </div>
+                  </div>
+                  <div className='d-flex justify-content-between align-items-center border-bottom py-4'>
+                    <h4>Total</h4>
+                    <h6>$ 590</h6>
+                  </div>
+                </div>
             </div>
         </div>
       </div>
