@@ -331,7 +331,16 @@ display: none;
   border-radius: 10px;
  background-color: white;
 }
-
+.compare{
+  color: var(--color-777777);
+  font-size: 24px;
+}
+.mobile-tablet{
+  width: 105px;
+}
+.options{
+  width: 100%;
+}
 /* Special Product card End*/
 
 /* Famous card */
@@ -795,5 +804,8 @@ margin-bottom: 0px;
   position: relative;
   margin-bottom: 0px;
   left: 40px;
+}
+.checkout-image{
+  width: 40%;
 }
 /* cart page end*/

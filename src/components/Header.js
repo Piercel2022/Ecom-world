@@ -90,9 +90,9 @@ const Header = () => {
    <span className=' d-inline-block'>Shop Categories</span> 
   </button>
   <ul class="dropdown-menu">
-  <li><a className="dropdown-item text-white" href="./tv-home">Tv&Home</a></li>
- <li><a className="dropdown-item text-white" href="./iphone">Iphones</a></li>
- <li><a className="dropdown-item text-white" href="./accessories">Accessories</a></li>
+  <li><a className="dropdown-item text-white" href="./tv-home" to="/tv-home">Tv&Home</a></li>
+ <li><a className="dropdown-item text-white" href="./iphone" to="/iphone">Iphones</a></li>
+ <li><a className="dropdown-item text-white" href="./accessories" to="/accessories">Accessories</a></li>
    </ul>
   </div>
       <div className='menu-links'>
