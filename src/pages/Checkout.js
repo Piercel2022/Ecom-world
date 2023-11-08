@@ -20,8 +20,16 @@ const Checkout = () => {
                         <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
              <ol className="breadcrumb">
              <li className="breadcrumb-item"><a href="/cart">Cart</a></li>
+             &nbsp; /
+             <li className="breadcrumb-item"><a href="/cart">Information</a></li>
+             &nbsp; /
+             <li className="breadcrumb-item"><a href="/cart">Payment</a></li>
+             &nbsp; /
              <li className="breadcrumb-item active" aria-current="page">Checkout</li>
-                     </ol>
+             &nbsp; /
+             <li className="breadcrumb-item"><a href="/cart">Shipping</a></li>
+                     
+              </ol>
                         </nav>
                         <h4 className="title">Contact Information</h4>
                         <p className="user-details">
@@ -71,8 +79,8 @@ const Checkout = () => {
                          <div className="w-100">
                           <div className="d-flex justify-content-between align-items-center">
                             <Link to='/cart' className='text-dark'>
-                            <BiArrowBack /> Return To Cart</Link>
-                            <Link to='/' className='button'>Continue To Shipping</Link>
+                            <BiArrowBack className='me-2' /> Return To Cart</Link>
+                            <Link to='/cart' className='button'>Continue To Shipping</Link>
                           </div>
                          </div>
                           </form>
