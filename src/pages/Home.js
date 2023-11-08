@@ -80,12 +80,12 @@ const Home = () => {
             </div>
            </div>
            <div className="small-banner position-relative">
-            <img src='./images/catbanner-04.jpg'
-            className='img-fluid rounded' alt="main-banner" />
+            <img src='./images/airpods-max.png'
+            className='airpod' alt="main-banner" />
             <div className="small-banner-content position-absolute">
               <h4>New Arrival.</h4>
-              <h5>Buy iPad Air.</h5>
-              <p>From $9.999 <br />or $41.62/mo</p>
+              <h5>Buy AirPod</h5>
+              <p>From $459.999 <br />or $41.62/mo</p>
              
             </div>
            </div>

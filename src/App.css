@@ -40,7 +40,11 @@ a{
   box-shadow: none;
   border-color: inherit;
 }
-
+.small-banner .airpod{
+  width: 50%;
+  left: 15px;
+  margin-left: 10em;
+}
 /* Header Part */
 .header-top-strip {
   background-color: var(--color-131921);
