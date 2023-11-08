@@ -14,11 +14,11 @@ const SpecialProduct = () => {
         <div className="special-product-card">
             <div className='d-flex justify-content-between'>
                 <div>
-                    <img src="images/watch.jpg" className='img-fluid' alt="" />
+                    <img src="images/airpods-max.png" className='img-fluid' alt="" />
                 </div>
                 <div className="special-product-content">
                  <h5 className="brand">Ecom World</h5>
-                 <h6 className="title">Samsung Galaxy Note10</h6>
+                 <h6 className="title">AirPods max</h6>
                  <ReactStars
                  count={5}
                  onChange={ratingChanged}
@@ -28,8 +28,8 @@ const SpecialProduct = () => {
                 activeColor="#ffd700"
                 />
                 <p className="price">
-                    <span className="red-p">$100</span>&nbsp;
-                    <strike>$200</strike>
+                    <span className="red-p">$ 1799</span>&nbsp;
+                    <strike>$ 1499</strike>
                 </p>
                 <div className='discount-till d-flex align-items-center gap-10'>
                     <p className='mb-0'><b>5</b>Days  </p>
@@ -45,7 +45,7 @@ const SpecialProduct = () => {
                         <div className="progress">
                         <div className="progress-bar" 
                         role="progressbar" 
-                        style={{width: "25%"}}
+                        style={{width: "55%"}}
                         aria-valuenow="25"
                         aria-valuemin="0" 
                         aria-valuemax="100">
