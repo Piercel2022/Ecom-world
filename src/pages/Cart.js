@@ -4,7 +4,6 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
-import speakers from '../home-speakers.jpg'
 import {AiFillDelete} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 const Cart = () => {
@@ -26,18 +25,18 @@ const Cart = () => {
           </div>
           <div className="cart-data d-flex justify-content-between align-items-center">
             <div className='cart-col-1 gap-15 d-flex align-items-center'>
-              <div className='w-25'>
-                <img src={speakers} className='img-fluid' alt="speaker" />
+              <div className='w-50 align-items-center'>
+              <img className='w-50 checkout-image' src="images/airpods-max.png" alt="" />
               </div>
               <div className='w-75'>
-                <h5 className="title">Home Speakers</h5>
+                <h5 className="title">Airpod Max 2023</h5>
                 <p>Color: Black</p>
-                <p>Size: L</p>
-                <p>price:$ 500 </p>
+                <p>Size: </p>
+                <p>price:$ 1500 </p>
               </div>
             </div>
             <div className='cart-col-2'>
-              <h5 className="price">$ 500</h5>
+              <h5 className="price">$ 1500</h5>
               </div>
             <div className='cart-col-3 d-flex align-items-center gap-15'>
               <div>
@@ -52,7 +51,7 @@ const Cart = () => {
               <AiFillDelete className='fs-5 text-danger' />
               </div>
             </div>
-            <div className='cart-col-4'>$ 500</div>
+            <div className='cart-col-4'>$ 1500</div>
           </div>
         </div>
         <div>
@@ -61,7 +60,7 @@ const Cart = () => {
           <div className='d-flex justify-content-around align-items-center'>
           <Link to='/product/' className='button mb-4'>Continue Shopping</Link>
           <div className='d-flex flex-column justify-content-end'>
-            <h4>Subtotal: $ 500 </h4>
+            <h4>Subtotal: $ 1500 </h4>
             <p>Taxes and shipping calculated at checkout</p>
             <Link to='/checkout' className='button'>Checkout</Link>
           </div>

@@ -29,11 +29,12 @@ const Checkout = () => {
              &nbsp; /
              <li className="breadcrumb-item">
               <Link className='text-dark' to="/cart">Shipping</Link>
+              &nbsp; /
             </li>
              <li className="breadcrumb-item">
               <Link className='text-dark' to="/cart">Payment</Link>
               </li>
-             &nbsp; /
+             
                      
               </ol>
                         </nav>
@@ -94,11 +95,18 @@ const Checkout = () => {
                 </div>
                 <div className="col-5">
                   
-                  <div className='border-bottom py-4'></div>
+                  <div className='border-bottom py-4'>
+                    <div>
+                      <div>
+                        <img className='img-fluid checkout-image' src="images/airpods-max.png" alt="" />
+                      </div>
+                    </div>
+                    <div></div>
+                  </div>
                   <div className='border-bottom py-4'>
                   <div className='d-flex justify-content-between align-items-center'>
                     <p>Subtotal</p>
-                    <p>$ 500</p>
+                    <p>$ 1500</p>
                   </div>
                   <div className='d-flex justify-content-between align-items-center'>
                     <p className='mb-0'>Shipping</p>
@@ -107,7 +115,7 @@ const Checkout = () => {
                   </div>
                   <div className='d-flex justify-content-between align-items-center border-bottom py-4'>
                     <h4>Total</h4>
-                    <h6>$ 590</h6>
+                    <h6>$ 1590</h6>
                   </div>
                 </div>
             </div>
