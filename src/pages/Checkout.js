@@ -19,15 +19,21 @@ const Checkout = () => {
                         <h3 className='website-name'>Ecom world</h3>
             <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
              <ol className="breadcrumb">
-             <li className="breadcrumb-item"><a href="/cart">Cart</a></li>
+             <li className="breadcrumb-item">
+              <Link className='text-dark' to="/cart">Cart</Link>
+              </li>
              &nbsp; /
-             <li className="breadcrumb-item"><a href="/cart">Information</a></li>
+             <li className="breadcrumb-item">
+              <Link className='text-dark' to="/cart">Information</Link>
+              </li>
              &nbsp; /
-             <li className="breadcrumb-item"><a href="/cart">Payment</a></li>
+             <li className="breadcrumb-item">
+              <Link className='text-dark' to="/cart">Shipping</Link>
+            </li>
+             <li className="breadcrumb-item">
+              <Link className='text-dark' to="/cart">Payment</Link>
+              </li>
              &nbsp; /
-             <li className="breadcrumb-item active" aria-current="page">Checkout</li>
-             &nbsp; /
-             <li className="breadcrumb-item"><a href="/cart">Shipping</a></li>
                      
               </ol>
                         </nav>
