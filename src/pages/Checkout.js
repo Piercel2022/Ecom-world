@@ -28,14 +28,12 @@ const Checkout = () => {
               </li>
              &nbsp; /
              <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Shipping</Link>
-              &nbsp; /
-            </li>
-             <li className="breadcrumb-item">
               <Link className='text-dark' to="/cart">Payment</Link>
               </li>
-             
-                     
+              &nbsp; /
+             <li className="breadcrumb-item">
+              <Link className='text-dark' to="/cart">Shipping</Link>
+            </li>
               </ol>
                         </nav>
                         <h4 className="title">Contact Information</h4>
@@ -87,7 +85,7 @@ const Checkout = () => {
                           <div className="d-flex justify-content-between align-items-center">
                             <Link to='/cart' className='text-dark'>
                             <BiArrowBack className='me-2' /> Return To Cart</Link>
-                            <Link to='/cart' className='button'>Continue To Shipping</Link>
+                            <Link to='/payment' className='button'>Continue To Payment</Link>
                           </div>
                          </div>
                           </form>
