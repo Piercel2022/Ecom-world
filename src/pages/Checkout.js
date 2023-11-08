@@ -44,24 +44,32 @@ const Checkout = () => {
                           </div>
                           
                           <div className='w-100'>
-                          <input type="text" className="form-control" />
+                          <input placeholder="Address" type="text" className="form-control" />
                           </div>
                           
                           <div className='w-100'>
-                          <input type="text" className="form-control" />
+                          <input placeholder="Apartment, Suite" type="text" className="form-control" />
                           </div>
                           <div className='flex-grow-1'>
-                         <input type="text" className="form-control" />
+                         <input placeholder="City" type="text" className="form-control" />
                          </div>
                          <div className='flex-grow-1'>
                          <select
                          name=""
+                         placeholder="State"
                          className='form-control form-select'
-                         id=""></select>
+                         id="">
+                         <option value="" selected disabled>Select State</option>
+                         </select>
                          </div>
                          
                          <div className='flex-grow-1'>
-                         <input type="text" className="form-control" />
+                         <input placeholder="Zipcode" type="text" className="form-control" />
+                         </div>
+                         <div className="w-100">
+                          <div className="d-flex">
+                            
+                          </div>
                          </div>
                           </form>
                     </div>
