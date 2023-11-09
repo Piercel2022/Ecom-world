@@ -59,9 +59,12 @@ const Cart = () => {
         <div className="col-12 py-2 mt-4">
           <div className='d-flex justify-content-between align-items-center'>
           <Link to='/product' className='button'>Continue Shopping</Link>
-          <div className='d-flex flex-column justify-content-end'>
-            <h4>Subtotal: $ 1500 </h4>
+          <div className='d-flex  justify-content-around gap-30'>
+             <div>
+             <h4>Subtotal: $ 1500 </h4>
             <p>Taxes and shipping calculated at checkout</p>
+             </div>
+            
             <Link to='/checkout' className='button'>Checkout</Link>
           </div>
           </div>
