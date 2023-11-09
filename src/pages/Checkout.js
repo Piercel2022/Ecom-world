@@ -5,14 +5,14 @@ import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import { Link } from 'react-router-dom'
 import {BiArrowBack} from 'react-icons/bi'
+import Container from './Container'
 const Checkout = () => {
   return (
     <>
     <Meta title={"checkout"} />
     <Header />
     <BreadCrumb title = "Your Checkout" />
-      <div className="checkout-wrapper home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="checkout-wrapper home-wrapper-2">
             <div className="row">
                 <div className="col-7">
                     <div className="checkout-left-data">
@@ -122,8 +122,7 @@ const Checkout = () => {
                   </div>
                 </div>
             </div>
-        </div>
-      </div>
+      </Container>
     <Footer />
     </>
   )
