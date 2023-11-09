@@ -825,6 +825,8 @@ margin-bottom: 0px;
 
 .checkout-button{
 display: flex;
+justify-content: center;
+width: 60%;
 }
 
 .shopping-button{
