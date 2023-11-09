@@ -37,9 +37,10 @@ const Checkout = () => {
               </ol>
                         </nav>
                         <h4 className="title">Contact Information</h4>
-                        <p className="user-details">
+                        <p className="user-details total">
                           Navdeep Pambolo (manulo-sekada@gmail.com)
                         </p>
+                        <h4>Shipping Address</h4>
                         <form 
                         action="" 
                         className="d-flex flex-wrap justify-content-between gap-15"
@@ -107,8 +108,8 @@ const Checkout = () => {
                   </div>
                   <div className='border-bottom py-4'>
                   <div className='d-flex justify-content-between align-items-center'>
-                    <p>Subtotal</p>
-                    <p>$ 1500</p>
+                    <h4 className='total'>Subtotal</h4>
+                    <h6 className='total-price'>$ 1500</h6>
                   </div>
                   <div className='d-flex justify-content-between align-items-center'>
                     <p className='mb-0'>Shipping</p>
