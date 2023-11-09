@@ -822,3 +822,11 @@ margin-bottom: 0px;
   font-size: 16px;
   color: var(--color-777777);
 }
+
+.checkout-button{
+display: flex;
+}
+
+.shopping-button{
+  display: flex;
+}
