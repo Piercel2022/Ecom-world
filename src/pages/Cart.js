@@ -13,8 +13,7 @@ const Cart = () => {
     <Meta title={"cart"} />
     <Header />
     <BreadCrumb title = "Your Shopping Cart" />
-    <section className="cart-wrapper home-wrapper-2 py-5">
-     <div className="container-xxl">
+    <Container class1="cart-wrapper home-wrapper-2 py-5">
       <div className="row">
       <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
              <ol className="breadcrumb">
@@ -90,8 +89,7 @@ const Cart = () => {
           </div>
         </div>
       </div>
-     </div>
-    </section>
+    </Container>
       
     <Footer />
     </>
