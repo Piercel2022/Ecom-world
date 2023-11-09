@@ -24,18 +24,18 @@ const Checkout = () => {
               </li>
              &nbsp; /&nbsp;
              <li className="breadcrumb-item">
-              <Link className='text-dark total-price' to="/cart">Information</Link>
+              <Link className='text-dark total-price' to="/checkout">Information</Link>
               </li>
              &nbsp; /
              <li className="breadcrumb-item">
-              <Link className='text-dark total-price' to="/cart">Payment</Link>
+              <Link className='text-dark total-price' to="/payment">Payment</Link>
               </li>
               &nbsp; /
              <li className="breadcrumb-item">
-              <Link className='text-dark total-price' to="/cart">Shipping</Link>
+              <Link className='text-dark total-price' to="/shipping">Shipping</Link>
             </li>
               </ol>
-                        </nav>
+              </nav>
                         <h4 className="title total">Contact Information</h4>
                         <p className="user-details total">
                           Navdeep Pambolo (manulo-sekada@gmail.com)

@@ -13,9 +13,28 @@ const Cart = () => {
     <Meta title={"cart"} />
     <Header />
     <BreadCrumb title = "Your Shopping Cart" />
-    <section className="cart-wrapper home-wrapper-2 py-2">
+    <section className="cart-wrapper home-wrapper-2 py-5">
      <div className="container-xxl">
       <div className="row">
+      <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
+             <ol className="breadcrumb">
+             <li className="breadcrumb-item">
+              <Link className='text-dark total-price' to="/cart">Cart</Link>
+              </li>
+             &nbsp; /&nbsp;
+             <li className="breadcrumb-item">
+              <Link className='text-dark total-price' to="/checkout">Information</Link>
+              </li>
+             &nbsp; /
+             <li className="breadcrumb-item">
+              <Link className='text-dark total-price' to="/payment">Payment</Link>
+              </li>
+              &nbsp; /
+             <li className="breadcrumb-item">
+              <Link className='text-dark total-price' to="/shipping">Shipping</Link>
+            </li>
+              </ol>
+              </nav>
         <div className="col-12">
           <div className="cart-header d-flex justify-content-between align-items-center">
             <h4 className='cart-col-1'>PRODUCT</h4>
