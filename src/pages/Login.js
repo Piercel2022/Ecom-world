@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
+import Container from './Container'
 
 const Login = () => {
   return (
@@ -11,8 +12,7 @@ const Login = () => {
     <Meta title={"login"} />
     <Header />
     <BreadCrumb title = "login" />
-    <div className="login-wrapper home-wrapper-2 py-3">
-      <div className="container-xxl">
+    <Container class1="login-wrapper home-wrapper-2 py-3">
       <div className="row">
         <div className="col-12">
           <div className="auth-card">
@@ -35,8 +35,7 @@ const Login = () => {
           </div>
         </div>
       </div>
-      </div>
-    </div>
+      </Container>
     <Footer />
     </>
   )
