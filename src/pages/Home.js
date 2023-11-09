@@ -148,7 +148,7 @@ const Home = () => {
      
         <div className="row">
           <div className="col-12">
-            <div className="categories d-flex  flex-wrap justify-content-between  align-items-center">
+            <div className="categories d-flex  flex-wrap justify-content-between  align-items-center mb-3">
               <div className='d-flex g-30 align-items-center'>
                 <div>
                   <h6>Computers & Laptops</h6>
@@ -215,7 +215,7 @@ const Home = () => {
     <Container className="featured-wrapper py-5 home-wrapper-2">
       <div className="row">
         <div className="col-12">
-          <h3 className="section-heading">
+          <h3 className="section-heading mt-3">
             Featured Collections
           </h3>
         </div>
