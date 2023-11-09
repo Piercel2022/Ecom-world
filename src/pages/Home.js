@@ -316,8 +316,7 @@ const Home = () => {
       </div>
 </Container>
 
-    <section className="marquee-wrapper py-5">
-     <div className="container-xxl">
+<Container class1="marquee-wrapper py-5">
       <div className="row">
         <div className="col-12">
           <div className="marquee-inner-wrapper card-wrapper">
@@ -350,9 +349,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-     </div>
-    </section>
-    <section className="blog-wrapper py-5 home-wrapper-2">
+</Container>
+
+<section className="blog-wrapper py-5 home-wrapper-2">
     <div className="container-xxl">
       <div className="row">
         <div className="col-12">
@@ -376,7 +375,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-    </section>
+</section>
     <Footer />
     </>
   )
