@@ -94,8 +94,12 @@ const Checkout = () => {
                 <div className="col-5">
                   
                   <div className='border-bottom py-4'>
-                    <div>
-                      <div>
+                    <div className='w-75 d-flex gap-10'>
+                      <div className='w-25 position-relative'>
+                        <span 
+                        className='badge bg-secondary text-white rounded-circle'
+                        style={{top:"-10px", right: "2px"}}>
+                        1</span> 
                         <img className='img-fluid checkout-image' src="images/airpods-max.png" alt="" />
                       </div>
                     </div>
