@@ -6,6 +6,7 @@ import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import {AiFillDelete} from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import Container from './Container'
 const Cart = () => {
 
   return (
