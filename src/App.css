@@ -813,3 +813,22 @@ margin-bottom: 0px;
   width: 40%;
 }
 /* cart page end*/
+
+.total{
+  font-size: 14px;
+  color: var(--color-1c1c1b);
+}
+.total-price{
+  font-size: 16px;
+  color: var(--color-777777);
+}
+
+.checkout-button{
+display: flex;
+justify-content: center;
+width: 60%;
+}
+
+.shopping-button{
+  display: flex;
+}

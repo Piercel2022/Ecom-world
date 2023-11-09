@@ -20,26 +20,27 @@ const Checkout = () => {
             <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
              <ol className="breadcrumb">
              <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Cart</Link>
+              <Link className='text-dark total-price' to="/cart">Cart</Link>
+              </li>
+             &nbsp; /&nbsp;
+             <li className="breadcrumb-item">
+              <Link className='text-dark total-price' to="/cart">Information</Link>
               </li>
              &nbsp; /
              <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Information</Link>
-              </li>
-             &nbsp; /
-             <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Payment</Link>
+              <Link className='text-dark total-price' to="/cart">Payment</Link>
               </li>
               &nbsp; /
              <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Shipping</Link>
+              <Link className='text-dark total-price' to="/cart">Shipping</Link>
             </li>
               </ol>
                         </nav>
-                        <h4 className="title">Contact Information</h4>
-                        <p className="user-details">
+                        <h4 className="title total">Contact Information</h4>
+                        <p className="user-details total">
                           Navdeep Pambolo (manulo-sekada@gmail.com)
                         </p>
+                        <h4 className='mb-3'>Shipping Address</h4>
                         <form 
                         action="" 
                         className="d-flex flex-wrap justify-content-between gap-15"
@@ -94,8 +95,12 @@ const Checkout = () => {
                 <div className="col-5">
                   
                   <div className='border-bottom py-4'>
-                    <div>
-                      <div>
+                    <div className='w-75 d-flex gap-10'>
+                      <div className='w-25 position-relative'>
+                        <span 
+                        className='badge bg-secondary text-white rounded-circle'
+                        style={{top:"-10px", right: "2px"}}>
+                        1</span> 
                         <img className='img-fluid checkout-image' src="images/airpods-max.png" alt="" />
                       </div>
                     </div>
@@ -103,8 +108,8 @@ const Checkout = () => {
                   </div>
                   <div className='border-bottom py-4'>
                   <div className='d-flex justify-content-between align-items-center'>
-                    <p>Subtotal</p>
-                    <p>$ 1500</p>
+                    <h4 className='total'>Subtotal</h4>
+                    <h6 className='total-price'>$ 1500</h6>
                   </div>
                   <div className='d-flex justify-content-between align-items-center'>
                     <p className='mb-0'>Shipping</p>
@@ -112,8 +117,8 @@ const Checkout = () => {
                   </div>
                   </div>
                   <div className='d-flex justify-content-between align-items-center border-bottom py-4'>
-                    <h4>Total</h4>
-                    <h6>$ 1590</h6>
+                    <h4 className='total'>Total</h4>
+                    <h6 className='total-price'>$ 1590</h6>
                   </div>
                 </div>
             </div>

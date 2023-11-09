@@ -57,12 +57,16 @@ const Cart = () => {
         <div>
       </div>
         <div className="col-12 py-2 mt-4">
-          <div className='d-flex justify-content-around align-items-center'>
-          <Link to='/product' className='button mb-4'>Continue Shopping</Link>
-          <div className='d-flex flex-column justify-content-end'>
-            <h4>Subtotal: $ 1500 </h4>
+          <div className='d-flex justify-content-baseline  align-items-center w-100'>
+          <Link to='/product' className='shopping-button button'> Shopping</Link>
+          <div className='d-flex justify-content-end  w-100'>
+             <div className='d-flex flex-column justify-content-end'>
+             <h4>Subtotal: $ 1500 </h4>
             <p>Taxes and shipping calculated at checkout</p>
-            <Link to='/checkout' className='button'>Checkout</Link>
+            <Link to='/checkout' className='button checkout-button'>Checkout</Link>
+            </div>
+            
+            
           </div>
           </div>
         </div>
