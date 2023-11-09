@@ -20,27 +20,27 @@ const Checkout = () => {
             <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
              <ol className="breadcrumb">
              <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Cart</Link>
+              <Link className='text-dark total-price' to="/cart">Cart</Link>
+              </li>
+             &nbsp; /&nbsp;
+             <li className="breadcrumb-item">
+              <Link className='text-dark total-price' to="/cart">Information</Link>
               </li>
              &nbsp; /
              <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Information</Link>
-              </li>
-             &nbsp; /
-             <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Payment</Link>
+              <Link className='text-dark total-price' to="/cart">Payment</Link>
               </li>
               &nbsp; /
              <li className="breadcrumb-item">
-              <Link className='text-dark' to="/cart">Shipping</Link>
+              <Link className='text-dark total-price' to="/cart">Shipping</Link>
             </li>
               </ol>
                         </nav>
-                        <h4 className="title">Contact Information</h4>
+                        <h4 className="title total">Contact Information</h4>
                         <p className="user-details total">
                           Navdeep Pambolo (manulo-sekada@gmail.com)
                         </p>
-                        <h4>Shipping Address</h4>
+                        <h4 className='mb-3'>Shipping Address</h4>
                         <form 
                         action="" 
                         className="d-flex flex-wrap justify-content-between gap-15"
