@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
+import Container from './Container'
 
 const ResetPassword = () => {
   return (
@@ -10,7 +11,7 @@ const ResetPassword = () => {
     <Meta title={"reset password"} />
     <Header />
     <BreadCrumb title = "Reset Password" />
-    <div className="container-xxl">
+    <Container class1="reset-password-wrapper home-wrapper-2">
     <div className="auth-card">
             <h3 className='text-center mb-3'>Reset Password</h3>
             <form action="" className='d-flex flex-column gap-30'>
@@ -27,7 +28,7 @@ const ResetPassword = () => {
               </div>
             </form>
     </div>
-    </div>
+    </Container>
 
     <Footer />
     </>
