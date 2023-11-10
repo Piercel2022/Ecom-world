@@ -8,7 +8,7 @@ const CustomInput = (props) => {
             <input
             type={type}
             name={name}
-            placeholder='Name'
+            placeholder={placeholder}
             className="form-control"
             />
         </div>
