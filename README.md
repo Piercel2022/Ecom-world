@@ -119,7 +119,7 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  git clone git@github.com:Piercel2022/Ecomm.git
+  git clone git@github.com:Piercel2022/Ecom-world.git
 cd ecommerce-app
 ```
 
