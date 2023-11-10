@@ -11,7 +11,7 @@ const About = () => {
     <Meta title={"About"} />
     <Header />
     <BreadCrumb title = "About" />
-    <Container class1="about-wrapper home-wrapper-2">
+    <Container class1="about-wrapper home-wrapper-2 py-5">
 
     </Container>
     <Footer />
