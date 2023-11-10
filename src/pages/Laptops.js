@@ -13,7 +13,9 @@ const Laptops = () => {
     <BreadCrumb title = "Laptops" />
     <Container class1="laptop-wrapper home-wrapper-2 py-5">
       <div className="row">
+      <div className="col-12">
         
+      </div>
       </div>
 
     </Container>
