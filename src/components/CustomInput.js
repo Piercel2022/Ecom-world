@@ -3,7 +3,14 @@ import React from 'react'
 const CustomInput = () => {
   return (
     <>
-        CustomInput
+        <div>
+            <input 
+            type="text" 
+            name="name" 
+            placeholder='Name' 
+            className="form-control" 
+            />
+        </div>
     </>
   )
 }
