@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import Container from './Container'
+import CustomInput from '../components/CustomInput'
 
 const ResetPassword = () => {
   return (
@@ -14,14 +15,10 @@ const ResetPassword = () => {
     <Container class1="reset-password-wrapper home-wrapper-2">
     <div className="auth-card">
             <h3 className='text-center mb-3'>Reset Password</h3>
-            <form action="" className='d-flex flex-column gap-30'>
+            <form action="" className='d-flex flex-column align-items-center gap-30'>
              
-              <div>
-                <input type="password" name="password" placeholder='Password' className="form-control" />
-              </div>
-              <div>
-                <input type="password" name="password" placeholder='Confirm Password' className="form-control" />
-              </div>
+            <CustomInput className='' type="password" name="password" placeholder="Password" />
+            <CustomInput className='mt-1' type="password" name="password" placeholder="Confirm Password" />
               
               <div className='d-flex justify-content-center align-items-center gap-15'>
                 <button className='button border-0'>Ok</button>

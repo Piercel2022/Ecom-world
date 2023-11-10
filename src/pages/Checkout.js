@@ -83,7 +83,7 @@ const Checkout = () => {
                          <input placeholder="Zipcode" type="text" className="form-control" />
                          </div>
                          <div className="w-100">
-                          <div className="d-flex justify-content-between align-items-center">
+                          <div className="d-flex justify-content-between align-items-center mb-5">
                             <Link to='/cart' className='text-dark'>
                             <BiArrowBack className='me-2' /> Return To Cart</Link>
                             <Link to='/payment' className='button'>Continue To Payment</Link>
