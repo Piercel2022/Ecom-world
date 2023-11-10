@@ -17,20 +17,11 @@ const Signup = () => {
           <div className="container-xxl">
           <div className="auth-card">
             <h3 className='text-center mb-3'>Sign Up</h3>
-            <form action="" className='d-flex flex-column gap-30'>
+            <form action="" className='d-flex flex-column align-items-center gap-30'>
             <CustomInput type="text" name="name" placeholder="Name" />
-              <div>
-                <input  className="form-control" />
-              </div>
-              <div>
-                <input type="email" name="email" placeholder='Email' className="form-control" />
-              </div>
-              <div>
-                <input type="tel" name="mobile" placeholder='Phone Number' className="form-control" />
-              </div>
-              <div>
-                <input type="password" name="password" placeholder='Password' className="form-control" />
-              </div>
+            <CustomInput type="email" name="name" placeholder="Email" />
+            <CustomInput type="tel" name="mobile" placeholder="Mobile Number" />
+            <CustomInput className='mt-1' type="password" name="password" placeholder="Password" />
               
               <div className='d-flex justify-content-center align-items-center gap-15'>
                 <button className='button border-0'>Create</button>
