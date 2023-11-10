@@ -18,8 +18,9 @@ const Signup = () => {
           <div className="auth-card">
             <h3 className='text-center mb-3'>Sign Up</h3>
             <form action="" className='d-flex flex-column gap-30'>
+            <CustomInput type="text" name="name" placeholder="Name" />
               <div>
-                <input type="text" name="name" placeholder='Name' className="form-control" />
+                <input  className="form-control" />
               </div>
               <div>
                 <input type="email" name="email" placeholder='Email' className="form-control" />
