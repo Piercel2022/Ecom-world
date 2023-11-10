@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import { Link } from 'react-router-dom'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
+import Container from './Container'
 
 const ForgotPassword = () => {
   return (
@@ -11,7 +12,7 @@ const ForgotPassword = () => {
     <Meta title={"forgot password"} />
     <Header />
     <BreadCrumb title = "Forgot Password" />
-    <div className="login-wrapper home-wrapper-2 py-3">
+    <Container class1="login-wrapper home-wrapper-2 py-3">
       <div className="row">
         <div className="col-12">
           <div className="auth-card">
@@ -31,7 +32,7 @@ const ForgotPassword = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Container>
     <Footer />
     </>
   )

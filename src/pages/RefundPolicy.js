@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
+import Container from './Container'
 
 const RefundPolicy = () => {
   return (
@@ -10,7 +11,7 @@ const RefundPolicy = () => {
     <Meta title={"refund policy"} />
     <Header />
     <BreadCrumb title = "Refund Policy" />
-    <section className="policy-wrapper py-5 home-wrapper-2">
+    <Container class1="policy-wrapper py-5 home-wrapper-2">
       <div className="container-xxl">
         <div className="row">
           <div className="col-12">
@@ -20,7 +21,7 @@ const RefundPolicy = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Container>
     <Footer />
         
     </>
