@@ -117,10 +117,10 @@ const ProductCard = (props) => {
             <Link to='/product/:id'>    
             <img src={view} alt="view" />
             </Link>
-            <Link  >    
+            <Link to='/compare-products' >    
             <BiGitCompare className='compare'/>
             </Link>
-            <Link>    
+            <Link to='/payment'>    
             <img src={addcart} alt="addcart" />
             </Link>
           </div>
