@@ -1,13 +1,25 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import BreadCrumb from '../components/BreadCrumb'
 import Container from './Container'
 import CustomInput from '../components/CustomInput'
+import { useDispatch, useSelector } from 'react-redux'
+import { useEffect } from 'react'
+
 
 const Login = () => {
+  const authState = useSelector(state => state.auth)
+  const navigate = useNavigate()
+  
+  useEffect(()=> {
+    if(authState.user !== null && authState.isError === false)
+    {
+      navigate('/')
+    }
+  })
   return (
     <>
     <Meta title={"login"} />
