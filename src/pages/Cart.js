@@ -17,7 +17,7 @@ const Cart = () => {
     <Container class1="cart-wrapper home-wrapper-2 py-5">
       <div className="row">
       <nav  aria-label="breadcrumb">
-             <ol className="nav nav-pills">
+             <ol className="nav nav-tabs">
              <li className="nav-item">
               <Link className='nav-link text-dark total-price' to="/cart">Cart</Link>
               </li>
