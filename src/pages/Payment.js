@@ -237,7 +237,7 @@ const Payment = () => {
 
           <hr class="my-4"/>
 
-          <Link className="w-50 button" to="/checkout">Continue to checkout</Link>
+          <Link className="w-50 d-flex justify-content-center button" to="/checkout">Continue to checkout</Link>
         </form>
       </div>
     </div>
