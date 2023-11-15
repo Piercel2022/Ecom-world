@@ -16,22 +16,22 @@ const Cart = () => {
     <BreadCrumb title = "Your Shopping Cart" />
     <Container class1="cart-wrapper home-wrapper-2 py-5">
       <div className="row">
-      <nav style={{'--bs-breadcrumb-divider': '>'}} aria-label="breadcrumb">
-             <ol className="breadcrumb">
-             <li className="breadcrumb-item">
-              <Link className='text-dark total-price' to="/cart">Cart</Link>
+      <nav  aria-label="breadcrumb">
+             <ol className="nav nav-tabs">
+             <li className="nav-item">
+              <Link className='nav-link text-dark total-price' to="/cart">Cart</Link>
               </li>
-             &nbsp; /&nbsp;
-             <li className="breadcrumb-item">
-              <Link className='text-dark total-price' to="/checkout">Information</Link>
+             &nbsp; &nbsp;
+             <li className="nav-item">
+              <Link className='nav-link text-dark total-price' to="/checkout">Information</Link>
               </li>
-             &nbsp; /
-             <li className="breadcrumb-item">
-              <Link className='text-dark total-price' to="/payment">Payment</Link>
+             &nbsp; 
+             <li className="nav-item">
+              <Link className='nav-link text-dark total-price' to="/payment">Payment</Link>
               </li>
-              &nbsp; /
-             <li className="breadcrumb-item">
-              <Link className='text-dark total-price' to="/shipping">Shipping</Link>
+              &nbsp; 
+             <li className="nav-item">
+              <Link className='nav-link text-dark total-price' to="/shipping">Shipping</Link>
             </li>
               </ol>
               </nav>
