@@ -29,7 +29,7 @@ const Payment = () => {
               </li>
               &nbsp; 
              <li className="nav-item">
-              <Link className='text-dark total-price' to="/cart">Shipping</Link>
+              <Link className='text-dark total-price' to="/shipping">Shipping</Link>
             </li>
               </ol>
               </nav>
