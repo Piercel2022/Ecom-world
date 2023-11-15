@@ -28,7 +28,7 @@ const Payment = () => {
               <Link className='text-dark total-price' to="/cart">Payment</Link>
               </li>
               &nbsp; 
-             <li className="breadcrumb-item">
+             <li className="nav-item">
               <Link className='text-dark total-price' to="/cart">Shipping</Link>
             </li>
               </ol>
