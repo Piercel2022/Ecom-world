@@ -21,15 +21,15 @@ const Cart = () => {
              <li className="nav-item">
               <Link className='nav-link text-dark total-price' to="/cart">Cart</Link>
               </li>
-             &nbsp; /&nbsp;
+             &nbsp; &nbsp;
              <li className="nav-item">
               <Link className='nav-link text-dark total-price' to="/checkout">Information</Link>
               </li>
-             &nbsp; /
+             &nbsp; 
              <li className="nav-item">
               <Link className='nav-link text-dark total-price' to="/payment">Payment</Link>
               </li>
-              &nbsp; /
+              &nbsp; 
              <li className="nav-item">
               <Link className='nav-link text-dark total-price' to="/shipping">Shipping</Link>
             </li>
