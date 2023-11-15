@@ -237,7 +237,7 @@ const Payment = () => {
 
           <hr class="my-4"/>
 
-          <button className="w-50 button" type="submit">Continue to checkout</button>
+          <Link className="w-50 button" to="/checkout">Continue to checkout</Link>
         </form>
       </div>
     </div>
