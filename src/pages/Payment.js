@@ -20,7 +20,7 @@ const Payment = () => {
               <Link className='text-dark total-price' to="/cart">Cart</Link>
               </li>
              &nbsp; &nbsp;
-             <li className="breadcrumb-item">
+             <li className="nav-item">
               <Link className='text-dark total-price' to="/cart">Information</Link>
               </li>
              &nbsp; 
