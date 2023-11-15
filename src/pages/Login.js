@@ -22,7 +22,6 @@ const Login = () => {
             <form action="" className='d-flex flex-column align-items-center gap-30'>
             <CustomInput type="email" name="name" placeholder="Email" />
             <CustomInput className='mt-1' type="password" name="password" placeholder="Password" />
-              
               <div>
                 <Link to="/forgot-password">Forgot Password?</Link>
               </div>
