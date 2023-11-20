@@ -858,3 +858,7 @@ width: 60%;
 @media (min-width: 1400px) { 
 
  }
+ /* Apply styles starting from medium devices and up to extra large devices */
+ @include media-breakpoint-between(md, xl) { 
+
+ }

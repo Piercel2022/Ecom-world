@@ -6,6 +6,8 @@ const BlogCard = () => {
   return (
    
      <div className='blog-card'>
+      <div class="row">
+      <div class="col-md-6">
         <div className="card-image">
             <img src="./images/blog-1.jpg"   className='img-fluid w-100' alt="blog" />
         </div>
@@ -15,6 +17,20 @@ const BlogCard = () => {
             <p className="desc">Lorem ipsum dolor sit amet,  
             quis nostrud exercitation ullamco l</p>
             <Link to='/blog/:id' className='button'>Read More</Link>
+        </div>
+        </div>
+        <div class="col-md-6">
+        <div className="card-image">
+            <img src="./images/blog-1.jpg"   className='img-fluid w-100' alt="blog" />
+        </div>
+        <div className="blog-content">
+            <p className='date'>12 June 2023</p>
+            <h5 className="title">A beautiful  Morning Renaissance</h5>
+            <p className="desc">Lorem ipsum dolor sit amet,  
+            quis nostrud exercitation ullamco l</p>
+            <Link to='/blog/:id' className='button'>Read More</Link>
+        </div>
+        </div>
         </div>
      </div>
   )
