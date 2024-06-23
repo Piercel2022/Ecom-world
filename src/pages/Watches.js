@@ -9,6 +9,9 @@ const Watches = () => {
     <Meta title={"watches"} />
     <Header />
     <BreadCrumb title = "Watches" />
+    <div className="watch-wrapper home-wrapper-2 py-3">
+
+    </div>
     
     <Footer />
     </>
