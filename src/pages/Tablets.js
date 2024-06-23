@@ -10,8 +10,8 @@ const Tablets = () => {
     <Meta title={"tablets"} />
     <Header />
     <BreadCrumb title = "Tablets" />
-    <div className="delivery-wrapper home-wrapper-2 py-5">
-      
+    <div className="tablet-wrapper home-wrapper-2 py-5">
+
     </div>
     
     <Footer />
