@@ -11,6 +11,9 @@ const TVHome = () => {
     <Meta title={"tv home"} />
     <Header />
     <BreadCrumb title = "TV Home" />
+    <div className="tvhome-wrapper home-wrapper-2 py-5">
+
+    </div>
     <Footer />
     </>
   )
