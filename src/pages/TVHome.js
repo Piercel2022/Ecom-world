@@ -12,7 +12,9 @@ const TVHome = () => {
     <Header />
     <BreadCrumb title = "TV Home" />
     <div className="tvhome-wrapper home-wrapper-2 py-5">
-
+    <div className="container-xxl">
+      
+    </div>
     </div>
     <Footer />
     </>
