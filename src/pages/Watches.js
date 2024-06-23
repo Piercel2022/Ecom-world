@@ -10,6 +10,12 @@ const Watches = () => {
     <Header />
     <BreadCrumb title = "Watches" />
     <div className="watch-wrapper home-wrapper-2 py-3">
+    <div className="container-xxl">
+    <div className="row">
+      
+      </div>
+      
+      </div>
 
     </div>
     
