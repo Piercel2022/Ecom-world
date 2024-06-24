@@ -13,6 +13,9 @@ const Tablets = () => {
     <div className="tablet-wrapper home-wrapper-2 py-5">
     <div className="container-xxl">
      <div className="row">
+     <div className="col-12">
+      
+     </div>
       
      </div>
 
