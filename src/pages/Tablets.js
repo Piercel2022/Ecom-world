@@ -15,7 +15,10 @@ const Tablets = () => {
      <div className="row">
      <div className="col-12">
      <div className="single-tablet-card">
-      
+     <h3 className="title">
+                    A Beautiful tablet FOR SALE
+        </h3>
+        <img src="/images/ipad-147.png"className="img-fluid w-25 my-4" alt="tablet" />
      </div>
      </div>
       
