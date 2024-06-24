@@ -14,6 +14,7 @@ const Tablets = () => {
     <div className="container-xxl">
      <div className="row">
      <div className="col-12">
+     <div className="single-tablet-card">
       
      </div>
       
