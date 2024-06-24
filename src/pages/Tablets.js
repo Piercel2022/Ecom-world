@@ -17,6 +17,7 @@ const Tablets = () => {
      <div className="single-tablet-card">
       
      </div>
+     </div>
       
      </div>
 
