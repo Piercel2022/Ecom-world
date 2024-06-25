@@ -11,7 +11,9 @@ const HeadPhones = () => {
     <BreadCrumb title = "Headphones" />
     <Container class1='headphone-wrapper home-wrapper-2 py-5'>
     <div className="col-12 d-flex">
-      
+      <div className='row'>
+        
+      </div>
     </div>
     </Container>
     <Footer />
