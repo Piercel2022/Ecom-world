@@ -19,6 +19,7 @@ const Tablets = () => {
                     A Beautiful tablet FOR SALE
         </h3>
         <img src="/images/ipad-147.png"className="img-fluid w-25 my-4" alt="tablet" />
+        <p>Some description of the beautiful tablet</p>
      </div>
      </div>
       
